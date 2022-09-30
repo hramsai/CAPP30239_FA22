@@ -4,7 +4,7 @@
 
 ## Data Selfie: 
 
-![Data Selfie](../../../../Desktop/Data_Selfie.PNG)
+![Data Selfie](../Data%20Selfie.jpg)
 
 ### About Me: 
 
