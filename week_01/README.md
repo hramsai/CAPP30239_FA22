@@ -4,7 +4,7 @@
 
 ## Data Selfie: 
 
-![Harish Data Selfie](file:///Users/harishsai/Desktop/Data%20Selfie.PNG)
+![Data Selfie](../../../../Desktop/Data_Selfie.PNG)
 
 ### About Me: 
 
