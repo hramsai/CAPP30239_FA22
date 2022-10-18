@@ -69,4 +69,9 @@ Secondary.
 
 ### If secondary data, how you envision this data working with the primary source?
 
-I envision this interacting with primary data from the World Bank that has information on similar indicators, and some different indicators. For instance, it might be interesting to see lending lines in tandem with natual disasters across the globe. 
+I envision this interacting with primary data from the World Bank that has information on similar indicators, and some different indicators. For instance, it might be interesting to see lending lines in tandem with natual disasters across the globe.
+
+# CAPP 30239 - Homework 3
+## 'Bar Chart for Library Visits'
+
+Created a bar chart that visualized the library visits in Chicago in January of 2022. It highlights the counts across different branches. 
