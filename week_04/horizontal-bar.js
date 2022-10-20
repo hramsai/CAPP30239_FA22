@@ -2,12 +2,11 @@
 
 d3.csv("covid.csv").then(data => {
 
-    for (let d of data) { // d is the row that you're on
+    for (let d of data) {
         d.cases = +d.cases; //force a number
     };
 
-    data.sort((a, b) => b.cases - a.cases); // Java script for sorting
-    // sort by numbers on the cases
+    data.sort((a, b) => b.cases - a.cases);
 
     const height = 600,
           width = 800,
