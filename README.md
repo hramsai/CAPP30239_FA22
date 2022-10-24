@@ -33,4 +33,13 @@ This repository contains my assignments and other realted coursework for the cou
 - Creating a bar chart of library visits in Chicago, IL, in January 2022.
 - Finding data for the Final Project. 
 
+### Week 4:
+
+#### Classwork:
+- Creating a line, horizonal bar, and area charts of interest rates in class.
+- Learning more D3 and Javascript
+
+#### Homework:
+- Creating a line chart of monthly interest rates in Canada for the year 2022.
+
 
