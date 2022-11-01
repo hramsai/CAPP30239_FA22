@@ -10,7 +10,7 @@ Link: https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-
 
 ### Description of data: 
 
-AidData's data is an extentive collection of all the projects approved from 1995-2014 in the World Bank (specifially International Bank for Reconstruction and Development and International Development Association). According to the description on the website, the data togethers tracks more than $630 billion in commitments for 5,684 projects across 61,243 locations. 
+AidData's data is an extentive collection of all the projects approved from 1995-2014 in the World Bank (specifially International Bank for Reconstruction and Development and International Development Association). According to the description on the website, the data tracks more than $630 billion in commitments for 5,684 projects across 61,243 locations. 
 
 Of interest are four datasets: 
 1. locations.csv, which contains the locations for each project.
