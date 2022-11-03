@@ -107,7 +107,7 @@ d3.json('climate.json').then((data) => {
 
     updateChart("january");
 
-    d3.selectAll("select")
+    d3.selectAll("select") // this allows to manipulate that drop down menu
         .on("change", function (event) {
             const m = event.target.value;
             updateChart(m); 

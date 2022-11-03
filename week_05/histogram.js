@@ -5,8 +5,8 @@ const height = 400,
     margin = ({ top: 25, right: 10, bottom: 50, left: 10 }),
     padding = 1; // bin sizes
 
-const svg = d3.select("#chart")
-    .append("svg")
+const svg = d3.select("#chart") 
+    .append("svg") // need to have this append function in the code
     .attr("viewBox", [0, 0, width, height]);
 
 d3.json('climate-jan.json').then((data) => {
@@ -19,7 +19,7 @@ d3.json('climate-jan.json').then((data) => {
     .range([height - margin.bottom, margin.top])
     .domain([0,10]);
     
-  svg.append("g")
+  svg.append("g") // this is being put into the HTML
     .attr("transform", `translate(0,${height - margin.bottom + 5})`)
     .call(d3.axisBottom(x)); // only x axis because this is a histogram
 
