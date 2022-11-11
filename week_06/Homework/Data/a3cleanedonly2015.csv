@@ -1,0 +1,1538 @@
+FIELD1,Unnamed: 0,UID,Name,Age,Gender,Race,Date,City,State,Manner_of_death,Armed,Mental_illness,Flee
+103,104,9978,Tim Elliott,53,Male,Asian,1/2/2015,Shelton,WA,Shot,,true,false
+104,105,10077,Hung Trieu,,Male,Asian,2/1/2015,Houston,TX,Shot,,false,false
+105,106,10374,Lue Vang,39,Male,Asian,4/22/2015,Eldorado Springs,CO,Shot,,false,false
+106,107,10421,Thong Kien Ma,32,Male,Asian,5/5/2015,South El Monte,CA,Shot,,false,false
+107,108,10628,Ton Nguyen,60,Male,Asian,7/2/2015,San Diego,CA,Shot,,false,false
+108,109,10912,William Chau,59,Male,Asian,9/9/2015,El Monte,CA,Shot,Knife,false,false
+109,110,10918,Tian Ma,31,Male,Asian,9/10/2015,Potsdam,NY,Shot,,false,false
+110,111,11009,Kevin Lau,44,Male,Asian,10/11/2015,Lake Charles,LA,Shot,Gun,false,false
+111,112,11166,Tuan Hoang,,Male,Asian,11/30/2015,Aurora,CO,Shot,,false,false
+112,113,11219,Mharloun Verdejo Saycon,39,Male,Asian,12/14/2015,Long Beach,CA,Shot,Knife,false,false
+113,114,11264,Tien Phuong Hua,33,Male,Asian,12/29/2015,Rosemead,CA,Shot,,false,false
+144,145,13130,Tim Elliot,53,Male,Asian,1/2/2015,Shelton,WA,Shot,Gun,true,false
+145,146,13285,Hung Trieu,35,Male,Asian,3/1/2015,Houston,TX,Shot,Gun,false,false
+146,147,13290,Carl Lao,28,Male,Asian,3/4/2015,Stockton,CA,Shot,Gun,false,false
+147,148,13395,Joseph Jeremy Weber,28,Male,Asian,4/8/2015,Sunnyvale,CA,Shot,Knife,true,false
+148,149,14075,Mharloun Verdejo  Saycon,39,Male,Asian,12/14/2015,Long Beach,CA,Shot,Knife,false,false
+149,150,14117,Tien Hua,,Male,Asian,12/29/2015,Rosemead,CA,Shot,Unknown Weapon,false,false
+155,156,13199,Matautu Nuu,35,Male,Asian,1/28/2015,Stockton,CA,Shot and Tasered,Hammer,true,false
+159,160,10029,Sinthanouxay Khottavongsa,57,Male,Asian,1/16/2015,Brooklyn Center,MN,Tasered,,false,false
+1677,1678,9989,Leslie Sapp III,47,Male,Black,1/6/2015,Knoxville,PA,Shot,Gun,false,false
+1678,1679,9993,Omarr Julian Maximillian Jackson,37,Male,Black,1/7/2015,New Orleans,LA,Shot,Gun,false,false
+1679,1680,9994,Hashim Hanif Ibn Abdul-Rasheed,41,Male,Black,1/7/2015,Columbus,OH,Shot,Knife,false,false
+1680,1681,9995,Ronald Maynard Sneed,31,Male,Black,1/7/2015,Freeport,TX,Shot,Gun,false,false
+1681,1682,10000,Artago Damon Howard,36,Male,Black,1/8/2015,Strong,AR,Shot,Gun,false,false
+1682,1683,10014,Mario A. Jordan,34,Male,Black,1/14/2015,Chesapeake,VA,Shot,,true,false
+1683,1684,10017,Marcus Ryan Cullars Golden,24,Male,Black,1/14/2015,Saint Paul,MN,Shot,Gun,false,false
+1684,1685,10024,Kavonda Earl Payton,39,Male,Black,1/15/2015,Aurora,CO,Shot,Gun,false,false
+1685,1686,10025,Donte Sowell,27,Male,Black,1/15/2015,Indianapolis,IN,Shot,,false,false
+1686,1687,10026,Dewayne Carr,45,Male,Black,1/15/2015,Scottsdale,AZ,Shot,,false,false
+1687,1688,10030,Rodney Walker,23,Male,Black,1/16/2015,Tulsa,OK,Shot,Gun,false,false
+1688,1689,10032,Daniel Jon Brumley,27,Male,Black,1/17/2015,Fort Worth,TX,Shot,,false,false
+1689,1690,10033,Terence Walker,21,Male,Black,1/17/2015,Muskogee,OK,Shot,Gun,false,false
+1690,1691,10040,Isaac Holmes,19,Male,Black,1/21/2015,St. Louis,MO,Shot,Gun,false,false
+1691,1692,10050,Darin Hutchins,26,Male,Black,1/24/2015,Baltimore,MD,Shot,Knife,false,false
+1692,1693,10062,Jermonte Fletcher,33,Male,Black,1/27/2015,Columbus,OH,Shot,,false,false
+1693,1694,10075,Edward Donnell Bright Sr.,56,Male,Black,1/31/2015,Randallstown,MD,Shot,Knife,false,false
+1694,1695,10081,Dewayne Deshawn Ward Jr.,29,Male,Black,2/3/2015,Antioch,CA,Shot,Knife,false,false
+1695,1696,10083,Yuvette Henderson,38,Female,Black,2/3/2015,Oakland,CA,Shot,Gun,false,false
+1696,1697,10084,Ledarius D. Williams,23,Male,Black,2/3/2015,St. Louis,MO,Shot,Gun,false,false
+1697,1698,10088,Jimmy Ray Robinson Jr.,51,Male,Black,2/4/2015,Lorena,TX,Shot,,false,false
+1698,1699,10091,Markell Atkins,36,Male,Black,2/4/2015,Memphis,TN,Shot,Knife,false,false
+1699,1700,10096,Herbert Hill,26,Male,Black,2/6/2015,Oklahoma City,OK,Shot,,false,false
+1700,1701,10097,James Howard Allen,74,Male,Black,2/7/2015,Gastonia,NC,Shot,Gun,false,false
+1701,1702,10103,Desmond Dwayne Luster Sr.,45,Male,Black,2/9/2015,Dallas,TX,Shot,,false,false
+1702,1703,10109,Anthony Bess,48,Male,Black,2/10/2015,Memphis,TN,Shot,Gun,false,false
+1703,1704,10112,Phillip Watkins,23,Male,Black,2/11/2015,San Jose,CA,Shot,Knife,false,false
+1704,1705,10125,Lavall Hall,25,Male,Black,2/15/2015,Miami Gardens,FL,Shot,,true,false
+1705,1706,10136,Janisha Fonville,20,Female,Black,2/18/2015,Charlotte,NC,Shot,Knife,false,false
+1706,1707,10137,Alejandro Salazar,,Male,Black,2/20/2015,Houston,TX,Shot,,false,false
+1707,1708,10138,Stanley Lamar Grant,38,Male,Black,2/20/2015,Birmingham,AL,Shot,,false,false
+1708,1709,10141,Douglas Harris,77,Male,Black,2/20/2015,Birmingham,AL,Shot,Gun,true,false
+1709,1710,10152,A'Donte Washington,18,Male,Black,2/23/2015,Millbrook,AL,Shot,,false,false
+1710,1711,10157,Glenn C. Lewis,37,Male,Black,2/25/2015,Oklahoma City,OK,Shot,,false,false
+1711,1712,10161,Rodney Dewayne Biggs,49,Male,Black,2/26/2015,Gulfport,MS,Shot,Gun,false,false
+1712,1713,10166,Ian Sherrod,40,Male,Black,2/28/2015,Tarboro,NC,Shot,Gun,false,false
+1713,1714,10169,Thomas Allen Jr.,34,Male,Black,2/28/2015,St. Louis,MO,Shot,,false,false
+1714,1715,10170,Cornelius J. Parker,28,Male,Black,2/28/2015,Columbia,MO,Shot,Gun,false,false
+1715,1716,10181,Charly Leundeu Africa Keunang,43,Male,Black,3/1/2015,Los Angeles,CA,Shot,Gun,true,false
+1716,1717,10183,Fednel Rhinvil,25,Male,Black,3/3/2015,Salisbury,MD,Shot,Gun,false,false
+1717,1718,10188,Tyrone Ryerson Lawrence,45,Male,Black,3/5/2015,Milwaukee,WI,Shot,Knife,false,false
+1718,1719,10190,Andrew Anthony Williams,48,Male,Black,3/6/2015,Melrose,FL,Shot,,false,false
+1719,1720,10192,Naeschylus Vinzant,37,Male,Black,3/6/2015,Aurora,CO,Shot,Unarmed,false,false
+1720,1721,10193,Tony Terrell Robinson,19,Male,Black,3/6/2015,Madison,WI,Shot,,false,false
+1721,1722,10198,Monique Jenee Deckard,43,Female,Black,3/8/2015,Anaheim,CA,Shot,,true,false
+1722,1723,10202,Cedrick Lamont Bishop,30,Male,Black,3/9/2015,Cocoa,FL,Shot,,false,false
+1723,1724,10203,Anthony Hill,27,Male,Black,3/9/2015,Chamblee,GA,Shot,,true,false
+1724,1725,10205,Theodore J. Johnson Sr.,64,Male,Black,3/10/2015,Cleveland,OH,Shot,Gun,false,false
+1725,1726,10211,Terry Garnett Jr.,37,Male,Black,3/11/2015,Elkton,MD,Shot,,false,false
+1726,1727,10246,Brandon Jones,18,Male,Black,3/19/2015,Cleveland,OH,Shot,,false,false
+1727,1728,10248,Kendre Alston,16,Male,Black,3/19/2015,Jacksonville,FL,Shot,Gun,false,false
+1728,1729,10265,Denzel Brown,21,Male,Black,3/22/2015,Islip,NY,Shot,,false,false
+1729,1730,10267,Walter J. Brown III,29,Male,Black,3/24/2015,Portsmouth,VA,Shot,Gun,false,false
+1730,1731,10269,Nicholas Taft Thomas,25,Male,Black,3/24/2015,Atlanta,GA,Shot,,false,false
+1731,1732,10273,Jeremy L. Kelly,27,Male,Black,3/25/2015,Johnsonville,SC,Shot,Gun,false,false
+1732,1733,10280,Jamalis Hall,39,Male,Black,3/27/2015,Fort Pierce,FL,Shot,Knife,false,false
+1733,1734,10281,Angelo West,41,Male,Black,3/27/2015,Roxbury,MA,Shot,,false,false
+1734,1735,10285,Meagan Hockaday,26,Female,Black,3/28/2015,Oxnard,CA,Shot,,false,false
+1735,1736,10287,Byron Herbert,29,Male,Black,3/29/2015,Elizabethtown,KY,Shot,Gun,false,false
+1736,1737,10288,Jason Moland,29,Male,Black,3/29/2015,Modesto,CA,Shot,Gun,false,false
+1737,1738,10291,Mya Ricky Shawatza Hall,27,,Black,3/30/2015,Fort George Meade,MD,Shot,,false,false
+1738,1739,10297,Tyrail Ezell,31,Male,Black,3/31/2015,Nashville,TN,Shot,,false,false
+1739,1740,10301,Robert Washington,37,Male,Black,4/1/2015,Hawthorne,CA,Shot,,false,false
+1740,1741,10303,Darrin A. Langford,32,Male,Black,4/2/2015,Rock Island,IL,Shot,Gun,false,false
+1741,1742,10307,Eric Courtney Harris,44,Male,Black,4/2/2015,Tulsa,OK,Shot,,false,false
+1742,1743,10311,Paul Anthony Anderson,31,Male,Black,4/4/2015,Anaheim,CA,Shot,,false,false
+1743,1744,10312,Justus Howell,17,Male,Black,4/4/2015,Zion,IL,Shot,Gun,false,false
+1744,1745,10315,Walter Lamar Scott,50,Male,Black,4/4/2015,North Charleston,SC,Shot,,false,false
+1745,1746,10320,Desmond Willis,25,Male,Black,4/6/2015,Harvey,LA,Shot,Gun,false,false
+1746,1747,10326,Dexter Bethea,42,Male,Black,4/8/2015,Valdosta,GA,Shot,,false,false
+1747,1748,10331,Don Oneal Smith Jr.,29,Male,Black,4/9/2015,Monon,IN,Shot,,false,false
+1748,1749,10338,Mack Long,36,Male,Black,4/12/2015,Indianapolis,IN,Shot,,false,false
+1749,1750,10345,Colby Robinson,26,Male,Black,4/14/2015,Dallas,TX,Shot,,false,false
+1750,1751,10349,Tevin Barkley,22,Male,Black,4/15/2015,Miami,FL,Shot,,false,false
+1751,1752,10350,Donte Adaryll Noble,41,Male,Black,4/15/2015,Spartanburg,SC,Shot,,false,false
+1752,1753,10351,Frank Ernest Shephard III,41,Male,Black,4/15/2015,Houston,TX,Shot,,false,false
+1753,1754,10357,Thaddeus McCarroll,23,Male,Black,4/17/2015,Jennings,MO,Shot,Knife,true,false
+1754,1755,10358,Jeffery Kemp,18,Male,Black,4/17/2015,Chicago,IL,Shot,Gun,false,false
+1755,1756,10372,Daniel Wolfe,35,Male,Black,4/21/2015,Union,NJ,Shot,,false,false
+1756,1757,10377,William L. Chapman II,18,Male,Black,4/22/2015,Portsmouth,VA,Shot,Gun,false,false
+1757,1758,10385,Todd Jamal Dye,20,Male,Black,4/24/2015,Trinidad,CO,Shot,Gun,false,false
+1758,1759,10391,David Felix,24,Male,Black,4/25/2015,New York,NY,Shot,,true,false
+1759,1760,10397,Terrance Kellom,20,Male,Black,4/27/2015,Detroit,MI,Shot,,false,false
+1760,1761,10400,Jared Johnson,22,Male,Black,4/28/2015,New Orleans,LA,Shot,Gun,false,false
+1761,1762,10403,Jeffery O. Adkins,53,Male,Black,4/29/2015,Emporia,VA,Shot,Gun,true,false
+1762,1763,10409,Alexia Christian,25,Female,Black,4/30/2015,Atlanta,GA,Shot,,false,false
+1763,1764,10416,Elton Simpson,30,Male,Black,5/3/2015,Garland,TX,Shot,,false,false
+1764,1765,10423,Brendon ÛÏDizzleÛ Glenn,29,Male,Black,5/5/2015,Venice,CA,Shot,,false,false
+1765,1766,10428,Nephi Arriguin,21,Male,Black,5/7/2015,Cerritos,CA,Shot,,false,false
+1766,1767,10434,Sam Matthew Holmes,31,Male,Black,5/8/2015,Fridley,MN,Shot,,true,false
+1767,1768,10435,Dedrick Marshall,48,Male,Black,5/8/2015,Harvey,LA,Shot,,false,false
+1768,1769,10442,Lionel Lorenzo Young,34,Male,Black,5/10/2015,Landover,MD,Shot,,false,false
+1769,1770,10443,Kelvin Antonie Goldston,30,Male,Black,5/11/2015,Fort Worth,TX,Shot,,false,false
+1770,1771,10445,Cartez Alexander,36,Male,Black,5/12/2015,Shreveport,LA,Shot,Gun,false,false
+1771,1772,10447,D'Angelo Reyes Stallworth,28,Male,Black,5/12/2015,Jacksonville,FL,Shot,Gun,false,false
+1772,1773,10475,Anthony Quinn Gomez Jr.,29,Male,Black,5/19/2015,Lancaster,PA,Shot,Gun,false,false
+1773,1774,10479,Chrislon Talbott,38,Male,Black,5/20/2015,Owensboro,KY,Shot,,false,false
+1774,1775,10480,Marcus D. Wheeler,26,Male,Black,5/20/2015,Omaha,NE,Shot,,false,false
+1775,1776,10488,Jerome Thomas Caldwell,32,Male,Black,5/21/2015,Charleston,SC,Shot,,false,false
+1776,1777,10489,Javoris Reshaud Washington,29,Male,Black,5/21/2015,Fort Lauderdale,FL,Shot,,true,false
+1777,1778,10495,Caso Jackson,25,Male,Black,5/23/2015,Detroit,MI,Shot,Gun,true,false
+1778,1779,10500,Anthony Dewayne Briggs,36,Male,Black,5/25/2015,Huntsville,AL,Shot,Knife,false,false
+1779,1780,10503,Dalton Branch,51,Male,Black,5/26/2015,New York,NY,Shot,,false,false
+1780,1781,10512,Kenneth Dothard,40,Male,Black,5/28/2015,Carrollton,GA,Shot,,false,false
+1781,1782,10518,Kevin Allen,36,Male,Black,5/29/2015,Lyndhurst,NJ,Shot,Knife,false,false
+1782,1783,10532,Usaama Rahim,26,Male,Black,6/2/2015,Boston,MA,Shot,Knife,false,false
+1783,1784,10541,Andrew Ellerbe,33,Male,Black,6/4/2015,Philadelphia,PA,Shot,,false,false
+1784,1785,10547,Demouria Hogg,30,Male,Black,6/6/2015,Oakland,CA,Shot,,false,false
+1785,1786,10560,Quandavier Hicks,22,Male,Black,6/9/2015,Cincinnati,OH,Shot,,false,false
+1786,1787,10561,Kernell Harrell Jr.,25,Male,Black,6/10/2015,New Orleans,LA,Shot,Gun,true,false
+1787,1788,10562,Isiah Hampton,19,Male,Black,6/10/2015,New York,NY,Shot,Gun,false,false
+1788,1789,10566,Fritz Severe,46,Male,Black,6/11/2015,Miami,FL,Shot,,false,false
+1789,1790,10571,Deng Manyoun,35,Male,Black,6/13/2015,Louisville,KY,Shot,,true,false
+1790,1791,10575,Bianca Davis,23,Female,Black,6/14/2015,St. Martinville,LA,Shot,Gun,false,false
+1791,1792,10581,Kris Jackson,22,Male,Black,6/15/2015,South Lake Tahoe,CA,Shot,,false,false
+1792,1793,10592,Trepierre Hummons,21,Male,Black,6/19/2015,Cincinnati,OH,Shot,,false,false
+1793,1794,10593,Alfontish Cockerham,23,Male,Black,6/20/2015,Chicago,IL,Shot,Gun,false,false
+1794,1795,10602,Tyrone Dale Harris Jr.,20,Male,Black,6/22/2015,Pittsburgh,PA,Shot,,false,false
+1795,1796,10609,Damien Alexander Harrell,26,Male,Black,6/24/2015,Yorktown,VA,Shot,Gun,false,false
+1796,1797,10611,Spencer McCain,41,Male,Black,6/25/2015,Owings Mills,MD,Shot,Gun,false,false
+1797,1798,10629,Victor Emanuel Larosa,23,Male,Black,7/2/2015,Jacksonville,FL,Shot,,true,false
+1798,1799,10639,Robert Elando Malone,42,Male,Black,7/4/2015,Oklahoma City,OK,Shot,,false,false
+1799,1800,10640,Kawanza Jamal Beaty,23,Male,Black,7/4/2015,Newport News,VA,Shot,Gun,false,false
+1800,1801,10649,Jason Hendley,29,Male,Black,7/6/2015,Los Angeles,CA,Shot,Knife,false,false
+1801,1802,10658,Marcellus Jamarcus Burley,18,Male,Black,7/7/2015,Missouri City,TX,Shot,,false,false
+1802,1803,10672,Freddie Lee Blue,20,Male,Black,7/10/2015,Covington,GA,Shot,Gun,false,false
+1803,1804,10675,Eugene McSwain,25,Male,Black,7/10/2015,Chicago,IL,Shot,Gun,false,false
+1804,1805,10693,Chacarion Avant,20,Male,Black,7/14/2015,Mascotte,FL,Shot,,false,false
+1805,1806,10697,Anthonie Smith,25,Male,Black,7/16/2015,Moreno Valley,CA,Shot,,true,false
+1806,1807,10701,Edward Foster III,35,Male,Black,7/16/2015,Homestead,FL,Shot,Gun,false,false
+1807,1808,10707,Darrius Stewart,19,Male,Black,7/17/2015,Memphis,TN,Shot,Gun,false,false
+1808,1809,10708,Albert Joseph Davis,23,Male,Black,7/17/2015,Orlando,FL,Shot,Gun,false,false
+1809,1810,10719,Samuel DuBose,43,Male,Black,7/19/2015,Cincinnati,OH,Shot,Unarmed,false,false
+1810,1811,10731,Andre Dontrell Williams,26,Male,Black,7/22/2015,Oklahoma City,OK,Shot,Knife,false,false
+1811,1812,10733,Devon Guisherd,26,Male,Black,7/22/2015,Philadelphia,PA,Shot,,false,false
+1812,1813,10738,Dontae L. Martin,34,Male,Black,7/23/2015,Dayton,OH,Shot,Gun,false,false
+1813,1814,10747,Earl Jackson,59,Male,Black,7/25/2015,Micanopy,FL,Shot,,false,false
+1814,1815,10748,Bryan Keith Day,36,Male,Black,7/25/2015,Las Vegas,NV,Shot,Gun,false,false
+1815,1816,10751,Khari Westly,33,Male,Black,7/26/2015,Shreveport,LA,Shot,,false,false
+1816,1817,10757,Lawrence Blackburn,37,Male,Black,7/29/2015,Baton Rouge,LA,Shot,,false,false
+1817,1818,10778,Antonio Clements,49,Male,Black,8/3/2015,Oakland,CA,Shot,,false,false
+1818,1819,10782,Darius D. Graves,31,Male,Black,8/4/2015,Rantoul,IL,Shot,,false,false
+1819,1820,10785,Raymond Hodge,39,Male,Black,8/5/2015,Kahului,HI,Shot,,false,false
+1820,1821,10786,Keshawn D. Hargrove,20,Male,Black,8/5/2015,Richmond,VA,Shot,,false,false
+1821,1822,10792,Charles Bertram,22,Male,Black,8/6/2015,El Paso,TX,Shot,Gun,false,false
+1822,1823,10795,Tsombe Jashon Clark,25,Male,Black,8/7/2015,Greenville,NC,Shot,,false,false
+1823,1824,10798,Derrick Lee Hunt,28,Male,Black,8/7/2015,Long Beach,CA,Shot,,false,false
+1824,1825,10799,Christian Taylor,19,Male,Black,8/7/2015,Arlington,TX,Shot,,false,false
+1825,1826,10800,Shamir Terrel Palmer,24,Male,Black,8/8/2015,Summerville,SC,Shot,Gun,false,false
+1826,1827,10806,Andre Green,15,Male,Black,8/9/2015,Indianapolis,IN,Shot,Gun,false,false
+1827,1828,10813,Reginald Marshall,27,Male,Black,8/12/2015,Toledo,OH,Shot,,false,false
+1828,1829,10814,Nathaniel Wilks,24,Male,Black,8/12/2015,Oakland,CA,Shot,Gun,false,false
+1829,1830,10818,Asshams Pharoah Manley,30,Male,Black,8/14/2015,Spauldings,MD,Shot,Gun,false,false
+1830,1831,10820,Garland Tyree,38,Male,Black,8/14/2015,New York,NY,Shot,,false,false
+1831,1832,10826,Allen Matthew Baker III,23,Male,Black,8/15/2015,Sunnyvale,CA,Shot,,false,false
+1832,1833,10833,Frederick Roy,35,Male,Black,8/17/2015,Houston,TX,Shot,Gun,true,false
+1833,1834,10835,Deviere Ernel Ransom,24,Male,Black,8/19/2015,Bloomfield Hills,MI,Shot,Gun,false,false
+1834,1835,10837,Mansur Ball-Bey,18,Male,Black,8/19/2015,St Louis,MO,Shot,Gun,false,false
+1835,1836,10849,Thaddeus Faison,39,Male,Black,8/22/2015,Troy,NY,Shot,Gun,false,false
+1836,1837,10861,Curtis Smith,34,Male,Black,8/25/2015,West Chester,PA,Shot,Knife,false,false
+1837,1838,10868,Bertrand Davis,43,Male,Black,8/27/2015,Dallas,TX,Shot,Gun,false,false
+1838,1839,10872,Felix Kumi,61,Male,Black,8/28/2015,Mt. Vernon,NY,Shot,,false,false
+1839,1840,10876,James Brown III,25,Male,Black,8/29/2015,North Las Vegas,NV,Shot,Gun,false,false
+1840,1841,10885,Cedric Williams,33,Male,Black,9/1/2015,Bluefield,WV,Shot,,false,false
+1841,1842,10899,Lavante Biggs,21,Male,Black,9/5/2015,Durham,NC,Shot,,true,false
+1842,1843,10900,India Kager,28,Female,Black,9/5/2015,Virginia Beach,VA,Shot,,false,false
+1843,1844,10901,Angelo Perry,35,Male,Black,9/5/2015,Virginia Beach,VA,Shot,,false,false
+1844,1845,10915,Tyrone L. Holman,37,Male,Black,9/9/2015,Kansas City,MO,Shot,,true,false
+1845,1846,10920,Brandon Foy,29,Male,Black,9/10/2015,Indianapolis,IN,Shot,Gun,false,false
+1846,1847,10926,Clifford Butler,67,Male,Black,9/13/2015,Pond Creek,OK,Shot,,false,false
+1847,1848,10931,Joseph Thomas Johnson-Shanks,25,Male,Black,9/14/2015,Eddyville,KY,Shot,,false,false
+1848,1849,10936,Tyrone Bass,21,Male,Black,9/15/2015,Chalmette,LA,Shot,,false,false
+1849,1850,10940,Bobby R. Anderson,27,Male,Black,9/16/2015,Alexandria,LA,Shot,,false,false
+1850,1851,10960,Dante Osborne,32,Male,Black,9/22/2015,Haywood,CA,Shot,,false,false
+1851,1852,10962,Robert Berger,48,Male,Black,9/23/2015,Salt Lake City,UT,Shot,,false,false
+1852,1853,10964,Keith McLeod,19,Male,Black,9/23/2015,Reisterstown,MD,Shot,,false,false
+1853,1854,10966,Jeremy ÛÏBamÛ McDole,28,Male,Black,9/23/2015,Wilmington,DE,Shot,,false,false
+1854,1855,10969,Ernesto Medina Lopez,42,Male,Black,9/24/2015,Miami,FL,Shot,,true,false
+1855,1856,10973,James Anderson,34,Male,Black,9/25/2015,Chicago,IL,Shot,,false,false
+1856,1857,10976,Anthony McKinney,46,Male,Black,9/26/2015,Baton Rouge,LA,Shot,,false,false
+1857,1858,10981,Junior Prosper,31,Male,Black,9/28/2015,North Miami,FL,Shot,,false,false
+1858,1859,10985,Brandon Lamar Johnson,28,Male,Black,9/29/2015,Beckley,WV,Shot,Gun,false,false
+1859,1860,10996,Charles A. Pettit,18,Male,Black,10/5/2015,Midwest City,OK,Shot,Gun,false,false
+1860,1861,11008,Bernard Brandon Powers,23,Male,Black,10/11/2015,Taylors,SC,Shot,Gun,false,false
+1861,1862,11011,Jason Day,40,Male,Black,10/12/2015,Lawton,OK,Shot,Gun,false,false
+1862,1863,11013,Leslie Portis Jr.,57,Male,Black,10/14/2015,Evergreen,AL,Shot,,false,false
+1863,1864,11022,Kaleb R. Alexander,25,Male,Black,10/15/2015,Columbus,OH,Shot,Gun,false,false
+1864,1865,11026,Martin Ryans Jr.,20,Male,Black,10/15/2015,Houston,TX,Shot,Gun,false,false
+1865,1866,11029,Ricky Ball,33,Male,Black,10/16/2015,Columbus,MS,Shot,,false,false
+1866,1867,11031,Rayshaun Cole,30,Male,Black,10/17/2015,Chula Vista,CA,Shot,,false,false
+1867,1868,11032,Paterson Brown Jr.,18,Male,Black,10/17/2015,Richmond,VA,Shot,,false,false
+1868,1869,11033,Dequan L. Williams,28,Male,Black,10/17/2015,York,PA,Shot,Knife,false,false
+1869,1870,11038,Corey Jones,31,Male,Black,10/18/2015,Palm Beach,FL,Shot,Gun,false,false
+1870,1871,11039,Dion Lamont Ramirez,40,Male,Black,10/19/2015,Los Angeles,CA,Shot,,false,false
+1871,1872,11043,Lamontez Jones,39,Male,Black,10/20/2015,San Diego,CA,Shot,Gun,false,false
+1872,1873,11051,Lawrence Green,38,Male,Black,10/22/2015,Shreveport,LA,Shot,Knife,false,false
+1873,1874,11052,Adrienne Jamarr Ludd,36,Male,Black,10/22/2015,Carmichael,CA,Shot,Gun,false,false
+1874,1875,11059,Rolly Thomas,34,Male,Black,10/24/2015,Cape Coral,FL,Shot,,false,false
+1875,1876,11064,Marquesha McMillan,21,Female,Black,10/26/2015,Washington,DC,Shot,,false,false
+1876,1877,11067,Anthony Ashford,29,Male,Black,10/27/2015,San Diego,CA,Shot,Gun,false,false
+1877,1878,11068,Tyrie Cuyler,25,Male,Black,10/27/2015,Savannah,GA,Shot,,false,false
+1878,1879,11071,Jerry Michael Graham Jr.,34,Male,Black,10/28/2015,Jacksonville,FL,Shot,Gun,false,false
+1879,1880,11075,Deaunte Lamar Bell,25,Male,Black,10/29/2015,Columbus,OH,Shot,Gun,false,false
+1880,1881,11079,Tony Berry,25,Male,Black,10/30/2015,Houston,TX,Shot,,false,false
+1881,1882,11080,Brian Crawford,24,Male,Black,10/30/2015,Houston,TX,Shot,,false,false
+1882,1883,11082,Bennie Lee Tignor,56,Male,Black,10/31/2015,Opelika,AL,Shot,,false,false
+1883,1884,11088,James Covington Jr.,62,Male,Black,11/2/2015,Washington,DC,Shot,Gun,false,false
+1884,1885,11091,John Edward Allen,57,Male,Black,11/4/2015,Houston,TX,Shot,Gun,false,false
+1885,1886,11105,Delvin Tyrell Simmons,20,Male,Black,11/9/2015,Spartanburg,SC,Shot,,false,false
+1886,1887,11112,Ryan Quinn Martin,32,Male,Black,11/11/2015,Baltimore,MD,Shot,Gun,false,false
+1887,1888,11121,Rashad Bugg-Bey,25,Male,Black,11/14/2015,Washington,DC,Shot,Knife,false,false
+1888,1889,11123,Jamar Clark,24,Male,Black,11/15/2015,Minneapolis,MN,Shot,Unarmed,false,false
+1889,1890,11125,Shane Tyler Whitehead,16,Male,Black,11/15/2015,Philadelphia,PA,Shot,Gun,false,false
+1890,1891,11128,Yohans Leon,28,Male,Black,11/17/2015,Miami,FL,Shot,Gun,false,false
+1891,1892,11130,Jeray Chatham,30,Male,Black,11/17/2015,Houston,TX,Shot,Knife,false,false
+1892,1893,11133,Demetrius Shelley Bryant,21,Male,Black,11/17/2015,Cayce,SC,Shot,Gun,true,false
+1893,1894,11135,Marcus Deon Meridy,44,Male,Black,11/18/2015,Benton Harbor,MI,Shot,Gun,false,false
+1894,1895,11136,Cornelius Brown,25,Male,Black,11/18/2015,Opa-locka,FL,Shot,,false,false
+1895,1896,11137,Darick Napper,34,Male,Black,11/19/2015,Washington,DC,Shot,Knife,false,false
+1896,1897,11138,Nathaniel Harris Pickett,29,Male,Black,11/19/2015,Barstow,CA,Shot,,false,false
+1897,1898,11139,Steve Dormil,27,Male,Black,11/19/2015,Fort Pierce,FL,Shot,Knife,false,false
+1898,1899,11140,Randy Allen Smith,34,Male,Black,11/19/2015,Bradenton,FL,Shot,Gun,false,false
+1899,1900,11151,Freddy Baez,24,Male,Black,11/24/2015,Camden,NJ,Shot,Gun,false,false
+1900,1901,11167,Darius Smith,18,Male,Black,11/30/2015,Atlanta,GA,Shot,,false,false
+1901,1902,11175,Mario Woods,26,Male,Black,12/2/2015,San Francisco,CA,Shot,Knife,false,false
+1902,1903,11182,Raymone Davis,21,Male,Black,12/4/2015,Pittsburg,PA,Shot,,false,false
+1903,1904,11189,Carlumandarlo Zaramo,46,Male,Black,12/6/2015,Richmond Heights,OH,Shot,Gun,true,false
+1904,1905,11191,Devon Holder,30,Male,Black,12/7/2015,Queens,NY,Shot,,false,false
+1905,1906,11192,Miguel Espinal,36,Male,Black,12/8/2015,Yonkers,NY,Shot,,false,false
+1906,1907,11193,Derek Stokes,33,Male,Black,12/8/2015,Cleveland,OH,Shot,Gun,false,false
+1907,1908,11197,Dimitrie L. Penny,32,Male,Black,12/9/2015,Tallahassee,FL,Shot,,false,false
+1908,1909,11200,Charles Edward Rosemond Sr.,55,Male,Black,12/10/2015,Taylors,SC,Shot,Gun,false,false
+1909,1910,11207,Nicholas Robertson,28,Male,Black,12/12/2015,Lynwood,CA,Shot,Gun,false,false
+1910,1911,11208,Christopher Goodlow,25,Male,Black,12/12/2015,Indianapolis,IN,Shot,Knife,true,false
+1911,1912,11209,Javario Shante Eagle,24,Male,Black,12/12/2015,Chattanooga,TN,Shot,Knife,true,false
+1912,1913,11221,Calvin McKinnis,33,Male,Black,12/14/2015,New Orleans,LA,Shot,Gun,false,false
+1913,1914,11223,Ronnie Dubose Carr,51,Male,Black,12/15/2015,Boone,NC,Shot,,false,false
+1914,1915,11232,Trevon J. Scruggs,24,Male,Black,12/19/2015,Concord,VA,Shot,,false,false
+1915,1916,11236,Leroy T. Browning,30,Male,Black,12/20/2015,Palmdale,CA,Shot,Gun,true,false
+1916,1917,11237,Bobby Daniels,48,Male,Black,12/21/2015,Douglasville,GA,Shot,Gun,false,false
+1917,1918,11241,Michael Noel,32,Male,Black,12/21/2015,St Martinville,LA,Shot,,true,false
+1918,1919,11243,Chan Lieth,25,Male,Black,12/21/2015,Denver,CO,Shot,,false,false
+1919,1920,11249,Kevin Matthews,35,Male,Black,12/23/2015,Detroit,MI,Shot,,false,false
+1920,1921,11250,Terrozza Tyree Griffin,24,Male,Black,12/24/2015,Lansing,MI,Shot,Gun,false,false
+1921,1922,11254,Daquan Antonio Westbrook,18,Male,Black,12/24/2015,Charlotte,NC,Shot,Gun,false,false
+1922,1923,11257,Quintonio LeGrier,19,Male,Black,12/26/2015,Chicago,IL,Shot,,true,false
+1923,1924,11259,Bettie Jones,55,Female,Black,12/26/2015,Chicago,IL,Shot,,false,false
+1924,1925,11268,Keith Childress,23,Male,Black,12/31/2015,Las Vegas,NV,Shot,Gun,false,false
+2095,2096,13141,Ron Sneed,31,Male,Black,1/7/2015,Freeport,TX,Shot,Gun,false,false
+2096,2097,13156,Marcus Golden,24,Male,Black,1/14/2015,Saint Paul,MN,Shot,Vehicle,false,false
+2097,2098,13158,Mario Jordan,34,Male,Black,1/14/2015,Chesapeake,VA,Shot,Gun,true,false
+2098,2099,13175,Dewayne Carr,42,Male,Black,1/20/2015,Scottsdale,AZ,Shot,Vehicle,false,true
+2099,2100,13180,Tiano Meton,25,Male,Black,1/22/2015,Sierra Blanca,TX,Shot,Toy Weapon,false,true
+2100,2101,13183,Demaris Turner,29,Male,Black,1/23/2015,Fort Lauderdale,FL,Shot,Vehicle,false,false
+2101,2102,13211,Dewayne Deshawn Ward,29,Male,Black,2/3/2015,Antioch,CA,Shot,Knife,true,false
+2102,2103,13213,Jeremy Lett,28,Male,Black,2/4/2015,Tallahassee,FL,Shot,Unarmed,false,false
+2103,2104,13222,James Allen,74,Male,Black,2/7/2015,Gastonia,NC,Shot,Gun,false,false
+2104,2105,13229,Desmond Luster,45,Male,Black,2/9/2015,Dallas,TX,Shot,Gun,false,false
+2105,2106,13268,Glenn Lewis,27,Male,Black,2/25/2015,Oklahoma City,OK,Shot,Vehicle,false,true
+2106,2107,13278,Thomas Allen,34,Male,Black,2/28/2015,St Louis,MO,Shot,Unarmed,false,true
+2107,2108,13286,Shaquille Barrow,20,Male,Black,3/2/2015,Joilet,IL,Shot,Gun,false,true
+2108,2109,13294,Naeschylus  Vinzant,37,Male,Black,3/6/2015,Aurora,CO,Shot,Unarmed,false,true
+2109,2110,13296,Tony Robinson,19,Male,Black,3/6/2015,Madison,WI,Shot,Unarmed,false,true
+2110,2111,13305,Jamie Croom,31,Male,Black,3/10/2015,Baton Rouge,LA,Shot,Gun,false,false
+2111,2112,13308,Theodore Johnson,64,Male,Black,3/10/2015,Cleveland,OH,Shot,Gun,false,false
+2112,2113,13316,Bobby Gross,35,Male,Black,3/12/2015,Washington,DC,Shot,Unarmed,true,false
+2113,2114,13342,Richard White,63,Male,Black,3/20/2015,New Orleans,LA,Shot,Machete,true,false
+2114,2115,13351,Devin Gates,24,Male,Black,3/23/2015,Santa Clara,CA,Shot,Gun,false,false
+2115,2116,13355,Nicholas Thomas,23,Male,Black,3/25/2015,Smyrna,GA,Shot,,false,true
+2116,2117,13356,Jeremy Lorenza Kelly,27,Male,Black,3/25/2015,Johnsonville,SC,Shot,Gun,false,true
+2117,2118,13365,Megan Hockaday,26,Female,Black,3/27/2015,Oxnard,CA,Shot,Knife,false,false
+2118,2119,13374,Mya Hall,27,Female,Black,3/31/2015,Fort Meade,MD,Shot,Vehicle,false,true
+2119,2120,13377,Darrin Langford,32,Male,Black,4/2/2015,Rock Island,IL,Shot,Gun,false,true
+2120,2121,13379,Eric Harris,44,Male,Black,4/2/2015,Tulsa,OK,Shot,Unarmed,false,false
+2121,2122,13384,Paul Anderson,31,Male,Black,4/4/2015,Orange,CA,Shot,Gun,false,false
+2122,2123,13393,Dexter Pernell Bethea,42,Male,Black,4/8/2015,Valdosta,GA,Shot,Vehicle,false,true
+2123,2124,13398,Don Smith,29,Male,Black,4/9/2015,Monon,IN,Shot,Gun,false,true
+2124,2125,13411,Dante Noble,41,Male,Black,4/15/2015,Spartanburg,SC,Shot,Knife,false,false
+2125,2126,13412,Frank Shephard,41,Male,Black,4/15/2015,Houston,TX,Shot,Unarmed,false,true
+2126,2127,13417,Jeffrey Kemp,18,Male,Black,4/17/2015,Chicago,IL,Shot,Gun,false,true
+2127,2128,13429,William Chapman,18,Male,Black,4/22/2015,Portsmouth,VA,Shot,Unarmed,false,false
+2128,2129,13432,Reginald McGregor,31,Male,Black,4/22/2015,Fort Worth,TX,Shot,Gun,false,true
+2129,2130,13447,Terrance  Kellom,20,Male,Black,4/27/2015,Detroit,MI,Shot,Hammer,false,false
+2130,2131,13454,Alexia Christian,25,Female,Black,4/29/2015,Atlanta,GA,Shot,Gun,false,false
+2131,2132,13455,Jeffrey Adkins,53,Male,Black,4/29/2015,Emporia,VA,Shot,Gun,true,false
+2132,2133,13466,Brendon Glenn,29,Male,Black,5/5/2015,Venice,CA,Shot,Unarmed,false,false
+2133,2134,13476,Sam Holmes,31,Male,Black,5/8/2015,Fridley,MN,Shot,Vehicle,false,true
+2134,2135,13479,Kelvin Goldston,30,Male,Black,5/11/2015,Fort Worth,TX,Shot,Vehicle,false,true
+2135,2136,13481,D'Angelo Stallworth,28,Male,Black,5/12/2015,Jacksonville,FL,Shot,Gun,false,true
+2136,2137,13488,Ronell Wade,45,Male,Black,5/16/2015,Harvey,IL,Shot,Gun,false,true
+2137,2138,13495,Anthony Gomez,29,Male,Black,5/20/2015,Lancaster,PA,Shot,Gun,false,false
+2138,2139,13499,Marcus Wheeler,26,Male,Black,5/20/2015,Omaha,NE,Shot,Gun,false,false
+2139,2140,13501,Javoris Washington,29,Male,Black,5/21/2015,Ft. Lauderdale,FL,Shot,Knife,false,false
+2140,2141,13504,Jerome Caldwell,32,Male,Black,5/21/2015,Charleston,SC,Shot,Gun,false,false
+2141,2142,13510,Anthony Briggs,36,Male,Black,5/25/2015,Huntsville,AL,Shot,Knife,true,false
+2142,2143,13520,James Strong,32,Male,Black,5/28/2015,Northglenn,CO,Shot,Gun,false,false
+2143,2144,13531,Usaamah Rahim,26,Male,Black,6/2/2015,Roslindale,MA,Shot,Knife,false,false
+2144,2145,13552,QuanDavier Hicks,22,Male,Black,6/9/2015,Cincinnati,OH,Shot,Gun,false,false
+2145,2146,13555,Charles Ziegler,40,Male,Black,6/11/2015,Pompano Beach,FL,Shot,Gun,false,false
+2146,2147,13581,Tyrone Harris,20,Male,Black,6/22/2015,Pittsburgh,PA,Shot,Gun,false,true
+2147,2148,13586,Damien A. Harrell,26,Male,Black,6/24/2015,York County,VA,Shot,Gun,false,false
+2148,2149,13595,Kevin Lamont Judson,24,Male,Black,7/1/2015,McMinnville,OR,Shot,Vehicle,false,true
+2149,2150,13607,Kawanza Beaty,23,Male,Black,7/4/2015,Newport News,VA,Shot,Gun,false,true
+2150,2151,13623,Tremaine Dantzler,37,Male,Black,7/7/2015,Atlantic City,NJ,Shot,Knife,false,true
+2151,2152,13630,Martice Milliner,27,Male,Black,7/9/2015,Chicago,IL,Shot,Gun,false,true
+2152,2153,13633,Javon Hawkins,21,Male,Black,7/9/2015,Kansas City,MO,Shot,Sword,false,false
+2153,2154,13635,Freddie Blue,20,Male,Black,7/10/2015,Covington,GA,Shot,Gun,false,false
+2154,2155,13643,Frederick Farmer,20,Male,Black,7/13/2015,Stone Mountain,GA,Shot,Gun,false,false
+2155,2156,13683,Bryan Keith  Day,36,Male,Black,7/25/2015,Las Vegas,NV,Shot,Toy Weapon,false,false
+2156,2157,13711,Keshawn Dominique Hargrove,20,Male,Black,8/5/2015,Richmond,VA,Shot,Gun,false,true
+2157,2158,13720,Tsombe Clark,25,Male,Black,8/7/2015,Greenville,NC,Shot,Gun,false,false
+2158,2159,13744,Allen Matthew Baker,23,Male,Black,8/15/2015,Sunnyvale,CA,Shot,Gun,false,false
+2159,2160,13745,Benjamin Peter Ashley,34,Male,Black,8/15/2015,Inyokern,CA,Shot,,false,false
+2160,2161,13769,Bobby Troledge Norris,53,Male,Black,8/23/2015,Archdale,NC,Shot,Gun,false,false
+2161,2162,13780,Yonas Alehegne,30,Male,Black,8/27/2015,Oakland,CA,Shot,Chain,false,false
+2162,2163,13787,James Marcus Brown,25,Male,Black,8/29/2015,North Las Vegas,NV,Shot,Gun,false,true
+2163,2164,13793,Cedric Maurice Williams,33,Male,Black,9/1/2015,Bluefield,WV,Shot,Guns And Explosives,false,true
+2164,2165,13803,La'vante Trevon Biggs,21,Male,Black,9/5/2015,Durham,NC,Shot,Gun,true,false
+2165,2166,13805,Angelo Delano Perry,35,Male,Black,9/5/2015,Virginia Beach,VA,Shot,Gun,false,false
+2166,2167,13808,Mohamed Ibrahim,28,Male,Black,9/6/2015,Shreveport,LA,Shot,Gun,true,true
+2167,2168,13813,Tyrone Holman,37,Male,Black,9/9/2015,Kansas City,MO,Shot,Guns And Explosives,true,false
+2168,2169,13828,Joseph Thompson Johnson-Shanks,25,Male,Black,9/14/2015,Princeton,KY,Shot,Gun,false,true
+2169,2170,13834,Bobby R. Anderson,27,Male,Black,9/15/2015,Alexandria,LA,Shot,Gun,false,false
+2170,2171,13856,Keith Harrison McLeod,19,Male,Black,9/23/2015,Reisterstown,MD,Shot,Unarmed,false,true
+2171,2172,13858,Jeremy McDole,28,Male,Black,9/23/2015,Wilmington,DE,Shot,Gun,true,false
+2172,2173,13874,Brandon Lamar Johnson,28,Male,Black,9/30/2015,Beckley,WV,Shot,Gun,false,true
+2173,2174,13881,Jeffery McCallum,31,Male,Black,10/4/2015,Chicago,IL,Shot,Gun,false,false
+2174,2175,13888,Gary Carmona Boitano,19,Male,Black,10/9/2015,Columbia,MD,Shot,Knife,false,false
+2175,2176,13905,Leslie Portis,57,Male,Black,10/14/2015,Monroeville,AL,Shot,Gun,false,false
+2176,2177,13907,Kaleb Alexander,25,Male,Black,10/15/2015,Columbus,OH,Shot,Gun,false,false
+2177,2178,13912,Martin  Ryans Jr.,20,Male,Black,10/15/2015,Houston,TX,Shot,Gun,false,false
+2178,2179,13915,Ricky Javenta Ball,33,Male,Black,10/16/2015,Columbus,MS,Shot,,false,true
+2179,2180,13930,Adriene Jamarr Ludd,36,Male,Black,10/22/2015,Carmichael,CA,Shot,Gun,false,true
+2180,2181,13935,Dominic Hutchinson,30,Male,Black,10/24/2015,Cathedral City,CA,Shot,,false,false
+2181,2182,13940,Kevin Brunson,45,Male,Black,10/26/2015,Frederick,MD,Shot,Vehicle,false,false
+2182,2183,13944,Anthony Ashford,29,Male,Black,10/28/2015,Point Loma,CA,Shot,Unarmed,false,false
+2183,2184,13959,James Covington,62,Male,Black,11/2/2015,Washington,DC,Shot,Gun,false,true
+2184,2185,13962,John Allen,57,Male,Black,11/4/2015,Houston,TX,Shot,Gun,false,true
+2185,2186,13972,Delvin Simmons,20,Male,Black,11/9/2015,Spartanburg,SC,Shot,Vehicle,false,true
+2186,2187,13985,Moises Nero,42,Male,Black,11/12/2015,Sunnyvale,CA,Shot,Knife,false,false
+2187,2188,13990,Richard Perkins,39,Male,Black,11/15/2015,Oakland,CA,Shot,Toy Weapon,false,false
+2188,2189,13992,Shane Whitehead,16,Male,Black,11/15/2015,Germantown,PA,Shot,Unknown Weapon,false,false
+2189,2190,13998,Demetrius Bryant,21,Male,Black,11/17/2015,Cayce,SC,Shot,Gun,false,false
+2190,2191,14003,Marcus Meridy,44,Male,Black,11/18/2015,Berrien County,MI,Shot,Gun,false,false
+2191,2192,14008,Nathaniel Harris Pickett,29,Male,Black,11/20/2015,Barstow,CA,Shot,Unarmed,true,false
+2192,2193,14042,Raymone M. Davis,21,Male,Black,12/4/2015,Mount Washington,PA,Shot,Gun,false,false
+2193,2194,14056,Charles Edward Rosemond,55,Male,Black,12/10/2015,Taylors,SC,Shot,Gun,false,false
+2194,2195,14079,Ronnie Dubose Carter,51,Male,Black,12/15/2015,Dallas,NC,Shot,Vehicle,false,true
+2195,2196,14086,Trayvon Scruggs,24,Male,Black,12/19/2015,Concord,VA,Shot,Gun,false,false
+2196,2197,14088,Leroy Browning,30,Male,Black,12/20/2015,Palmdale,CA,Shot,Gun,false,false
+2197,2198,14095,Chan Leith,25,Male,Black,12/21/2015,Aurora,CO,Shot,Gun,false,false
+2337,2338,13205,Edward Donnell Bright,54,Male,Black,1/31/2015,Randallstown,MD,Shot and Tasered,Knife,true,false
+2338,2339,13284,Charly Leundeu Keunang,43,Male,Black,3/1/2015,Los Angeles,CA,Shot and Tasered,Unarmed,true,false
+2339,2340,13383,Walter Scott,50,Male,Black,4/4/2015,North Charleston,SC,Shot and Tasered,Unarmed,false,true
+2340,2341,13639,Salvado Ellswood,36,Male,Black,7/12/2015,Plantation,FL,Shot and Tasered,Unarmed,false,false
+2341,2342,13735,Redel Jones,30,Female,Black,8/12/2015,Los Angeles,CA,Shot and Tasered,Knife,false,false
+2342,2343,13917,Dequan Williams,28,Male,Black,10/17/2015,York,PA,Shot and Tasered,Knife,true,false
+2453,2454,9991,Brian Pickett,26,Male,Black,1/6/2015,Los Angeles,CA,Tasered,,true,false
+2454,2455,9996,Andre Larone Murphy Sr.,42,Male,Black,1/7/2015,Norfolk,NE,Tasered,,false,false
+2455,2456,10139,Terry Price,41,Male,Black,2/20/2015,Tulsa,OK,Tasered,,false,false
+2456,2457,10147,Calvon A. Reid,39,Male,Black,2/22/2015,Coconut Creek,FL,Tasered,Unarmed,false,false
+2457,2458,10173,DeOntre Lamontz Dorsey,32,Male,Black,3/1/2015,White Plains,MD,Tasered,,true,false
+2458,2459,10179,Darrell Hubbard Gatewood,47,Male,Black,3/1/2015,Oklahoma City,OK,Tasered,,true,false
+2459,2460,10208,Terrance Moxley,29,Male,Black,3/10/2015,Mansfield,OH,Tasered,,true,false
+2460,2461,10237,Askari Roberts,35,Male,Black,3/17/2015,Rome,GA,Tasered,,true,false
+2461,2462,10290,Dominick R. Wise,30,Male,Black,3/30/2015,Culpeper,VA,Tasered,,false,false
+2462,2463,10304,Donald Dontay Shaw Ivy,39,Male,Black,4/2/2015,Albany,NY,Tasered,,true,false
+2463,2464,10354,Darrell Lawrence Brown,31,Male,Black,4/16/2015,Hagerstown,MD,Tasered,,true,false
+2464,2465,10364,Norman Lee Cooper,33,Male,Black,4/19/2015,San Antonio,TX,Tasered,,true,false
+2465,2466,10525,Richard Gregory Davis,50,Male,Black,5/31/2015,Rochester,NY,Tasered,Gun,false,false
+2466,2467,10551,Ross Allen Anthony,25,Male,Black,6/8/2015,Dallas,TX,Tasered,,false,false
+2467,2468,10589,Zamiel Kivon Crawford,21,Male,Black,6/19/2015,Vance,AL,Tasered,,false,false
+2468,2469,10594,Kevin Bajoie,32,Male,Black,6/20/2015,Baton Rouge,LA,Tasered,,true,false
+2469,2470,10636,Maximo Rabasa,52,Male,Black,7/4/2015,Miami,FL,Tasered,Knife,true,false
+2470,2471,10681,George Mann,35,Male,Black,7/11/2015,Stone Mountain,GA,Tasered,,true,false
+2471,2472,10790,Troy Robinson,33,Male,Black,8/6/2015,Decatur,GA,Tasered,,false,false
+2472,2473,10881,James Carney III,48,Male,Black,8/31/2015,Cincinnati,OH,Tasered,,false,false
+2489,2490,12830,Lionel Waters,35,Male,Black,12/20/2015,Milford,DE,Tasered,,false,false
+3559,3560,9982,John Paul Quintero,23,Male,Hispanic,1/3/2015,Wichita,KS,Shot,Knife,false,false
+3560,3561,9983,Michael Ray Rodriguez,39,Male,Hispanic,1/4/2015,Evans,CO,Shot,Gun,false,false
+3561,3562,10002,Andy Martinez,33,Male,Hispanic,1/9/2015,El Paso,TX,Shot,Gun,false,false
+3562,3563,10007,Salvador Figueroa,29,Male,Hispanic,1/11/2015,Las Vegas,NV,Shot,Gun,false,false
+3563,3564,10022,Jose Ceja,36,Male,Hispanic,1/15/2015,Fairfield,CA,Shot,Knife,true,false
+3564,3565,10028,Phillip Adam Garcia Jr.,26,Male,Hispanic,1/16/2015,Houston,TX,Shot,Gun,false,false
+3565,3566,10034,Pablo Meza,24,Male,Hispanic,1/17/2015,Los Angeles,CA,Shot,Gun,false,false
+3566,3567,10038,Miguel Angel de Santos-Rodriguez,36,Male,Hispanic,1/21/2015,ChapeÌ±o,TX,Shot,Gun,false,false
+3567,3568,10046,Jose Antonio Espinoza Ruiz,56,Male,Hispanic,1/23/2015,Levelland,TX,Shot,Knife,false,false
+3568,3569,10053,Orlando Jude Lopez,26,Male,Hispanic,1/25/2015,Pueblo,CO,Shot,Gun,false,false
+3569,3570,10054,Joshua Omar Garcia,24,Male,Hispanic,1/26/2015,Tahoka,TX,Shot,,false,false
+3570,3571,10057,David Garcia,34,Male,Hispanic,1/26/2015,Wasco,CA,Shot,Knife,true,false
+3571,3572,10059,Jessica Hernandez,17,Female,Hispanic,1/26/2015,Denver,CO,Shot,,false,false
+3572,3573,10076,Victor Reyes,31,Male,Hispanic,1/31/2015,Katy,TX,Shot,Gun,false,false
+3573,3574,10087,Joaquin Hernandez,28,Male,Hispanic,2/4/2015,Phoenix,AZ,Shot,,false,false
+3574,3575,10089,Salvador Muna,28,Male,Hispanic,2/4/2015,Phoenix,AZ,Shot,,false,false
+3575,3576,10099,John Martin Whittaker,33,Male,Hispanic,2/8/2015,Anchorage,AK,Shot,Gun,false,false
+3576,3577,10111,Antonio Zambrano-Montes,35,Male,Hispanic,2/10/2015,Pasco,WA,Shot,,true,false
+3577,3578,10116,Daniel Mejia,37,Male,Hispanic,2/13/2015,San Manuel,AZ,Shot,Knife,true,false
+3578,3579,10131,Pedro Pete Juan Saldivar,50,Male,Hispanic,2/17/2015,Del Rio,TX,Shot,,false,false
+3579,3580,10142,RubÌ©n Garcia Villalpando,31,Male,Hispanic,2/20/2015,Euless,TX,Shot,Unarmed,false,false
+3580,3581,10154,Joseph Biegert,30,Male,Hispanic,2/24/2015,Green Bay,WI,Shot,,true,false
+3581,3582,10164,Amilcar Perez-Lopez,21,Male,Hispanic,2/26/2015,San Francisco,CA,Shot,Knife,false,false
+3582,3583,10165,Ernesto Javier Canepa Diaz,27,Male,Hispanic,2/27/2015,Santa Ana,CA,Shot,,false,false
+3583,3584,10187,Sergio Alexander Navas,34,Male,Hispanic,3/5/2015,Burbank,CA,Shot,,false,false
+3584,3585,10196,Aurelio V. Duarte,40,Male,Hispanic,3/8/2015,Oklahoma City,OK,Shot,Gun,false,false
+3585,3586,10204,Edixon Ivan Franco,37,Male,Hispanic,3/10/2015,Ontario,CA,Shot,,true,false
+3586,3587,10212,Benito Osorio,39,Male,Hispanic,3/11/2015,Santa Ana,CA,Shot,Gun,true,false
+3587,3588,10213,Aaron Valdez,25,Male,Hispanic,3/11/2015,South Gate,CA,Shot,,false,false
+3588,3589,10217,Antonio Perez,32,Male,Hispanic,3/12/2015,Los Angeles,CA,Shot,,false,false
+3589,3590,10224,Richard Castilleja,29,Male,Hispanic,3/14/2015,San Antonio,TX,Shot,,false,false
+3590,3591,10236,Roberto Jose Leon,22,Male,Hispanic,3/17/2015,Sacramento,CA,Shot,,false,false
+3591,3592,10272,Victor Daniel Terrazas,28,Male,Hispanic,3/25/2015,Los Angeles,CA,Shot,Gun,false,false
+3592,3593,10275,Adrian Solis,35,Male,Hispanic,3/26/2015,Wilmington,CA,Shot,Knife,true,false
+3593,3594,10282,Adrian Hernandez,22,Male,Hispanic,3/27/2015,Bakersfield,CA,Shot,Gun,false,false
+3594,3595,10295,Benjamin Quezada,21,Male,Hispanic,3/31/2015,Baytown,TX,Shot,Gun,true,false
+3595,3596,10327,Roberto Rodriguez,39,Male,Hispanic,4/8/2015,Los Angeles,CA,Shot,,false,false
+3596,3597,10335,Angel Cresencio Corona Jr,21,Male,Hispanic,4/10/2015,Corning,CA,Shot,,false,false
+3597,3598,10342,Celin Nunez,24,Male,Hispanic,4/13/2015,Houston,TX,Shot,,false,false
+3598,3599,10343,Isaac J. Jimenez,27,Male,Hispanic,4/13/2015,Alton,IL,Shot,Gun,false,false
+3599,3600,10348,Ernesto Flores,52,Male,Hispanic,4/15/2015,Pomona,CA,Shot,,false,false
+3600,3601,10356,Rodolfo Velazquez,47,Male,Hispanic,4/16/2015,Shafter,CA,Shot,Knife,false,false
+3601,3602,10359,Elias Cavazos,29,Male,Hispanic,4/17/2015,Hemet,CA,Shot,,false,false
+3602,3603,10361,Erik Tellez,43,Male,Hispanic,4/18/2015,Phoenix,AZ,Shot,Gun,true,false
+3603,3604,10366,Santos ÛÏCuateÛ Cortez Hernandez,24,Male,Hispanic,4/20/2015,Mission,TX,Shot,,false,false
+3604,3605,10370,Luis Molina Martinez,35,Male,Hispanic,4/21/2015,Los Angeles,CA,Shot,Knife,true,false
+3605,3606,10376,Carlos Saavedra Ramirez,51,Male,Hispanic,4/22/2015,Bisbee,AZ,Shot,Knife,true,false
+3606,3607,10378,Reginald Duane McGregor,31,Male,Hispanic,4/22/2015,Fort Worth,TX,Shot,,false,false
+3607,3608,10380,Hector Morejon,19,Male,Hispanic,4/23/2015,Long Beach,CA,Shot,,false,false
+3608,3609,10402,Luis Martin Chavez-Diaz,27,Male,Hispanic,4/29/2015,Elk Grove,CA,Shot,Gun,false,false
+3609,3610,10404,Erick Emmanuel Salas Sanchez,22,Male,Hispanic,4/29/2015,El Paso,TX,Shot,,false,false
+3610,3611,10446,Cesar Enriquez,28,Male,Hispanic,5/12/2015,Mesa,AZ,Shot,Gun,false,false
+3611,3612,10459,Manuel Isaac Rodriguez,40,Male,Hispanic,5/17/2015,Waco,TX,Shot,,false,false
+3612,3613,10461,Jesus Delgado Rodriguez,65,Male,Hispanic,5/17/2015,Waco,TX,Shot,,false,false
+3613,3614,10491,David Alejandro Gandara,22,Male,Hispanic,5/21/2015,El Paso,TX,Shot,,true,false
+3614,3615,10523,Alexander Tirado Rivera,39,Male,Hispanic,5/30/2015,Nashville,TN,Shot,Gun,false,false
+3615,3616,10535,Rudy Baca,36,Male,Hispanic,6/3/2015,Los Lunas,NM,Shot,,false,false
+3616,3617,10536,Lorenzo Garza Jr,46,Male,Hispanic,6/3/2015,Delano,CA,Shot,Gun,false,false
+3617,3618,10538,Edelmiro Hernandez,33,Male,Hispanic,6/3/2015,Houston,TX,Shot,Knife,false,false
+3618,3619,10539,Daniel Dankert,23,Male,Hispanic,6/3/2015,Forreston,TX,Shot,Gun,true,false
+3619,3620,10540,Miguel Martinez,18,Male,Hispanic,6/3/2015,Forreston,TX,Shot,Gun,true,false
+3620,3621,10542,Jesus Quezada Gomez,50,Male,Hispanic,6/5/2015,Santa Maria,CA,Shot,Gun,false,false
+3621,3622,10548,Damien James Ramirez,27,Male,Hispanic,6/6/2015,Strasburg,CO,Shot,Gun,false,false
+3622,3623,10549,Alejandro Campos Fernandez,45,Male,Hispanic,6/6/2015,Pajaro,CA,Shot,,false,false
+3623,3624,10554,Rene Garcia,30,Male,Hispanic,6/8/2015,Anaheim,CA,Shot,Knife,true,false
+3624,3625,10563,Mark Anthony Flores Jr.,28,Male,Hispanic,6/11/2015,San Antonio,TX,Shot,,true,false
+3625,3626,10565,Raymond Peralta-lantigua,22,Male,Hispanic,6/11/2015,Hackensack,NJ,Shot,Knife,true,false
+3626,3627,10578,Kenneth Garcia,28,Male,Hispanic,6/14/2015,Stockton,CA,Shot,,false,false
+3627,3628,10580,Bernardo Gutierrez-Morales,56,Male,Hispanic,6/15/2015,El Paso,TX,Shot,Knife,false,false
+3628,3629,10590,Santos Laboy,44,Male,Hispanic,6/19/2015,Boston,MA,Shot,Knife,true,false
+3629,3630,10591,Louis Atencio,50,Male,Hispanic,6/19/2015,Greeley,CO,Shot,Gun,false,false
+3630,3631,10596,Adrian Simental,24,Male,Hispanic,6/21/2015,Azusa,CA,Shot,,false,false
+3631,3632,10612,Joe Angel Cisneros,28,Male,Hispanic,6/26/2015,San Antonio,TX,Shot,,false,false
+3632,3633,10624,Kevin Judson,24,Male,Hispanic,7/1/2015,McMinnville,OR,Shot,,false,false
+3633,3634,10633,Cesar A. Limon Juarez,27,Male,Hispanic,7/3/2015,Rowland Heights,CA,Shot,Knife,false,false
+3634,3635,10634,Arturo Lopez,46,Male,Hispanic,7/3/2015,Lancaster,CA,Shot,Gun,false,false
+3635,3636,10635,Oscar Camacho,33,Male,Hispanic,7/3/2015,Camden,NJ,Shot,Gun,true,false
+3636,3637,10641,Johnny Ray Anderson,42,Male,Hispanic,7/5/2015,Hawaiian Gardens,CA,Shot,Gun,false,false
+3637,3638,10646,David Oliva Sarabia,27,Male,Hispanic,7/6/2015,Atwater,CA,Shot,Knife,false,false
+3638,3639,10654,Jose Graciano Lopez,39,Male,Hispanic,7/7/2015,Edinburg,TX,Shot,,false,false
+3639,3640,10656,Daniel Hernandez Jr.,47,Male,Hispanic,7/7/2015,Bakersfield,CA,Shot,Gun,false,false
+3640,3641,10689,Rafael Esteban Suazo,23,Male,Hispanic,7/13/2015,Lynn,MA,Shot,,false,false
+3641,3642,10702,Antonio Gonzalez,29,Male,Hispanic,7/16/2015,Wauwatosa,WI,Shot,,false,false
+3642,3643,10705,Jose Roman Rodriguez,24,Male,Hispanic,7/17/2015,Brownsville,TX,Shot,,false,false
+3643,3644,10712,Estevan Andrade Gomez,26,Male,Hispanic,7/18/2015,Farmersville,CA,Shot,,false,false
+3644,3645,10722,Juan Adolfo Ibarra,24,Male,Hispanic,7/20/2015,Houston,TX,Shot,Gun,false,false
+3645,3646,10729,Francisco Benitez-Santiago,25,Male,Hispanic,7/22/2015,Monroe,WI,Shot,Gun,false,false
+3646,3647,10730,Samuel Primeno-Nunez,40,Male,Hispanic,7/22/2015,Monroe,WI,Shot,Gun,false,false
+3647,3648,10760,Oscar Lotari Romero,47,Male,Hispanic,7/29/2015,Whittier,CA,Shot,,true,false
+3648,3649,10761,Michael Malone,34,Male,Hispanic,7/29/2015,Las Cruces,NM,Shot,,false,false
+3649,3650,10766,Rafael Molina Jr.,33,Male,Hispanic,7/31/2015,Albuquerque,NM,Shot,Gun,false,false
+3650,3651,10767,Philip Flip Vallejo,30,Male,Hispanic,7/31/2015,Fort Worth,TX,Shot,Gun,false,false
+3651,3652,10783,Vincente David Montano,29,Male,Hispanic,8/5/2015,Nashville,TN,Shot,,true,false
+3652,3653,10791,Gustavo Ponce-Galon,42,Male,Hispanic,8/6/2015,Elsmere,KY,Shot,Knife,false,false
+3653,3654,10793,Abel Correa,24,Male,Hispanic,8/7/2015,Las Vegas,NV,Shot,,false,false
+3654,3655,10805,Edrian Rivera,22,Male,Hispanic,8/9/2015,San Jose,CA,Shot,Gun,false,false
+3655,3656,10819,Hector Gonzalez,26,Male,Hispanic,8/14/2015,Boerne,TX,Shot,Gun,false,false
+3656,3657,10831,Matthew Castillo,29,Male,Hispanic,8/16/2015,San Jose,CA,Shot,Gun,false,false
+3657,3658,10832,Richard Jacquez,40,Male,Hispanic,8/17/2015,San Jose,CA,Shot,Unarmed,false,false
+3658,3659,10834,Pablo C. Tiersten,38,Male,Hispanic,8/19/2015,Kansas City,KS,Shot,Gun,false,false
+3659,3660,10841,Raul Herrera III,17,Male,Hispanic,8/20/2015,Ontario,CA,Shot,Gun,false,false
+3660,3661,10859,Marvin Maestas,30,Male,Hispanic,8/25/2015,Santa Fe,NM,Shot,Gun,false,false
+3661,3662,10871,Gilbert Flores,41,Male,Hispanic,8/28/2015,San Antonio,TX,Shot,Knife,true,false
+3662,3663,10875,Roger Albrecht,43,Male,Hispanic,8/29/2015,San Antonio,TX,Shot,Knife,false,false
+3663,3664,10878,David Moreno Leon,40,Male,Hispanic,8/30/2015,Tucson,AZ,Shot,Gun,false,false
+3664,3665,10888,Freddy Centeno,40,Male,Hispanic,9/3/2015,Fresno,CA,Shot,,false,false
+3665,3666,10897,Luis Guillen Wenceslao,32,Male,Hispanic,9/5/2015,Ontario,CA,Shot,Gun,false,false
+3666,3667,10917,Santino Burce,34,Male,Hispanic,9/10/2015,Fontana,CA,Shot,Knife,false,false
+3667,3668,10934,Jorge Suarez-Ruiz,51,Male,Hispanic,9/15/2015,Miami,FL,Shot,,true,false
+3668,3669,10935,Florencio Chaidez,32,Male,Hispanic,9/15/2015,Los Angeles,CA,Shot,Gun,false,false
+3669,3670,10954,Gerardo Ramirez,24,Male,Hispanic,9/21/2015,Dallas,TX,Shot,Gun,true,false
+3670,3671,10955,Dominic Fuller,24,Male,Hispanic,9/21/2015,Auburndale,FL,Shot,Gun,false,false
+3671,3672,10977,Alejandro Lerma,23,Male,Hispanic,9/26/2015,Lovington,NM,Shot,Gun,false,false
+3672,3673,10978,Victor Oswaldo Coronado-Martinez,40,Male,Hispanic,9/27/2015,Ponder,TX,Shot,Gun,false,false
+3673,3674,10979,Norma Guzman,37,Female,Hispanic,9/27/2015,Los Angeles,CA,Shot,Knife,false,false
+3674,3675,10982,Alberto Hernandez,59,Male,Hispanic,9/28/2015,San Diego,CA,Shot,Gun,false,false
+3675,3676,10988,David Miguel Diaz Jr.,28,Male,Hispanic,10/2/2015,Sierra Vista,AZ,Shot,,false,false
+3676,3677,10990,Christian Pena,26,Male,Hispanic,10/2/2015,Rialto,CA,Shot,Knife,false,false
+3677,3678,10998,Amado Lago,46,Male,Hispanic,10/7/2015,West Palm Beach,FL,Shot,,false,false
+3678,3679,11006,Robert Medellin,43,Male,Hispanic,10/11/2015,Odessa,TX,Shot,Knife,false,false
+3679,3680,11007,Joe Pasquez Ortiz,34,Male,Hispanic,10/11/2015,San Bernardino,CA,Shot,,false,false
+3680,3681,11021,Herbert Benitez,27,Male,Hispanic,10/15/2015,San Francisco,CA,Shot,Gun,false,false
+3681,3682,11024,Jorge Tapia,15,Male,Hispanic,10/15/2015,Homestead,FL,Shot,Gun,false,false
+3682,3683,11028,Johnny Angel Rangel,25,Male,Hispanic,10/16/2015,La Puente,CA,Shot,Gun,false,false
+3683,3684,11048,Ryan Rodriguez,21,Male,Hispanic,10/21/2015,Visalia,CA,Shot,Gun,false,false
+3684,3685,11049,Miguel Angel Marin Galena,35,Male,Hispanic,10/21/2015,Calexico,CA,Shot,Knife,false,false
+3685,3686,11057,Juan Ulloa,34,Male,Hispanic,10/24/2015,Riverside,CA,Shot,,false,false
+3686,3687,11065,Kobvey Igbuhay,18,Male,Hispanic,10/26/2015,Tampa,FL,Shot,,false,false
+3687,3688,11077,Mario Martinez,29,Male,Hispanic,10/30/2015,Mesquite,TX,Shot,Gun,false,false
+3688,3689,11103,Miguel Cano,34,Male,Hispanic,11/9/2015,Los Angeles,CA,Shot,Gun,false,false
+3689,3690,11104,Leonel Acevedo,45,Male,Hispanic,11/9/2015,San Jose,CA,Shot,,false,false
+3690,3691,11107,Cesar Cuellar Jr.,25,Male,Hispanic,11/9/2015,Laredo,TX,Shot,Gun,true,false
+3691,3692,11109,Eddie Gabrielle Sanchez,34,Male,Hispanic,11/10/2015,Chico,CA,Shot,Gun,false,false
+3692,3693,11113,Joseph A. Jaramillo,31,Male,Hispanic,11/11/2015,Albuquerque,NM,Shot,,false,false
+3693,3694,11114,Javier Ivan Lopez Garcia,25,Male,Hispanic,11/11/2015,San Francisco,CA,Shot,Gun,true,false
+3694,3695,11116,Moises Nerio,42,Male,Hispanic,11/12/2015,Sunnyvale,CA,Shot,Knife,false,false
+3695,3696,11143,Martin Rivera,56,Male,Hispanic,11/20/2015,Fontana,CA,Shot,,false,false
+3696,3697,11147,Miguel Angel Martinez,28,Male,Hispanic,11/22/2015,Denver,CO,Shot,Gun,false,false
+3697,3698,11148,Henry Reyna,49,Male,Hispanic,11/23/2015,Corpus Christi,TX,Shot,Knife,false,false
+3698,3699,11161,Ralph Aguilar,69,Male,Hispanic,11/29/2015,Sun City,AZ,Shot,,true,false
+3699,3700,11164,Hugo Fernando Celio,23,Male,Hispanic,11/29/2015,Bakersfield,CA,Shot,,false,false
+3700,3701,11165,Fernando Sauceda,31,Male,Hispanic,11/30/2015,Wink,TX,Shot,,false,false
+3701,3702,11168,John Anthony Gonzalez,,Male,Hispanic,12/1/2015,Norwalk,CA,Shot,,false,false
+3702,3703,11170,Florencio Lucero,36,Male,Hispanic,12/2/2015,Deming,NM,Shot,Gun,false,false
+3703,3704,11171,Phillip Munoz,35,Male,Hispanic,12/2/2015,Denver,CO,Shot,,false,false
+3704,3705,11172,Allen Pacheco,32,Male,Hispanic,12/2/2015,Von Ormy,TX,Shot,,false,false
+3705,3706,11218,Roberto Ortiz Sanchez,45,Male,Hispanic,12/14/2015,Las Vegas,NV,Shot,Gun,false,false
+3706,3707,11222,Hector Alvarez,19,Male,Hispanic,12/14/2015,Gilroy,CA,Shot,Unarmed,false,false
+3707,3708,11230,Ruben Jose Herrera,26,Male,Hispanic,12/19/2015,Torrance,CA,Shot,,false,false
+3708,3709,11235,Mark Ramirez,31,Male,Hispanic,12/20/2015,Amarillo,TX,Shot,Gun,true,false
+3709,3710,11240,Guadalupe Quiroz,34,Male,Hispanic,12/21/2015,Hemet,CA,Shot,Gun,true,false
+3710,3711,11248,Jose Rodriguez,19,Male,Hispanic,12/22/2015,Albuquerque,NM,Shot,,false,false
+3711,3712,11251,Omar Ventura,23,Male,Hispanic,12/24/2015,Porterville,CA,Shot,Knife,false,false
+3712,3713,11256,Gilberto Heredia,38,Male,Hispanic,12/26/2015,Homedale,ID,Shot,Gun,false,false
+3713,3714,11267,Fred Granado Perez,55,Male,Hispanic,12/30/2015,Fresno,CA,Shot,Knife,false,false
+3865,3866,12831,Gilbert Heredia,38,Male,Hispanic,12/26/2015,Homedale,ID,Shot,Gun,false,false
+3904,3905,13134,Michael Rodriguez,39,Male,Hispanic,1/4/2015,Evans,CO,Shot,Nail Gun,false,false
+3905,3906,13136,Kenneth Arnold Buck,22,Male,Hispanic,1/5/2015,Chandler,AZ,Shot,Gun,false,true
+3906,3907,13152,Brian  Barbosa,23,Male,Hispanic,1/11/2015,South Gate,CA,Shot,Gun,false,false
+3907,3908,13171,Daniel Brumley,27,Male,Hispanic,1/17/2015,Fort Worth,TX,Shot,Knife,false,false
+3908,3909,13190,Jessie Hernandez,17,Female,Hispanic,1/26/2015,Denver,CO,Shot,Vehicle,false,false
+3909,3910,13204,Victor Manuel Reyes,31,Male,Hispanic,1/31/2015,Houston,TX,Shot,Gun,false,false
+3910,3911,13214,Izzy Colon,37,Male,Hispanic,2/4/2015,Orlando,FL,Shot,Gun,false,false
+3911,3912,13236,Andres Lara-Rodriguez,21,Male,Hispanic,2/13/2015,Kansas City,KS,Shot,Gun,false,true
+3912,3913,13237,Richard Carlin,35,Male,Hispanic,2/13/2015,Reading,PA,Shot,Unarmed,false,false
+3913,3914,13252,Pedro Juan Saldivar,50,Male,Hispanic,2/17/2015,Del Rio,TX,Shot,Vehicle,false,false
+3914,3915,13255,Ruben Villalpando,31,Male,Hispanic,2/20/2015,Euless,TX,Shot,Unarmed,false,false
+3915,3916,13271,David Cuevas,42,Male,Hispanic,2/26/2015,Lakeland,FL,Shot,Gun,false,true
+3916,3917,13275,Ernesto Javiar Canepa Diaz,27,Male,Hispanic,2/27/2015,Santa Ana,CA,Shot,Unarmed,false,false
+3917,3918,13279,Jessica Uribe,28,Female,Hispanic,2/28/2015,Tucson,AZ,Shot,Knife,false,false
+3918,3919,13298,Aurelio Duarte,40,Male,Hispanic,3/8/2015,Oklahoma City,OK,Shot,Gun,false,false
+3919,3920,13307,Edixon  Franco,37,Male,Hispanic,3/10/2015,Ontario,CA,Shot,Sword,true,true
+3920,3921,13319,Antonio Perez,32,Male,Hispanic,3/13/2015,Walnut Creek,CA,Shot,Unarmed,false,true
+3921,3922,13320,James Richard Jimenez,41,Male,Hispanic,3/13/2015,Napa,CA,Shot,Gun,false,true
+3922,3923,13328,Roberto Leon,22,Male,Hispanic,3/17/2015,Sacramento,CA,Shot,Unarmed,false,true
+3923,3924,13357,Victor Terrazas,28,Male,Hispanic,3/25/2015,South Los Angeles,CA,Shot,Gun,false,true
+3924,3925,13401,Angel Cresencio Corona,21,Male,Hispanic,4/10/2015,Corning,CA,Shot,Knife,false,false
+3925,3926,13407,Isaac Jimenez,27,Male,Hispanic,4/13/2015,Alton,IL,Shot,Gun,false,false
+3926,3927,13424,Santos Cortez Hernandez,25,Male,Hispanic,4/20/2015,Mission,TX,Shot,Gun,false,false
+3927,3928,13428,Luis Martinez,35,Male,Hispanic,4/21/2015,Los Angeles,CA,Shot,Knife,true,false
+3928,3929,13452,Joshua Deysie,33,Male,Hispanic,4/29/2015,Mesa,AZ,Shot,Gun,true,false
+3929,3930,13453,Luis Chavez-Diaz,27,Male,Hispanic,4/29/2015,Elk Grove,CA,Shot,Gun,false,false
+3930,3931,13463,Billy Grimm,44,Male,Hispanic,5/3/2015,Albuquerque,NM,Shot,Gun,false,false
+3931,3932,13492,Alfredo Rials-Torres,54,Male,Hispanic,5/19/2015,Arlington,VA,Shot,Unarmed,false,false
+3932,3933,13503,Elvin Diaz,24,Male,Hispanic,5/21/2015,Hackensack,NJ,Shot,Knife,true,false
+3933,3934,13533,Lorenzo Garza,46,Male,Hispanic,6/3/2015,Delano,CA,Shot,Gun,false,true
+3934,3935,13544,Damien Ramirez,27,Male,Hispanic,6/6/2015,Strasburg,CO,Shot,Gun,false,true
+3935,3936,13558,Mark Flores,28,Male,Hispanic,6/11/2015,Bexar County,TX,Shot,Gun,true,false
+3936,3937,13559,Raymond Peralta-Lantigua,22,Male,Hispanic,6/11/2015,Hackensack,NJ,Shot,Knife,true,false
+3937,3938,13567,Christopher DeLeon,28,Male,Hispanic,6/16/2015,Visalia,CA,Shot,Gun,false,false
+3938,3939,13579,Eduardo Reyes,35,Male,Hispanic,6/22/2015,Citrus Heights,CA,Shot,Gun,false,false
+3939,3940,13621,Daniel Hernandez,47,Male,Hispanic,7/7/2015,Bakersfield,CA,Shot,Gun,false,false
+3940,3941,13645,Rafael Suazo,23,Male,Hispanic,7/13/2015,Lynn,MA,Shot,Vehicle,false,false
+3941,3942,13695,Philip Vallejo,30,Male,Hispanic,7/30/2015,Fort Worth,TX,Shot,Gun,false,false
+3942,3943,13697,Rafael Molina,33,Male,Hispanic,7/31/2015,Albuquerque,NM,Shot,Gun,false,false
+3943,3944,13700,Armando Serrano,29,Male,Hispanic,8/1/2015,Tucson,AZ,Shot,Gun,false,false
+3944,3945,13706,Daniel Robert Avila,55,Male,Hispanic,8/4/2015,San Diego County,CA,Shot,,true,false
+3945,3946,13736,Anthony Lorenzo Vallejo,27,Male,Hispanic,8/12/2015,Hemet,CA,Shot,Gun,false,true
+3946,3947,13740,Hector Rene Sorriano Gonzalez,26,Male,Hispanic,8/14/2015,Boerne,TX,Shot,Gun,false,false
+3947,3948,13757,Raul Herrera,17,Male,Hispanic,8/20/2015,Ontario,CA,Shot,Gun,true,false
+3948,3949,13775,Marvin Arroliga,22,Male,Hispanic,8/25/2015,Miami,FL,Shot,Gun,false,false
+3949,3950,13782,Manuel Soriano,29,Male,Hispanic,8/27/2015,Los Angeles,CA,Shot,Contractor'S Level,false,false
+3950,3951,13789,Rafael Cruz Jr,29,Male,Hispanic,8/29/2015,Chicago,IL,Shot,Unarmed,false,true
+3951,3952,13791,David M.  Leon,40,Male,Hispanic,8/30/2015,Tucson,AZ,Shot,Gun,false,false
+3952,3953,13804,Luis Wenceslao,32,Male,Hispanic,9/5/2015,Ontario,CA,Shot,Metal Pipe,true,false
+3953,3954,13807,Carlos Yero,59,Male,Hispanic,9/6/2015,Little Havana,FL,Shot,Gun,false,true
+3954,3955,13810,Casimero Carlos Casillas,45,Male,Hispanic,9/7/2015,Fresno,CA,Shot,Metal Pipe,false,true
+3955,3956,13820,Eddie Tapia,41,Male,Hispanic,9/10/2015,Downey,CA,Shot,Gun,false,true
+3956,3957,13832,Jorge  Suarez-Ruiz,51,Male,Hispanic,9/15/2015,Miami,FL,Shot,Gun,true,true
+3957,3958,13833,Carlos Wilhelm,39,Male,Hispanic,9/15/2015,Los Angeles,CA,Shot,Gun,false,false
+3958,3959,13867,Norma Angelica Guzman,37,Female,Hispanic,9/27/2015,Los Angeles,CA,Shot,Knife,true,false
+3959,3960,13875,David M. Diaz,28,Male,Hispanic,10/2/2015,Sierra Vista,AZ,Shot,Gun,false,true
+3960,3961,13898,Robert Humberto Medellin,43,Male,Hispanic,10/11/2015,West Odessa,TX,Shot,Machete,false,true
+3961,3962,13903,Samuel Villarreal,18,Male,Hispanic,10/14/2015,Indio,CA,Shot,Vehicle,false,true
+3962,3963,13906,Jorge Santiago Tapia,15,Male,Hispanic,10/15/2015,Miami,FL,Shot,Gun,false,true
+3963,3964,13916,Gino Paredes,22,Male,Hispanic,10/17/2015,Modesto,CA,Shot,Toy Weapon,false,false
+3964,3965,13923,Joel Lopes,40,Male,Hispanic,10/20/2015,Truth or Consequences,NM,Shot,Gun,false,false
+3965,3966,13927,Ryan Christopher Rodriguez,21,Male,Hispanic,10/21/2015,West Goshen,CA,Shot,Unarmed,true,false
+3966,3967,13973,Cesar Cuellar,25,Male,Hispanic,11/9/2015,North Laredo,TX,Shot,Gun,true,false
+3967,3968,13978,Eddie Gabriel Sanchez,34,Male,Hispanic,11/10/2015,Chico,CA,Shot,Gun,false,false
+3968,3969,13979,Jason Leanard Mesaros,36,Male,Hispanic,11/10/2015,Brighton,CO,Shot,Vehicle,false,true
+3969,3970,13981,Joseph Jaramillo,31,Male,Hispanic,11/11/2015,Albuquerque,NM,Shot,Vehicle,false,true
+3970,3971,13982,Javier Lopez Garcia,25,Male,Hispanic,11/11/2015,San Francisco,CA,Shot,Gun,false,false
+3971,3972,13987,Ernesto Gamino,25,Male,Hispanic,11/13/2015,Jurupa Valley,CA,Shot,,false,false
+3972,3973,13989,Ramon Salazar,31,Male,Hispanic,11/14/2015,Jurupa Valley,CA,Shot,Hammer,false,false
+3973,3974,14047,Juan Perez,38,Male,Hispanic,12/5/2015,Indio,CA,Shot,Gun,false,false
+3974,3975,14065,Roy Carreon,49,Male,Hispanic,12/12/2015,San Bernardino,CA,Shot,Knife,false,false
+3975,3976,14070,Enrique Gonzalez,32,Male,Hispanic,12/13/2015,Mountain View,CO,Shot,Gun,false,false
+3976,3977,14077,Roberto Sanchez,45,Male,Hispanic,12/14/2015,Las Vegas,NV,Shot,Gun,false,false
+3977,3978,14085,Robert L. Martinez,58,Male,Hispanic,12/18/2015,Taos,NM,Shot,Gun,false,false
+3978,3979,14089,Mark  Ramirez,31,Male,Hispanic,12/20/2015,Amarillo,TX,Shot,Gun,true,false
+3979,3980,14100,Jose  Rodriguez,19,Male,Hispanic,12/22/2015,Albuquerque,NM,Shot,Gun,false,true
+3980,3981,14118,Fred Perez,55,Male,Hispanic,12/30/2015,Fresno,CA,Shot,Knife,false,false
+4090,4091,13458,Erick Emmanuel Sanchez,22,Male,Hispanic,4/30/2015,El Paso,TX,Shot and Tasered,Metal Object,false,false
+4091,4092,13696,Oscar Lotari Romero,47,Male,Hispanic,7/30/2015,Whittier,CA,Shot and Tasered,Metal Stick,false,false
+4092,4093,13799,Jose Ramon Damiani Jr,49,Male,Hispanic,9/4/2015,French Lick,IN,Shot and Tasered,Metal Pipe,false,false
+4093,4094,13894,Anthony Aguilar,35,Male,Hispanic,10/10/2015,Lisle,IL,Shot and Tasered,Unknown Weapon,false,false
+4126,4127,9975,Roberto Fausto Ornelas,18,Male,Hispanic,1/1/2015,Key Largo,FL,Tasered,,true,false
+4127,4128,10082,Wilber Castillo-Gongora,35,Male,Hispanic,2/3/2015,Electra,TX,Tasered,,true,false
+4128,4129,10552,Mario Ocasio,51,Male,Hispanic,6/8/2015,New York,NY,Tasered,,true,false
+4129,4130,10758,Wilmer Delgado-Soba,38,Male,Hispanic,7/29/2015,Worcester,MA,Tasered,,false,false
+4130,4131,10822,Oscar Ruiz,44,Male,Hispanic,8/15/2015,Irwindale,CA,Tasered,,false,false
+4131,4132,10898,Manuel Ornelas,47,Male,Hispanic,9/5/2015,Long Beach,CA,Tasered,,true,false
+4132,4133,11046,Mario Anthony Perdigone,36,Male,Hispanic,10/21/2015,Corpus Christi,TX,Tasered,,false,false
+4133,4134,11063,Omar Miguel Lopez,24,Male,Hispanic,10/26/2015,Philadelphia,PA,Tasered,,false,false
+4134,4135,11238,Alfredo Barrientos,47,Male,Hispanic,12/21/2015,Laredo,TX,Tasered,,false,false
+4173,4174,10418,Nadir Hammid Soofi,34,Male,Other,5/3/2015,Garland,TX,Shot,,false,false
+4174,4175,10509,Feras Morad,20,Male,Other,5/27/2015,Long Beach,CA,Shot,Gun,true,false
+4175,4176,10700,Mohammad Youssuf Abdulazeez,24,Male,Other,7/16/2015,Chattanooga,TN,Shot,Gun,false,false
+4176,4177,10956,Omar Ali,27,Male,Other,9/21/2015,Akron,OH,Shot,,false,false
+4177,4178,11092,Faisal Mohammad,18,Male,Other,11/4/2015,Merced,CA,Shot,,false,false
+4178,4179,11173,Syed Rizwan Farook,28,Male,Other,12/2/2015,Redlands,CA,Shot,,false,false
+4179,4180,11174,Tashfeen Malik,27,Female,Other,12/2/2015,Redlands,CA,Shot,,false,false
+4264,4265,9987,Autumn Mae Steele,34,Female,Native,1/6/2015,Burlington,IA,Shot,,false,false
+4265,4266,10063,Nicholas Tewa,26,Male,Native,1/27/2015,Phoenix,AZ,Shot,,false,false
+4266,4267,10244,Justin Fowler,24,Male,Native,3/19/2015,Lukachukai,AZ,Shot,Gun,false,false
+4267,4268,10253,Tyrel W. Vick,34,Male,Native,3/20/2015,Wapanucka,OK,Shot,,false,false
+4268,4269,10371,Daniel I. Covarrubias,37,Male,Native,4/21/2015,Lakewood,WA,Shot,,false,false
+4269,4270,10582,Joe Charboneau,31,Male,Native,6/16/2015,Fort Totten,ND,Shot,,false,false
+4270,4271,10685,Paul Castaway,35,Male,Native,7/12/2015,Denver,CO,Shot,Knife,true,false
+4271,4272,10909,Casimero ÛÏShaneÛ Carlos Casillas,45,Male,Native,9/7/2015,Fresno,CA,Shot,Gun,false,false
+4272,4273,10910,Tristan Vent,19,Male,Native,9/8/2015,Fairbanks,AK,Shot,,false,false
+4273,4274,10916,Vincent Purdue,33,Male,Native,9/9/2015,Fairbanks,AK,Shot,,false,false
+4274,4275,10967,Philip Jonathan Quinn,30,Male,Native,9/24/2015,St Paul,MN,Shot,,true,false
+4275,4276,10984,Patrick Lundstrom,46,Male,Native,9/29/2015,Rapid City,SD,Shot,,false,false
+4283,4284,13194,Nicolas Leland Tewa,26,Male,Native,1/27/2015,Phoenix,AZ,Shot,Vehicle,false,false
+4284,4285,13341,Justin Fowler,24,Male,Native,3/20/2015,Red Valley,AZ,Shot,Gun,false,true
+4285,4286,13426,Daniel Covarrubias,37,Male,Native,4/21/2015,Lakewood,WA,Shot,Unarmed,true,true
+4286,4287,13655,Saige Hack,23,Male,Native,7/16/2015,Cheyenne,WY,Shot,Gun,false,false
+4287,4288,13814,Vincent J. Perdue,33,Male,Native,9/9/2015,Fairbanks,AK,Shot,Gun,false,true
+4288,4289,13872,Patrick Stephen Lundstrom,46,Male,Native,9/29/2015,Rapid City,SD,Shot,Blunt Object,false,false
+4299,4300,10314,William J. Dick III,28,Male,Native,4/4/2015,Tonasket,WA,Tasered,,true,false
+4317,4318,10724,Troy Francis,54,Male,Other,7/20/2015,Fremont,CA,Shot,Knife,false,false
+4318,4319,11213,Nephi Leiataua,30,Male,Other,12/13/2015,Olympia,WA,Shot,Knife,false,false
+4319,4320,11265,Siolosega Velega-Nuufolau,50,Female,Other,12/29/2015,Santa Nella Village,CA,Shot,Knife,false,false
+4335,4336,10745,Katelyn Amber Lovitt,18,Female,White,7/25/2015,Wisner,LA,Other,,false,false
+6388,6389,9984,Kenneth Brown,18,Male,White,1/4/2015,Guthrie,OK,Shot,Gun,false,false
+6389,6390,9985,Matthew Hoffman,32,Male,White,1/4/2015,San Francisco,CA,Shot,Gun,false,false
+6390,6391,9988,Patrick Wayne Wetter,25,Male,White,1/6/2015,Stockton,CA,Shot,Knife,true,false
+6391,6392,9990,Brock Nichols,35,Male,White,1/6/2015,Assaria,KS,Shot,Gun,true,false
+6392,6393,9992,Nicholas Ryan Brickman,30,Male,White,1/7/2015,Des Moines,IA,Shot,Gun,false,false
+6393,6394,9997,Joseph Caffarello,31,Male,White,1/7/2015,Rosemont,IL,Shot,,false,false
+6394,6395,9998,Thomas Hamby,49,Male,White,1/8/2015,Tassinari,UT,Shot,Gun,true,false
+6395,6396,9999,Loren Benjamin Simpson,28,Male,White,1/8/2015,Huntley,MT,Shot,,false,false
+6396,6397,10001,James Dudley Barker,42,Male,White,1/8/2015,Salt Lake City,UT,Shot,,false,false
+6397,6398,10003,David Wayne Kattner,47,Male,White,1/9/2015,Little Elm,TX,Shot,,true,false
+6398,6399,10006,Tommy E. Smith,39,Male,White,1/11/2015,Arcola,IL,Shot,Gun,false,false
+6399,6400,10009,John Edward O'keefe,35,Male,White,1/13/2015,Albuquerue,NM,Shot,,false,false
+6400,6401,10010,Richard McClendon,43,Male,White,1/13/2015,Jourdanton,TX,Shot,Knife,true,false
+6401,6402,10011,Jeffrey R. Nielson,34,Male,White,1/14/2015,Draper,UT,Shot,Knife,false,false
+6402,6403,10012,Robert Edwards,68,Male,White,1/14/2015,Lake Jackson,TX,Shot,Gun,false,false
+6403,6404,10013,Michael T. Goebel,29,Male,White,1/14/2015,Robertsville,MO,Shot,,false,false
+6404,6405,10018,Christopher Minichini,38,Male,White,1/15/2015,Nutley,NJ,Shot,Gun,true,false
+6405,6406,10019,Christina Prestianni,37,Female,White,1/15/2015,Nutley,NJ,Shot,,false,false
+6406,6407,10023,Quincy Reed Reindl,24,Male,White,1/15/2015,Bloomington,MN,Shot,Gun,true,false
+6407,6408,10027,Scott Wesley Hall,41,Male,White,1/16/2015,Mabank,TX,Shot,,false,false
+6408,6409,10035,Carter Ray Castle,67,Male,White,1/18/2015,Gunlock,KY,Shot,Gun,false,false
+6409,6410,10036,Johnathon Guillory,32,Male,White,1/18/2015,Maricopa,AZ,Shot,,false,false
+6410,6411,10037,Paul Campbell,49,Male,White,1/19/2015,Weymouth,MA,Shot,,false,false
+6411,6412,10039,John Ballard Gorman,45,Male,White,1/21/2015,Robinsonville,MS,Shot,Gun,false,false
+6412,6413,10042,Todd Allen Hodge,36,Male,White,1/21/2015,Hemet,CA,Shot,Gun,false,false
+6413,6414,10043,Kristiana Joy Coignard,17,Female,White,1/22/2015,Longview,TX,Shot,Knife,false,false
+6414,6415,10045,Robert Francis Mesch,61,Male,White,1/23/2015,Austin,TX,Shot,,true,false
+6415,6416,10049,Daryl Myler,45,Male,White,1/24/2015,Rexburg,ID,Shot,,false,false
+6416,6417,10056,Raymond Kenneth Kmetz,68,Male,White,1/26/2015,New Hope,MN,Shot,,false,false
+6417,6418,10060,Paul Walls,61,Male,White,1/27/2015,Madison,AL,Shot,Gun,false,false
+6418,6419,10061,Tiffany D. Terry,39,Female,White,1/27/2015,Omaha,NE,Shot,Knife,false,false
+6419,6420,10065,Cody Wade Karasek,26,Male,White,1/28/2015,Rosenberg,TX,Shot,Gun,false,false
+6420,6421,10066,Alan Lance Alverson,45,Male,White,1/28/2015,Sunset,TX,Shot,,false,false
+6421,6422,10070,Alan James,31,Male,White,1/29/2015,Wyoming,MI,Shot,,false,false
+6422,6423,10071,Ralph Willis,42,Male,White,1/29/2015,Stillwater,OK,Shot,,false,false
+6423,6424,10072,Wendell King,40,Male,White,1/29/2015,Fort Worth,TX,Shot,,true,false
+6424,6425,10074,John Barry Marshall,48,Male,White,1/30/2015,Billings,MT,Shot,Gun,false,false
+6425,6426,10078,Jacob M. Haglund,17,Male,White,2/2/2015,Bay City,MI,Shot,Gun,false,false
+6426,6427,10079,Francis Murphy Rose III,42,Male,White,2/2/2015,Apple Valley,CA,Shot,,false,false
+6427,6428,10090,Paul Alfred Eugene Johnson,59,Male,White,2/4/2015,Chino,CA,Shot,,false,false
+6428,6429,10100,Vincent Cordaro,57,Male,White,2/8/2015,New City,NY,Shot,,true,false
+6429,6430,10101,Sawyer Burleson Flache,27,Male,White,2/8/2015,Austin,TX,Shot,,false,false
+6430,6431,10108,Kenneth Kreyssig,61,Male,White,2/10/2015,Smyrna Mills,ME,Shot,Gun,true,false
+6431,6432,10110,Brian P. Fritze,45,Male,White,2/10/2015,Glenwood Springs,CO,Shot,Gun,false,false
+6432,6433,10113,Jonathan Paul Pierce,37,Male,White,2/11/2015,Port St. Joe,FL,Shot,,false,false
+6433,6434,10118,Jonathan Larry Harden,23,Male,White,2/13/2015,San Bernardino,CA,Shot,,false,false
+6434,6435,10121,Jason C. Hendrix,16,Male,White,2/14/2015,Essex,MD,Shot,,false,false
+6435,6436,10124,Howard Brent Means Jr.,34,Male,White,2/15/2015,Iuka,MS,Shot,Gun,false,false
+6436,6437,10126,Cody Evans,24,Male,White,2/15/2015,Provo,UT,Shot,Gun,false,false
+6437,6438,10127,Bruce Lee Steward,34,Male,White,2/15/2015,Colton,OR,Shot,Gun,false,false
+6438,6439,10128,Michael Kenneth Casper,26,Male,White,2/16/2015,Boise,ID,Shot,Gun,false,false
+6439,6440,10132,Michael Steven Ireland,31,Male,White,2/17/2015,Springfield,MO,Shot,Unarmed,false,false
+6440,6441,10133,Betty Diane Sexton,43,Female,White,2/17/2015,Gastonia,NC,Shot,Gun,false,false
+6441,6442,10134,Matthew Lundy,32,Male,White,2/17/2015,Eaton Rapids Township,MI,Shot,,false,false
+6442,6443,10135,Jeffrey S. Dyer,40,Male,White,2/18/2015,Daphne,AL,Shot,,false,false
+6443,6444,10143,Kent Norman,51,Male,White,2/21/2015,Indianapolis,IN,Shot,,false,false
+6444,6445,10145,Anthony Giaquinta,40,Male,White,2/22/2015,Clarkesville,GA,Shot,Gun,false,false
+6445,6446,10148,Michael Wayne Smashey,37,Male,White,2/23/2015,Powder Springs,GA,Shot,Gun,false,false
+6446,6447,10149,Daniel A. Elrod,39,Male,White,2/23/2015,Omaha,NE,Shot,,false,false
+6447,6448,10151,Jerome Nichols,42,Male,White,2/23/2015,Allentown,PA,Shot,,false,false
+6448,6449,10158,Francis Spivey,43,Male,White,2/25/2015,Las Vegas,NV,Shot,,false,false
+6449,6450,10159,Alexander Phillip Long,31,Male,White,2/25/2015,Terre Haute,IN,Shot,,false,false
+6450,6451,10162,Crystal Lee Miley Harry,34,Female,White,2/26/2015,Sylvester,GA,Shot,Gun,false,false
+6451,6452,10167,Stephanie LeJean Hill,37,Female,White,2/28/2015,Ehrenberg,AZ,Shot,,false,false
+6452,6453,10168,Deven Guilford,17,Male,White,2/28/2015,Grand Ledge,MI,Shot,,false,false
+6453,6454,10171,Chazsten Noah Freeman,24,Male,White,2/28/2015,Pelzer,SC,Shot,Gun,false,false
+6454,6455,10184,Matthew Metz,25,Male,White,3/3/2015,Tempe,AZ,Shot,Knife,false,false
+6455,6456,10189,Tyson Damian Hubbard,34,Male,White,3/5/2015,Lincoln,NE,Shot,Gun,false,false
+6456,6457,10195,Adam O'Neal Reinhart,29,Male,White,3/7/2015,Phoenix,AZ,Shot,Gun,false,false
+6457,6458,10197,Michael L. McKillop,35,Male,White,3/8/2015,Claymount,DE,Shot,,false,false
+6458,6459,10199,Lester Randolph Brown,58,Male,White,3/9/2015,Penrose,NC,Shot,,true,false
+6459,6460,10200,James Brent Damon,46,Male,White,3/9/2015,Craig,CO,Shot,,false,false
+6460,6461,10210,James Greenwell,31,Male,White,3/11/2015,Memphis,TN,Shot,Gun,true,false
+6461,6462,10214,Ryan Dean Burgess,31,Male,White,3/11/2015,Kingman,AZ,Shot,Gun,true,false
+6462,6463,10215,Gilbert Fleury,54,Male,White,3/11/2015,Bay Minette,AL,Shot,Gun,true,false
+6463,6464,10219,Clifton Daniel Reintzel,53,Male,White,3/13/2015,Follansbee,WV,Shot,Knife,true,false
+6464,6465,10225,Aaron Siler,26,Male,White,3/14/2015,Kenosha,WI,Shot,,false,false
+6465,6466,10227,Troy Ray Boyd,36,Male,White,3/15/2015,Ruth,MS,Shot,,false,false
+6466,6467,10229,Justin Todd Tolkinen,28,Male,White,3/16/2015,Saint Paul,MN,Shot,,true,false
+6467,6468,10232,Jeff Alexander,47,Male,White,3/17/2015,Bakersfield,CA,Shot,Knife,false,false
+6468,6469,10234,Eugene Franklin Smith II,20,Male,White,3/17/2015,Onalaska,TX,Shot,Gun,false,false
+6469,6470,10235,Declan Owen,24,Male,White,3/17/2015,Dublin,NC,Shot,Gun,true,false
+6470,6471,10240,Kaylene Stone,45,Female,White,3/18/2015,Peoria,AZ,Shot,,false,false
+6471,6472,10241,Brandon Rapp,31,Male,White,3/18/2015,Middleton,ID,Shot,Gun,false,false
+6472,6473,10247,Shane Watkins,39,Male,White,3/19/2015,Langtown,AL,Shot,,true,false
+6473,6474,10249,Robert P. Burdge,36,Male,White,3/19/2015,Bakersfield,CA,Shot,,true,false
+6474,6475,10255,James J. Ellis,44,Male,White,3/21/2015,Holley,NY,Shot,Gun,false,false
+6475,6476,10258,Philip Conley,37,Male,White,3/21/2015,Vallejo,CA,Shot,Knife,true,false
+6476,6477,10259,Enoch Gaver,21,Male,White,3/21/2015,Cottonwood,AZ,Shot,,true,false
+6477,6478,10261,John Kenneth Hedden,30,Male,White,3/22/2015,Opelousas,LA,Shot,Gun,false,false
+6478,6479,10264,Christopher R. Healy,36,Male,White,3/22/2015,Portland,OR,Shot,Knife,false,false
+6479,6480,10268,Steven T. Snyder,37,Male,White,3/24/2015,Fond du Lac,WI,Shot,,false,false
+6480,6481,10270,Joseph Tassinari,63,Male,White,3/24/2015,Glendale,AZ,Shot,Gun,false,false
+6481,6482,10271,Scott Dunham,57,Male,White,3/24/2015,San Jose,CA,Shot,,false,false
+6482,6483,10276,Deanne Choate,53,Female,White,3/26/2015,Gardner,KS,Shot,Gun,false,false
+6483,6484,10278,Gary Kendrick,56,Male,White,3/27/2015,Encinitas,CA,Shot,Gun,true,false
+6484,6485,10279,Neil J. Seifert,40,Male,White,3/27/2015,Webster,MA,Shot,Gun,false,false
+6485,6486,10283,Harvey E. Oates,42,Male,White,3/27/2015,Fort Ashby,WV,Shot,,false,false
+6486,6487,10284,Robert Rooker,26,Male,White,3/28/2015,Peebles,OH,Shot,,false,false
+6487,6488,10289,John Marcell Allen,54,Male,White,3/29/2015,Boulder City,NV,Shot,Gun,false,false
+6488,6489,10292,Brian Avon Babb,49,Male,White,3/30/2015,Eugene,OR,Shot,,true,false
+6489,6490,10293,Sidney Averett,46,Male,White,3/31/2015,Denham Springs,LA,Shot,,false,false
+6490,6491,10294,Carl Andre Conway,46,Male,White,3/31/2015,Jackson,MS,Shot,,false,false
+6491,6492,10296,Jeremy James Anderson,36,Male,White,3/31/2015,Tampa,FL,Shot,,false,false
+6492,6493,10305,Aaron Marcus Rutledge,27,Male,White,4/2/2015,Pineville,LA,Shot,Gun,false,false
+6493,6494,10306,Donald J. Hicks,63,Male,White,4/2/2015,Metropolis,IL,Shot,Gun,false,false
+6494,6495,10308,David Tyre,35,Male,White,4/3/2015,Bridgeville,DE,Shot,,false,false
+6495,6496,10310,Christopher A. Prevatt,38,Male,White,4/3/2015,Winchester,VA,Shot,,false,false
+6496,6497,10313,Ethan Noll,34,Male,White,4/4/2015,Edgewood,NM,Shot,,false,false
+6497,6498,10316,Richard August Hanna,56,Male,White,4/5/2015,Tehachapi,CA,Shot,,false,false
+6498,6499,10317,Ken Cockerel,51,Male,White,4/5/2015,Phoenix,AZ,Shot,,false,false
+6499,6500,10318,Alexander Myers,23,Male,White,4/6/2015,Indianapolis,IN,Shot,,false,false
+6500,6501,10321,Jared Forsyth,33,Male,White,4/6/2015,Ocala,FL,Shot,,false,false
+6501,6502,10322,Erick Rose,32,Male,White,4/7/2015,Shawnee,OK,Shot,,false,false
+6502,6503,10325,Douglas Dewayne Faith,60,Male,White,4/8/2015,San Antonio,TX,Shot,,false,false
+6503,6504,10330,Phillip Michael Burgess,28,Male,White,4/9/2015,Boiling Springs,SC,Shot,Gun,false,false
+6504,6505,10333,Gordon Talmage Kimbrell Jr.,22,Male,White,4/9/2015,Navarre,FL,Shot,,false,false
+6505,6506,10334,Richard Brian Reed,38,Male,White,4/10/2015,Topeka,KS,Shot,,false,false
+6506,6507,10336,Donald W. Allen,66,Male,White,4/11/2015,Sand Springs,OK,Shot,Gun,true,false
+6507,6508,10340,Richard Dale Weaver,83,Male,White,4/12/2015,Newalla,OK,Shot,,false,false
+6508,6509,10344,Christopher Grant Finley,31,Male,White,4/14/2015,Jonesboro,AR,Shot,,false,false
+6509,6510,10346,Mark W. Adair,51,Male,White,4/15/2015,Columbia,MO,Shot,,false,false
+6510,6511,10352,Stanley Watson,72,Male,White,4/15/2015,CaÌ±on City,CO,Shot,Gun,true,false
+6511,6512,10362,Grover Zeno Sapp Jr.,45,Male,White,4/18/2015,Panama City,FL,Shot,Gun,false,false
+6512,6513,10363,Dana Duwane Hlavinka,44,Male,White,4/19/2015,Sidney,NE,Shot,Knife,false,false
+6513,6514,10365,Michael Foster,40,Male,White,4/19/2015,Wilmore,KY,Shot,Gun,false,false
+6514,6515,10375,Jonathan Efraim,30,Male,White,4/22/2015,Queens,NY,Shot,Gun,true,false
+6515,6516,10382,Andrew George Valadez,26,Male,White,4/23/2015,Los Angeles,CA,Shot,Gun,true,false
+6516,6517,10383,Joseph Potts,51,Male,White,4/23/2015,Rufe,OK,Shot,Gun,false,false
+6517,6518,10384,Gary Timmie Collins,63,Male,White,4/24/2015,Miami,OK,Shot,Gun,false,false
+6518,6519,10386,Mark Cecil Hawkins,49,Male,White,4/24/2015,Salem,OR,Shot,Gun,false,false
+6519,6520,10389,Brandon Lawrence,25,Male,White,4/25/2015,Victoria,TX,Shot,,false,false
+6520,6521,10390,Daniel Howard Davis,58,Male,White,4/25/2015,Clermont,FL,Shot,Knife,false,false
+6521,6522,10392,Dean Kristian Genova,45,Male,White,4/26/2015,Fountain Valley,CA,Shot,Gun,false,false
+6522,6523,10393,Billy Joe Patrick,29,Male,White,4/26/2015,Bunch,OK,Shot,,false,false
+6523,6524,10394,Albert Hanson Jr.,76,Male,White,4/26/2015,Hanford,CA,Shot,,false,false
+6524,6525,10399,Joshua A. Green,27,Male,White,4/28/2015,Marion,IL,Shot,,false,false
+6525,6526,10401,David Parker,58,Male,White,4/28/2015,Mansfield,OH,Shot,,false,false
+6526,6527,10406,Andrew Jackson,26,Male,White,4/29/2015,Chickasha,OK,Shot,Knife,false,false
+6527,6528,10407,John D. Acree,53,Male,White,4/30/2015,Nashville,TN,Shot,,true,false
+6528,6529,10412,Kenneth Mathena,52,Male,White,5/2/2015,Smynra,DE,Shot,Gun,false,false
+6529,6530,10414,Michael Asher,53,Male,White,5/3/2015,Chavies,KY,Shot,Gun,false,false
+6530,6531,10415,Kevin Vance Norton,36,Male,White,5/3/2015,Roosevelt,UT,Shot,Gun,false,false
+6531,6532,10420,Roark K. Cook,36,Male,White,5/4/2015,Kennewick,WA,Shot,,false,false
+6532,6533,10422,Robert Frost,46,Male,White,5/5/2015,Pulaski,VA,Shot,,true,false
+6533,6534,10425,David William Johnson,18,Male,White,5/6/2015,Wake Forest,NC,Shot,Gun,false,false
+6534,6535,10430,Michael G. Murphy,35,Female,White,5/7/2015,Beacon,NY,Shot,Knife,false,false
+6535,6536,10433,Shaun Johnson,35,Male,White,5/8/2015,Kearny,AZ,Shot,,false,false
+6536,6537,10436,David A. Schwalm,58,Male,White,5/8/2015,Constantia,NY,Shot,Gun,true,false
+6537,6538,10444,Justin Edward Way,28,Male,White,5/11/2015,St. Augustine,FL,Shot,,true,false
+6538,6539,10450,Alec Ouzounian,40,Male,White,5/12/2015,Rancho Santa Margarita,CA,Shot,,false,false
+6539,6540,10456,Matthew Coates,42,Male,White,5/15/2015,Sacramento,CA,Shot,Gun,true,false
+6540,6541,10457,Mark T. Farrar,41,Male,White,5/15/2015,Rockford,IL,Shot,,true,false
+6541,6542,10458,Matthew Mark Smith,,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6542,6543,10460,Richard Matthew Jordan II,31,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6543,6544,10462,Charles Wayne Russell,46,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6544,6545,10463,Daniel Raymond Boyett,44,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6545,6546,10464,Wayne Lee Campbell,43,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6546,6547,10465,Jacob Lee Rhyne,39,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6547,6548,10466,Richard Vincent Kirshner,47,Male,White,5/17/2015,Waco,TX,Shot,,false,false
+6548,6549,10468,Timothy Jones,27,Male,White,5/17/2015,Ruidoso,NM,Shot,,false,false
+6549,6550,10471,Austin Goodner,18,Male,White,5/17/2015,St. Petersburg,FL,Shot,Gun,true,false
+6550,6551,10472,Johnathan Nelson,31,Male,White,5/19/2015,Albertville,AL,Shot,,true,false
+6551,6552,10473,Jonathan McIntosh,35,Male,White,5/19/2015,Cabot,AR,Shot,Gun,false,false
+6552,6553,10478,James Anthony Cooper,43,Male,White,5/20/2015,Charleston,SC,Shot,Knife,false,false
+6553,6554,10481,Jonathan Colley,52,Male,White,5/20/2015,Uniontown,OH,Shot,Knife,false,false
+6554,6555,10482,Nikki Jo Burtsfield,39,Female,White,5/20/2015,Gillette,WY,Shot,Knife,false,false
+6555,6556,10492,Michael J. Lowrey,40,Male,White,5/22/2015,Somerset,PA,Shot,Gun,false,false
+6556,6557,10493,James Barton Horn Jr.,47,Male,White,5/23/2015,Green Ridge,MO,Shot,,false,false
+6557,6558,10494,Eric Robinson,40,Male,White,5/23/2015,Eagar,AZ,Shot,,false,false
+6558,6559,10499,Cassandra Caye Bolin,31,Female,White,5/25/2015,Austin,TX,Shot,,true,false
+6559,6560,10501,Millard Tallant III,62,Male,White,5/26/2015,Snohomish,WA,Shot,,false,false
+6560,6561,10502,Jessie Williams,24,Male,White,5/26/2015,Bossier City,LA,Shot,,false,false
+6561,6562,10507,Harry Davis,57,Male,White,5/27/2015,Eatonton,GA,Shot,Knife,true,false
+6562,6563,10508,Garrett Roderick Sandeno,24,Male,White,5/27/2015,Edmond,OK,Shot,Gun,true,false
+6563,6564,10511,Kyle Baker,18,Male,White,5/28/2015,Trenton,MI,Shot,Gun,true,false
+6564,6565,10514,Darrell Morgan,60,Male,White,5/28/2015,Lancaster,SC,Shot,,false,false
+6565,6566,10520,Nehemiah Fischer,35,Male,White,5/29/2015,Mounds,OK,Shot,,false,false
+6566,6567,10521,Robert Box,55,Male,White,5/30/2015,Wilderville,OR,Shot,,false,false
+6567,6568,10522,Ebin Lamont Proctor,18,Male,White,5/30/2015,Cottonwood,AZ,Shot,Gun,false,false
+6568,6569,10526,Jeffrey Pitts,36,Male,White,5/31/2015,Conyers,GA,Shot,,true,false
+6569,6570,10530,Joseph Ladd,23,Male,White,6/1/2015,Rochester,NY,Shot,Gun,true,false
+6570,6571,10537,Ronald Neal,56,Male,White,6/3/2015,Byram Township,NJ,Shot,Gun,false,false
+6571,6572,10544,Christie L. Cathers,45,Female,White,6/5/2015,Morgantown,WV,Shot,,false,false
+6572,6573,10545,Joe Don Nevels,42,Male,White,6/6/2015,Midland,TX,Shot,,false,false
+6573,6574,10546,James Smillie,53,Male,White,6/6/2015,North Port,FL,Shot,,true,false
+6574,6575,10550,Gene Marshall,58,Male,White,6/7/2015,Woodland,WA,Shot,Gun,true,false
+6575,6576,10553,James Johnson,54,Male,White,6/8/2015,Beech Grove,IN,Shot,,true,false
+6576,6577,10555,Matthew Wayne McDaniel,35,Male,White,6/8/2015,Melbourne,FL,Shot,Gun,false,false
+6577,6578,10556,Richard Warolf,69,Male,White,6/8/2015,Sun City,AZ,Shot,Gun,true,false
+6578,6579,10557,Gregory Scott Hartley,45,Male,White,6/9/2015,Tomball,TX,Shot,Gun,false,false
+6579,6580,10558,Ryan Keith Bolinger,28,Male,White,6/9/2015,Des Moines,IA,Shot,Gun,false,false
+6580,6581,10559,Jeremy Linhart,30,Male,White,6/9/2015,Findlay,OH,Shot,,false,false
+6581,6582,10568,Shelly Lynn Haendiges,17,Female,White,6/12/2015,Kokomo,IN,Shot,Gun,false,false
+6582,6583,10570,James L. Boulware,35,Male,White,6/13/2015,Hutchins,TX,Shot,Gun,false,false
+6583,6584,10572,Candace L. Blakley,24,Female,White,6/13/2015,North Augusta,SC,Shot,,false,false
+6584,6585,10577,Zane Terryn,15,Male,White,6/14/2015,Cocoa,FL,Shot,,true,false
+6585,6586,10585,Tamara Seidle,51,Female,White,6/16/2015,Asbury Park,NJ,Shot,,false,false
+6586,6587,10586,Kenneth Lanphier,48,Male,White,6/17/2015,Hobbs,NM,Shot,,false,false
+6587,6588,10587,Wendy Michelle Chappell,40,Female,White,6/17/2015,Clanton,AL,Shot,,false,false
+6588,6589,10588,Oleg Tcherniak,58,Male,White,6/18/2015,Brooklyn,NY,Shot,Knife,false,false
+6589,6590,10597,Charles David Marshall,49,Male,White,6/21/2015,Houston,TX,Shot,,true,false
+6590,6591,10599,James Monroe Barrett,60,Male,White,6/22/2015,Ronda,NC,Shot,,false,false
+6591,6592,10601,Tyler Wicks,30,Male,White,6/22/2015,Augusta,GA,Shot,Gun,false,false
+6592,6593,10603,Taylor Culbertson,32,Male,White,6/23/2015,Omaha,NE,Shot,Gun,false,false
+6593,6594,10604,Randall Tabor Waddel,49,Male,White,6/23/2015,Weatherford,TX,Shot,Knife,true,false
+6594,6595,10605,Joshua Dyer,34,Male,White,6/23/2015,Indianapolis,IN,Shot,,false,false
+6595,6596,10610,Gilbert Vanderburgh,61,Male,White,6/25/2015,Friant,CA,Shot,,false,false
+6596,6597,10613,Richard Matt,49,Male,White,6/26/2015,Malone,NY,Shot,Gun,false,false
+6597,6598,10614,Joshua Crittenden,35,Male,White,6/27/2015,Tahlequah,OK,Shot,Gun,false,false
+6598,6599,10617,Alan Lee Bellew,29,Male,White,6/28/2015,Portland,OR,Shot,Gun,true,false
+6599,6600,10620,Richard LaPort,51,Male,White,6/29/2015,Northville,NY,Shot,,false,false
+6600,6601,10621,Clay Lickteig,52,Male,White,6/30/2015,Franklin,NC,Shot,,false,false
+6601,6602,10623,Kaleb Landon,32,Male,White,7/1/2015,Wolf Creek,OR,Shot,,false,false
+6602,6603,10630,Julian Joseph,40,Male,White,7/2/2015,Miami Beach,FL,Shot,,false,false
+6603,6604,10631,Douglas Buckley,45,Male,White,7/2/2015,Brockton,MA,Shot,Gun,true,false
+6604,6605,10637,Michael Shannon Gaby,37,Male,White,7/4/2015,Morristown,TN,Shot,,false,false
+6605,6606,10642,John Deming Jr.,19,Male,White,7/5/2015,Pleasanton,CA,Shot,,false,false
+6606,6607,10644,Richard Alexander Munroe,25,Male,White,7/5/2015,Austin,TX,Shot,Gun,false,false
+6607,6608,10645,Michael Mcgregor Holt,35,Male,White,7/5/2015,Austin,TX,Shot,Gun,false,false
+6608,6609,10648,John Leonard Berry,31,Male,White,7/6/2015,Lakewood,CA,Shot,,false,false
+6609,6610,10650,Tyler Rogers,20,Male,White,7/6/2015,Oklahoma City,OK,Shot,,false,false
+6610,6611,10651,Adam Edward Dujanovic,33,Male,White,7/6/2015,Mesa,AZ,Shot,,false,false
+6611,6612,10653,Nicholas Booth,35,Male,White,7/7/2015,Sugar Creek,MO,Shot,,false,false
+6612,6613,10655,Joshua S. Blough,28,Male,White,7/7/2015,Elizabethtown,KY,Shot,Knife,false,false
+6613,6614,10657,Joe Cody,59,Male,White,7/7/2015,Dallas,TX,Shot,Gun,false,false
+6614,6615,10660,Dallas Shatley,62,Male,White,7/8/2015,Crumpler,NC,Shot,,true,false
+6615,6616,10661,Michael Terence Westrich,59,Male,White,7/8/2015,Beaverton,OR,Shot,,true,false
+6616,6617,10664,Neil Peter White,38,Male,White,7/9/2015,Los Angeles,CA,Shot,,false,false
+6617,6618,10667,Cyrus Hurtado,17,Male,White,7/9/2015,Boulder Creek,CA,Shot,,true,false
+6618,6619,10668,Rocco Joseph Palmisano III,50,Male,White,7/9/2015,Parowan,UT,Shot,Gun,false,false
+6619,6620,10670,Robert Hammonds,68,Male,White,7/9/2015,Phoenix,AZ,Shot,,false,false
+6620,6621,10674,James Todora,54,Male,White,7/10/2015,Las Vegas,NV,Shot,Gun,false,false
+6621,6622,10680,Billy Jack Maine,31,Male,White,7/11/2015,Olivehurst,CA,Shot,Gun,false,false
+6622,6623,10682,Christopher Charles Benton,27,Male,White,7/12/2015,Casper,WY,Shot,,false,false
+6623,6624,10683,Matthew Watson,24,Male,White,7/12/2015,River Forest,IL,Shot,Gun,false,false
+6624,6625,10686,David Allen Lepine,62,Male,White,7/12/2015,Austin,TX,Shot,,false,false
+6625,6626,10690,Matthew Ryan Graham,23,Male,White,7/13/2015,Dunsmuir,CA,Shot,,false,false
+6626,6627,10692,Jason Charles Davis,41,Male,White,7/13/2015,Los Angeles,CA,Shot,Knife,false,false
+6627,6628,10696,Eugene Kailing,43,Male,White,7/15/2015,Marion,MI,Shot,,false,false
+6628,6629,10698,Saige Dell Hack,23,Male,White,7/16/2015,Cheyenne,WY,Shot,,false,false
+6629,6630,10704,Sam Toshiro Smith,27,Male,White,7/17/2015,Seattle,WA,Shot,Knife,false,false
+6630,6631,10706,Jackie Brand Jr.,50,Male,White,7/17/2015,Needles,CA,Shot,,true,false
+6631,6632,10711,Kevin Thomas Snyder,46,Male,White,7/18/2015,Phoenix,AZ,Shot,Gun,false,false
+6632,6633,10713,David Wheat Jr.,22,Male,White,7/18/2015,Fort Collins,CO,Shot,Knife,true,false
+6633,6634,10714,Charles Dewey,65,Male,White,7/18/2015,Colby,KS,Shot,,false,false
+6634,6635,10721,Stephen Ray Brown,54,Male,White,7/20/2015,Choctaw,OK,Shot,,false,false
+6635,6636,10723,Joshua Blaine LeBoeuf,35,Male,White,7/20/2015,Winnie,TX,Shot,,false,false
+6636,6637,10726,Joseph Fuller,24,Male,White,7/21/2015,Oakland Park,FL,Shot,,false,false
+6637,6638,10728,Darren Billy Wilson,47,Male,White,7/21/2015,White,GA,Shot,,false,false
+6638,6639,10735,John Russell Houser,59,Male,White,7/23/2015,Lafayette,LA,Shot,Gun,true,false
+6639,6640,10736,Tamala Anne Satre,44,Female,White,7/23/2015,Meadow Vista,CA,Shot,Gun,true,false
+6640,6641,10737,Robbie Lee Edison,47,Male,White,7/23/2015,Douglas,WY,Shot,,false,false
+6641,6642,10739,Derek Ray Wolfsteller,31,Male,White,7/23/2015,Plymouth,MN,Shot,,false,false
+6642,6643,10740,Brian Stortzum,32,Male,White,7/23/2015,Myrtle Beach,SC,Shot,Gun,false,false
+6643,6644,10741,Seth Raines,44,Male,White,7/24/2015,Studio City,CA,Shot,Gun,false,false
+6644,6645,10744,Christopher Olmstead,60,Male,White,7/25/2015,New Orleans,LA,Shot,,true,false
+6645,6646,10750,Zachary Hammond,19,Male,White,7/26/2015,Seneca,SC,Shot,,false,false
+6646,6647,10752,Timothy Milliken,56,Male,White,7/27/2015,Columbia,SC,Shot,,false,false
+6647,6648,10753,Jean Paul Falgout,45,Male,White,7/27/2015,Houma,LA,Shot,Gun,false,false
+6648,6649,10756,Allan F. White III,23,Male,White,7/28/2015,Cleveland,TN,Shot,,false,false
+6649,6650,10759,Roger Darrin Barker,53,Male,White,7/29/2015,Logan,UT,Shot,Gun,true,false
+6650,6651,10763,Ryan Daniel Vrenon,25,Male,White,7/30/2015,Mt Shasta,CA,Shot,Gun,false,false
+6651,6652,10764,Mark Perkins,48,Male,White,7/30/2015,Gardnerville,NV,Shot,,false,false
+6652,6653,10768,Jeremy Hatch,34,Male,White,7/31/2015,Roswell,NM,Shot,,false,false
+6653,6654,10772,Virgil Lee Reynolds,63,Male,White,8/2/2015,Houston,TX,Shot,,true,false
+6654,6655,10775,Shawn Michael Ruble,35,Male,White,8/3/2015,Muncie,IN,Shot,Gun,false,false
+6655,6656,10777,Franklin M. Short,71,Male,White,8/3/2015,Powhatan,VA,Shot,,false,false
+6656,6657,10784,Tyler Alexander Dattilo,18,Male,White,8/5/2015,Louisville,KY,Shot,Knife,false,false
+6657,6658,10787,John Dieringer,51,Male,White,8/5/2015,Greenfield,WI,Shot,,true,false
+6658,6659,10788,Jason Galaviz,40,Male,White,8/5/2015,Tacoma,WA,Shot,Gun,false,false
+6659,6660,10794,Aaron Marchese,30,Male,White,8/7/2015,Fresno,CA,Shot,Gun,true,false
+6660,6661,10804,Eric Keith Tompkins,41,Male,White,8/9/2015,Ardmore,OK,Shot,Gun,true,false
+6661,6662,10808,Richard Tyler Young,24,Male,White,8/10/2015,Gilbert,AZ,Shot,,false,false
+6662,6663,10810,Roger Dean Shull Jr.,24,Male,White,8/11/2015,Odessa,TX,Shot,Gun,false,false
+6663,6664,10811,Randall Lance Hughes,48,Male,White,8/11/2015,Waco,TX,Shot,Knife,false,false
+6664,6665,10812,Casey George Alarcon,34,Male,White,8/11/2015,Sandpoint,ID,Shot,,false,false
+6665,6666,10815,William Smith,49,Male,White,8/12/2015,Hobbs,NM,Shot,Gun,false,false
+6666,6667,10821,Christopher Anderson,53,Male,White,8/14/2015,Bolton,CT,Shot,,false,false
+6667,6668,10823,Jonathon Pope,30,Male,White,8/15/2015,Carson City,NV,Shot,Gun,false,false
+6668,6669,10830,Steven Norton,47,Male,White,8/16/2015,Kerrville,TX,Shot,,false,false
+6669,6670,10836,Wade Allen Baker,44,Male,White,8/19/2015,Waynesville,NC,Shot,Gun,false,false
+6670,6671,10842,Jeffory Ray Tevis,50,Male,White,8/20/2015,Tuscaloosa,AL,Shot,,false,false
+6671,6672,10844,Charles Hall,30,Male,White,8/21/2015,North East,MD,Shot,,false,false
+6672,6673,10845,Alan Joseph Rushton,38,Male,White,8/21/2015,Wake Forest,NC,Shot,Knife,false,false
+6673,6674,10847,Adam Russell Schneider,31,Male,White,8/22/2015,Cohasset,MN,Shot,Gun,false,false
+6674,6675,10848,Jason Lee Alderman,29,Male,White,8/22/2015,Bakersfield,CA,Shot,,false,false
+6675,6676,10850,Kenneth Morgan,64,Male,White,8/22/2015,King George,VA,Shot,Knife,false,false
+6676,6677,10851,Nicholas Garner,26,Male,White,8/22/2015,Wichita,KS,Shot,,true,false
+6677,6678,10853,Richard Francis Compo Jr.,36,Male,White,8/23/2015,Jacksonville,FL,Shot,,false,false
+6678,6679,10854,Julian Hoffman,21,Male,White,8/23/2015,Brick,NJ,Shot,,false,false
+6679,6680,10857,Todd Tomlinson,51,Male,White,8/25/2015,Thonotosassa,FL,Shot,Gun,false,false
+6680,6681,10858,Shane Randolph,45,Male,White,8/25/2015,Phoenix,AZ,Shot,,false,false
+6681,6682,10862,Steven Dodd,22,Male,White,8/26/2015,Hendersonville,TN,Shot,Gun,true,false
+6682,6683,10863,Kyle Lambrose,27,Male,White,8/26/2015,West Jordan,UT,Shot,,true,false
+6683,6684,10864,Brent Pickard,46,Male,White,8/26/2015,Hixson,TN,Shot,,false,false
+6684,6685,10869,William Evans,28,Male,White,8/28/2015,Spanish Fork,UT,Shot,Gun,true,false
+6685,6686,10873,Devin Dial,23,Male,White,8/28/2015,Longview,TX,Shot,Gun,false,false
+6686,6687,10877,Shawn Allen Hall,20,Male,White,8/30/2015,Cushing,OK,Shot,Gun,false,false
+6687,6688,10879,William Rippley,46,Male,White,8/31/2015,Loveland,CO,Shot,Knife,false,false
+6688,6689,10887,Arthur Edward Bates,45,Male,White,9/2/2015,Prescott,AZ,Shot,Gun,false,false
+6689,6690,10889,Harrison Lambert,23,Male,White,9/3/2015,Merrimack,NH,Shot,Knife,false,false
+6690,6691,10890,Sully Joe Lanier,36,Male,White,9/4/2015,Springtown,TX,Shot,,false,false
+6691,6692,10891,Richard Kelley,27,Male,White,9/4/2015,Weitchpec,CA,Shot,Gun,false,false
+6692,6693,10914,Dustin Kuik,25,Male,White,9/9/2015,Green Bay,WI,Shot,Gun,false,false
+6693,6694,10921,Austin Reid,32,Male,White,9/10/2015,Lodi,CA,Shot,Gun,false,false
+6694,6695,10923,Phillip Pfleghardt,44,Male,White,9/11/2015,Broomfield,CO,Shot,Gun,false,false
+6695,6696,10924,Derek Davis,23,Male,White,9/12/2015,Sylacauga,AL,Shot,,false,false
+6696,6697,10925,Jack Stevens Jr.,45,Male,White,9/12/2015,Knoxville,TN,Shot,Gun,false,false
+6697,6698,10927,Jeffrey Eugene Brooks,29,Male,White,9/13/2015,Oyster Creek,TX,Shot,Gun,false,false
+6698,6699,10929,Martin Francis Hammen,39,Male,White,9/13/2015,Wellman,IA,Shot,Gun,true,false
+6699,6700,10930,David Powell Jr.,28,Male,White,9/14/2015,Barstow,CA,Shot,,false,false
+6700,6701,10932,Shannon Lamb,45,Male,White,9/14/2015,Greenville,MS,Shot,,false,false
+6701,6702,10938,Rory Gunderman,31,Male,White,9/16/2015,Lead,SD,Shot,Gun,false,false
+6702,6703,10941,Mark Gary,50,Male,White,9/17/2015,Beaverton,MI,Shot,Gun,true,false
+6703,6704,10942,Lawrence R. Price,61,Male,White,9/17/2015,Brodhead,KY,Shot,Gun,false,false
+6704,6705,10944,Gregory Herrell,47,Male,White,9/18/2015,Cumberland Furnace,TN,Shot,Gun,false,false
+6705,6706,10945,John Scott PaPa Beech,57,Male,White,9/18/2015,St. Stephens,AL,Shot,Gun,false,false
+6706,6707,10947,Lucien Rolland,46,Male,White,9/19/2015,Slidell,LA,Shot,Gun,false,false
+6707,6708,10948,Michael Pierce,23,Male,White,9/20/2015,Harrisonburg,VA,Shot,Gun,false,false
+6708,6709,10950,Jerrald Wright,56,Male,White,9/20/2015,Shelbyville,IN,Shot,,false,false
+6709,6710,10951,William Spaits,27,Male,White,9/21/2015,Sand City,CA,Shot,,false,false
+6710,6711,10952,Tina Money,23,Female,White,9/21/2015,Sand City,CA,Shot,,false,false
+6711,6712,10953,Garrett Steven McKenney,21,Male,White,9/21/2015,Paris,TX,Shot,,false,false
+6712,6713,10958,Joel Smith,33,Male,White,9/22/2015,Niceville,FL,Shot,Gun,false,false
+6713,6714,10961,Tim Kyle Torngren,55,Male,White,9/22/2015,Anderson,CA,Shot,Gun,true,false
+6714,6715,10963,Kenneth Ray Pinter Jr.,45,Male,White,9/23/2015,Troutdale,VA,Shot,Gun,false,false
+6715,6716,10965,Joseph Khammash,35,Male,White,9/23/2015,McKinney,TX,Shot,Gun,false,false
+6716,6717,10968,Patrick O'Grady,17,Male,White,9/24/2015,Fountain,CO,Shot,,false,false
+6717,6718,10972,William Lemmon,21,Male,White,9/25/2015,Akron,OH,Shot,,false,false
+6718,6719,10983,Wesley Manning,40,Male,White,9/29/2015,Rockport,TX,Shot,,false,false
+6719,6720,10986,Robert Sullivan Christen,37,Male,White,9/30/2015,Mora,MN,Shot,,false,false
+6720,6721,10987,Matthew Ray Dobbins,29,Male,White,10/2/2015,Amarillo,TX,Shot,,false,false
+6721,6722,10991,James Joseph Byrd,45,Male,White,10/3/2015,Los Angeles,CA,Shot,Gun,false,false
+6722,6723,10992,Eric David Edgell,27,Male,White,10/4/2015,Muscle Shoals,AL,Shot,Gun,true,false
+6723,6724,10994,James Dunaway,51,Male,White,10/5/2015,Hurst,TX,Shot,Gun,false,false
+6724,6725,10995,Rodney Jencsik,50,Male,White,10/5/2015,Woodbridge Township,NJ,Shot,Gun,false,false
+6725,6726,10997,Donald Thomas Miller II,36,Male,White,10/6/2015,Monterey,CA,Shot,,true,false
+6726,6727,11000,Travis Quay,40,Male,White,10/9/2015,Lakeview,MI,Shot,,false,false
+6727,6728,11002,William Daniel Combs,38,Male,White,10/10/2015,Pinon Hills,CA,Shot,,false,false
+6728,6729,11005,Richard Love,31,Male,White,10/10/2015,Old Saybrook,CT,Shot,Gun,false,false
+6729,6730,11010,Rudolph Toby Smith,31,Male,White,10/12/2015,Brookhaven,MS,Shot,Gun,false,false
+6730,6731,11017,Michelle Esch or Michelle Marie Burg,46,Female,White,10/14/2015,Naples,FL,Shot,,false,false
+6731,6732,11020,Michael Brennan,31,Male,White,10/15/2015,Cleveland,OH,Shot,Gun,false,false
+6732,6733,11023,Linda Lush,50,Female,White,10/15/2015,Las Vegas,NV,Shot,Gun,false,false
+6733,6734,11030,Jeffrey Womack,27,Male,White,10/16/2015,Houston,TX,Shot,Gun,true,false
+6734,6735,11037,Krikor Ekizian,28,Male,White,10/18/2015,Fresno,CA,Shot,,false,false
+6735,6736,11042,Roger Hall,30,Male,White,10/20/2015,Louisville,KY,Shot,Gun,false,false
+6736,6737,11044,Jonathan Gossman,21,Male,White,10/20/2015,Cedar Rapids,IA,Shot,,false,false
+6737,6738,11045,Darien Greenwood,30,Male,White,10/20/2015,Mandeville,LA,Shot,Knife,false,false
+6738,6739,11047,Timothy Arnold,47,Male,White,10/21/2015,Kentwood,MI,Shot,Gun,true,false
+6739,6740,11056,Arthur West Jr.,28,Male,White,10/24/2015,Zanesville,OH,Shot,Gun,false,false
+6740,6741,11058,John Harley Turner,36,Male,White,10/24/2015,Talking Rock,GA,Shot,Gun,false,false
+6741,6742,11062,Darren Myron Fude,47,Male,White,10/24/2015,Salem,WI,Shot,Gun,false,false
+6742,6743,11069,Andrew Dehart,36,Male,White,10/28/2015,Forest Grove,OR,Shot,,false,false
+6743,6744,11070,Jasper Adams,36,Male,White,10/28/2015,Salem,OR,Shot,Gun,false,false
+6744,6745,11073,Allen Quintez Deseanta (Sean) Swader,18,Male,White,10/29/2015,Hohenwald,TN,Shot,,false,false
+6745,6746,11076,Daniel Nole,30,Male,White,10/30/2015,Fort Gibson,OK,Shot,Knife,false,false
+6746,6747,11078,Floyd Cook,62,Male,White,10/30/2015,Burkesville,KY,Shot,Gun,false,false
+6747,6748,11081,Noah Harpham,33,Male,White,10/31/2015,Colorado Springs,CO,Shot,,false,false
+6748,6749,11083,Luverne Roy Christensen,49,Male,White,11/1/2015,Hutchinson,MN,Shot,,false,false
+6749,6750,11084,Killian OÛªQuinn,20,Male,White,11/1/2015,Eureka,CA,Shot,Gun,false,false
+6750,6751,11085,Jack Yantis,62,Male,White,11/1/2015,Council,ID,Shot,,false,false
+6751,6752,11087,Matthew Colligan,28,Male,White,11/2/2015,Klamath Falls,OR,Shot,,false,false
+6752,6753,11089,Jeremy Mardis,6,Male,White,11/3/2015,Marksville,LA,Shot,Unarmed,false,false
+6753,6754,11090,Timothy Gene Smith,47,Male,White,11/4/2015,San Diego,CA,Shot,,false,false
+6754,6755,11093,Joseph Tyndall,30,Male,White,11/4/2015,Springfield,MO,Shot,Gun,false,false
+6755,6756,11094,Laura Lemieux,36,Female,White,11/5/2015,Goose Creek,SC,Shot,Gun,false,false
+6756,6757,11095,James Bigley,20,Male,White,11/5/2015,Hominy,OK,Shot,Gun,false,false
+6757,6758,11096,David Romanoski,46,Male,White,11/5/2015,Morgantown,WV,Shot,Gun,false,false
+6758,6759,11097,Jacob Hohman,30,Male,White,11/5/2015,Lakeshire,MO,Shot,,false,false
+6759,6760,11098,Raymond Davis,68,Male,White,11/6/2015,Deltona,FL,Shot,,false,false
+6760,6761,11099,Michael Johnson,51,Male,White,11/6/2015,Portland,OR,Shot,Gun,true,false
+6761,6762,11100,Kim Lee Long,48,Male,White,11/6/2015,Wadesboro,NC,Shot,,false,false
+6762,6763,11101,James Smyth,55,Male,White,11/6/2015,Las Vegas,NV,Shot,,false,false
+6763,6764,11102,Lloyd Wayne Franklin,34,Male,White,11/7/2015,Feasterville-Trevose,PA,Shot,Gun,false,false
+6764,6765,11106,Dale Maverick Hudson,26,Male,White,11/9/2015,Orlando,WV,Shot,,false,false
+6765,6766,11110,Andrew Blake,22,Male,White,11/10/2015,Dillon,MT,Shot,,true,false
+6766,6767,11111,Dana Bruce Ott,63,Male,White,11/10/2015,Colorado Springs,CO,Shot,,false,false
+6767,6768,11115,Brian H. Gavin Sr.,57,Male,White,11/11/2015,Aiken,SC,Shot,Gun,false,false
+6768,6769,11118,Matthew (Matt) Eric Coleman,25,Male,White,11/13/2015,Eden,GA,Shot,Gun,false,false
+6769,6770,11122,John David Livingston,33,Male,White,11/15/2015,Spring Lake,NC,Shot,,false,false
+6770,6771,11126,Brett Noblitt,25,Male,White,11/16/2015,Dalton,GA,Shot,,false,false
+6771,6772,11127,Cameron Davis Long,28,Male,White,11/16/2015,Centerville,TX,Shot,,false,false
+6772,6773,11129,Michael Tindall,41,Male,White,11/17/2015,Weatherford,TX,Shot,,false,false
+6773,6774,11131,Francis D. Hartnett,47,Male,White,11/17/2015,Little Egg Harbor Township,NJ,Shot,Knife,true,false
+6774,6775,11132,Derry Eugene Touchstone,58,Male,White,11/17/2015,Arlington,GA,Shot,,false,false
+6775,6776,11141,William Tarrant,39,Male,White,11/20/2015,Dallas,GA,Shot,Gun,false,false
+6776,6777,11144,Christopher Lynn Nichols,24,Male,White,11/21/2015,Colbert,OK,Shot,,false,false
+6777,6778,11145,Mathew Grows,45,Male,White,11/22/2015,Reno,NV,Shot,,false,false
+6778,6779,11146,James Hall,46,Male,White,11/22/2015,Fontana,CA,Shot,Knife,false,false
+6779,6780,11149,Barry Kirk,50,Male,White,11/23/2015,Columbus,OH,Shot,,false,false
+6780,6781,11150,Thomas Mceniry,32,Male,White,11/24/2015,Las Vegas,NV,Shot,Gun,false,false
+6781,6782,11152,Michael Gerald Ray Kirvelay,45,Male,White,11/24/2015,Columbia Heights,MN,Shot,Gun,true,false
+6782,6783,11153,Magnum Edgar Phillips,23,Male,White,11/25/2015,Springfield,MO,Shot,Knife,false,false
+6783,6784,11154,Somer Brook Speer,37,Female,White,11/25/2015,Ozark,MO,Shot,Gun,false,false
+6784,6785,11155,Douglas R. Slade,52,Male,White,11/25/2015,Eagar,AZ,Shot,,false,false
+6785,6786,11156,Andrew Nicholas Thomas,26,Male,White,11/26/2015,Paradise,CA,Shot,,false,false
+6786,6787,11158,Rick Gullickson,58,Male,White,11/27/2015,Lampe,MO,Shot,Gun,false,false
+6787,6788,11159,Kevin Close,50,Male,White,11/28/2015,Seagoville,TX,Shot,,false,false
+6788,6789,11160,Zachary Grigsby,29,Male,White,11/29/2015,Lincoln,NE,Shot,,false,false
+6789,6790,11162,Lionel S. Kerns,53,Male,White,11/29/2015,Stewartsville,MO,Shot,Gun,false,false
+6790,6791,11163,Justin D. McHenry,22,Male,White,11/29/2015,Celina,OH,Shot,Gun,false,false
+6791,6792,11169,Joshua Jozefowicz,23,Male,White,12/1/2015,Bangor,ME,Shot,,false,false
+6792,6793,11176,Erica Michelle Lauro,22,Female,White,12/2/2015,Northwood,OH,Shot,Gun,false,false
+6793,6794,11177,Neil Scott Stretesky,66,Male,White,12/3/2015,Big Springs,NE,Shot,Gun,false,false
+6794,6795,11179,Ivan Krstic,47,Male,White,12/3/2015,Mesa,AZ,Shot,Gun,true,false
+6795,6796,11180,Jason Brady,40,Male,White,12/3/2015,Waverly,OH,Shot,Gun,true,false
+6796,6797,11183,Sheilah Huck,61,Female,White,12/5/2015,Florissant,MO,Shot,,true,false
+6797,6798,11184,Michael L. Funk,60,Male,White,12/5/2015,Neenah,WI,Shot,,false,false
+6798,6799,11185,David W. Winesett,52,Male,White,12/5/2015,Miami Beach,FL,Shot,Knife,false,false
+6799,6800,11187,Colten Price Marcellus,24,Male,White,12/5/2015,Irving,TX,Shot,,false,false
+6800,6801,11188,John Alan Britton,48,Male,White,12/6/2015,Laramie,WY,Shot,Knife,true,false
+6801,6802,11190,Raymond Azevedo,35,Male,White,12/6/2015,Seattle,WA,Shot,Gun,false,false
+6802,6803,11195,Christopher E. Higdon,66,Male,White,12/9/2015,Leitchfield,KY,Shot,,false,false
+6803,6804,11201,Thomas Arthur Gendreau Jr.,54,Male,White,12/10/2015,Marina,CA,Shot,Knife,false,false
+6804,6805,11202,Jason Bryant,34,Male,White,12/10/2015,Indianapolis,IN,Shot,Gun,false,false
+6805,6806,11203,Steven Wickert,36,Male,White,12/11/2015,Tucson,AZ,Shot,,false,false
+6806,6807,11206,Jonathan Wardlow,36,Male,White,12/12/2015,Healdton,OK,Shot,,false,false
+6807,6808,11210,Andrew Joseph Todd,20,Male,White,12/12/2015,East Stroudsburg,PA,Shot,Gun,false,false
+6808,6809,11211,Shirley Weis,51,Female,White,12/13/2015,Arlington,TX,Shot,Gun,true,false
+6809,6810,11214,Ryan McMillan,21,Male,White,12/13/2015,Denton,TX,Shot,,false,false
+6810,6811,11215,Michael Thomason,56,Male,White,12/14/2015,Milan,TN,Shot,Gun,false,false
+6811,6812,11216,Jeffrey Gene Evans,52,Male,White,12/14/2015,Middle River,MD,Shot,,true,false
+6812,6813,11217,Brenda Dean Kimberling,48,Female,White,12/14/2015,Las Vegas,NV,Shot,Gun,true,false
+6813,6814,11224,Bryant Neil Duncan,23,Male,White,12/16/2015,Camarillo,CA,Shot,Knife,false,false
+6814,6815,11225,Douglas Yon,25,Male,White,12/17/2015,Kent,OH,Shot,,false,false
+6815,6816,11227,Erica Michelle Lauro,22,Female,White,12/18/2015,Northwood,OH,Shot,Gun,false,false
+6816,6817,11229,Amos Frerichs,32,Male,White,12/18/2015,Knoxville,TN,Shot,,false,false
+6817,6818,11233,Edel Cato Moreland,32,Male,White,12/19/2015,Linthicum Heights,MD,Shot,Gun,false,false
+6818,6819,11239,Robert L. Teter,39,Male,White,12/21/2015,Deltona,FL,Shot,Gun,false,false
+6819,6820,11242,Brandon E. Barsnick,30,Male,White,12/21/2015,Smartsville,CA,Shot,Gun,false,false
+6820,6821,11244,Derek DeGroat,21,Male,White,12/21/2015,Waymart,PA,Shot,Gun,true,false
+6821,6822,11245,Charles Reynolds,61,Male,White,12/22/2015,Ludlow,KY,Shot,Gun,false,false
+6822,6823,11246,Kenneth Stephens,56,Male,White,12/22/2015,Burlington,VT,Shot,,false,false
+6823,6824,11247,Michael U. Hilber,29,Male,White,12/22/2015,Brooksville,FL,Shot,,false,false
+6824,6825,11252,Schuylar A. Gunning,36,Male,White,12/24/2015,Winnsboro,LA,Shot,,false,false
+6825,6826,11255,William David Raff,31,Male,White,12/25/2015,Palo Alto,CA,Shot,Knife,true,false
+6826,6827,11258,Lonnie Niesen,41,Male,White,12/26/2015,Phoenix,AZ,Shot,,false,false
+6827,6828,11260,Gayneaux Paul Trahan Jr.,52,Male,White,12/27/2015,Franklin,LA,Shot,Gun,false,false
+6828,6829,11261,Sean Mould,34,Male,White,12/27/2015,Tempe,AZ,Shot,Knife,true,false
+6829,6830,11262,Michael A. Parker,36,Male,White,12/27/2015,Lucedale,MS,Shot,Gun,false,false
+6830,6831,11263,Corey Jason Achstein,28,Male,White,12/28/2015,Suffolk,VA,Shot,Gun,false,false
+6931,6932,11811,Bodie Stewart,29,Male,White,9/10/2015,Justin,TX,Shot,Gun,true,false
+7121,7122,12828,John Tozzi,61,Male,White,10/24/2015,New Paltz,NY,Shot,,false,false
+7166,7167,13131,Lewis Lee Lembke,47,Male,White,1/2/2015,Aloha,OR,Shot,Gun,false,false
+7167,7168,13135,Kenneth Joe Brown,18,Male,White,1/4/2015,Guthrie,OK,Shot,Gun,false,false
+7169,7170,13138,Autumn Steele,34,Female,White,1/6/2015,Burlington,IA,Shot,Unarmed,false,false
+7170,7171,13145,Loren Simpson,28,Male,White,1/8/2015,Huntley,MT,Shot,Vehicle,false,false
+7171,7172,13149,Jimmy Foreman,71,Male,White,1/9/2015,England,AR,Shot,Gun,false,false
+7172,7173,13151,Tommy Smith,39,Male,White,1/11/2015,Arcola,IL,Shot,Gun,true,false
+7173,7174,13154,John Edward O'Keefe,34,Male,White,1/13/2015,Albuquerque,NM,Shot,Gun,false,true
+7174,7175,13157,Michael Goebel,29,Male,White,1/14/2015,Franklin County,MO,Shot,Vehicle,false,false
+7175,7176,13159,Talbot Schroeder,75,Male,White,1/14/2015,Old Bridge,NJ,Shot,Knife,false,false
+7176,7177,13166,Nathan Massey,33,Male,White,1/15/2015,Evangeline Parish,LA,Shot,Gun,false,false
+7177,7178,13167,Scott Hall,41,Male,White,1/16/2015,Mabank,TX,Shot,Gun,false,true
+7178,7179,13172,Jonathan Guillory,32,Male,White,1/18/2015,Maricopa,AZ,Shot,Gun,true,false
+7179,7180,13179,Andrew Toto,54,Male,White,1/21/2015,Derry,NH,Shot,Gun,true,false
+7180,7181,13185,Wendell King,40,Male,White,1/24/2015,Fort Worth,TX,Shot,Gun,false,false
+7181,7182,13191,Raymond Kmetz,68,Male,White,1/26/2015,New Hope,MN,Shot,Gun,true,false
+7182,7183,13195,Chris Ingram,29,Male,White,1/27/2015,Morenci,AZ,Shot,Gun,false,false
+7183,7184,13197,Tiffany Terry,39,Female,White,1/27/2015,Omaha,NE,Shot,Knife,true,false
+7184,7185,13200,Cody Karasek,26,Male,White,1/28/2015,Rosenberg,TX,Shot,Gun,false,false
+7185,7186,13206,Jacob Haglund,17,Male,White,2/2/2015,Bay City,MI,Shot,Gun,false,false
+7186,7187,13207,David Kassick,59,Male,White,2/2/2015,Hummelstown,PA,Shot,Unarmed,false,true
+7187,7188,13212,Anthony Purvis,45,Male,White,2/3/2015,Douglas,GA,Shot,Gun,true,false
+7188,7189,13219,Paul Alfred Eugene Johnson,59,Male,White,2/5/2015,Chino,CA,Shot,Gun,false,true
+7189,7190,13221,John  Sawyer,26,Male,White,2/7/2015,Calimesa,CA,Shot,Toy Weapon,false,false
+7190,7191,13224,Sawyer Flache,27,Male,White,2/8/2015,Austin,TX,Shot,Gun,false,false
+7191,7192,13226,Joseph Paffen,46,Male,White,2/8/2015,Orange County,FL,Shot,Gun,false,false
+7192,7193,13227,Larry Hostetter,41,Male,White,2/8/2015,Nocona,TX,Shot,Gun,false,false
+7193,7194,13228,Kenneth Kreyssig,61,Male,White,2/9/2015,Smyrna,ME,Shot,Gun,true,false
+7194,7195,13232,Brian Fritze,45,Male,White,2/10/2015,New Castle,CO,Shot,Gun,true,true
+7195,7196,13234,Fletcher Ray Stewart,46,Male,White,2/11/2015,Dadeville,AL,Shot,Toy Weapon,true,true
+7196,7197,13238,Matthew D. Belk,27,Male,White,2/13/2015,McLemoresville,TN,Shot,Gun,false,false
+7197,7198,13241,Roy Joy Day,51,Male,White,2/14/2015,Laredo,TX,Shot,Gun,false,false
+7198,7199,13244,Bruce Steward,34,Male,White,2/15/2015,Colton,OR,Shot,Hatchet,true,false
+7199,7200,13245,Lawrence Caldwell,56,Male,White,2/16/2015,Marana,AZ,Shot,Gun,false,false
+7200,7201,13246,Michael K. Casper,26,Male,White,2/16/2015,Boise,ID,Shot,Gun,false,false
+7201,7202,13247,Cody Evans,24,Male,White,2/16/2015,Provo,UT,Shot,Toy Weapon,true,false
+7202,7203,13248,Betty Sexton,43,Female,White,2/17/2015,Gaston County,NC,Shot,Gun,false,false
+7203,7204,13249,Michael Ireland,31,Male,White,2/17/2015,Springfield,MO,Shot,Unarmed,false,true
+7204,7205,13251,Douglas Sparks,30,Male,White,2/17/2015,Tewksbury,MA,Shot,Toy Weapon,false,true
+7205,7206,13258,Jason Moncrief Carter,41,Male,White,2/21/2015,Ruidoso,NM,Shot,Gun,false,false
+7206,7207,13260,Bradford Leonard,50,Male,White,2/22/2015,Palm Bay,FL,Shot,Gun,false,false
+7207,7208,13263,Robert Kohl,47,Male,White,2/23/2015,Denham Springs,LA,Shot,Gun,true,false
+7208,7209,13265,Anthony Giaquinta,41,Male,White,2/23/2015,Clarkesville,GA,Shot,Gun,false,true
+7209,7210,13273,Rodney Biggs,49,Male,White,2/26/2015,Gulfport,MS,Shot,Unarmed,false,false
+7210,7211,13276,Chazsten Freeman,24,Male,White,2/28/2015,Pelzer,SC,Shot,Gun,false,false
+7211,7212,13282,Stephanie Hill,37,Female,White,2/28/2015,La Paz County,AZ,Shot,Gun,false,true
+7212,7213,13283,Donald Lewis Matkins,49,Male,White,3/1/2015,Barton,MS,Shot,Gun,false,false
+7213,7214,13289,Derek Cruice,26,Male,White,3/4/2015,Deltona,FL,Shot,Unarmed,false,false
+7214,7215,13293,Tyson Hubbard,34,Male,White,3/5/2015,Lincoln,NE,Shot,Gun,false,false
+7215,7216,13297,Adam Reinhart,29,Male,White,3/7/2015,Phoenix,AZ,Shot,Gun,false,false
+7216,7217,13299,Michael McKillop,35,Male,White,3/8/2015,Claymont,DE,Shot,Vehicle,false,true
+7217,7218,13301,Lester Brown,58,Male,White,3/9/2015,Brevard,NC,Shot,Gun,false,false
+7218,7219,13306,Christopher Mitchell,23,Male,White,3/10/2015,Port Wentworth,GA,Shot,Knife,false,false
+7219,7220,13314,William Russell  Smith,53,Male,White,3/11/2015,Hoover,AL,Shot,Gun,true,false
+7220,7221,13317,Fred  Liggett,59,Male,White,3/13/2015,Kansas City,MO,Shot,Gun,false,false
+7221,7222,13318,Andrew Driver,36,Male,White,3/13/2015,Fontana,CA,Shot,Knife,false,false
+7222,7223,13322,Clifton Reintzel,53,Male,White,3/14/2015,Follansbee,WV,Shot,Knife,false,false
+7223,7224,13325,Justin Tolkinen,28,Male,White,3/16/2015,Saint Paul,MN,Shot,Gun,true,false
+7224,7225,13326,William Dean Poole,52,Male,White,3/16/2015,Gastonia,NC,Shot,Gun,true,false
+7225,7226,13327,Eugene Smith,20,Male,White,3/17/2015,Onalaska,TX,Shot,Gun,true,false
+7226,7227,13329,Andrew Charles Shipley,49,Male,White,3/17/2015,Medford,OR,Shot,Gun,true,false
+7227,7228,13331,Alice Brown,24,Female,White,3/17/2015,San Francisco,CA,Shot,Vehicle,true,false
+7228,7229,13332,Jeff Alexander,47,Male,White,3/18/2015,Bakersfield,CA,Shot,Knife,false,false
+7229,7230,13334,Garland Lee Wingo,64,Male,White,3/18/2015,Tallahassee,FL,Shot,Gun,false,false
+7230,7231,13336,Jamison  Childress,20,Male,White,3/19/2015,Sumas,WA,Shot,Unarmed,true,false
+7231,7232,13337,Robert Burdge,36,Male,White,3/19/2015,Bakersfield,CA,Shot,Gun,false,false
+7232,7233,13340,Brandon Rapp,31,Male,White,3/19/2015,Middleton,ID,Shot,Gun,false,false
+7233,7234,13343,Tyrel Vick,34,Male,White,3/20/2015,Coal County,OK,Shot,Gun,false,false
+7234,7235,13344,James Ellis,44,Male,White,3/21/2015,Clarendon,NY,Shot,Gun,false,true
+7235,7236,13345,Gary Page,60,Male,White,3/21/2015,Harmony,IN,Shot,Gun,true,false
+7236,7237,13346,Jason Smith,42,Male,White,3/21/2015,Columbus,OH,Shot,Gun,false,false
+7237,7238,13348,Phillip Conley,37,Male,White,3/22/2015,Vallejo,CA,Shot,Knife,true,false
+7238,7239,13352,Stephen Snyder,38,Male,White,3/24/2015,Fond du Lac,WI,Shot,Gun,false,false
+7239,7240,13364,Neil Seifert,40,Male,White,3/27/2015,Webster,MA,Shot,Gun,false,true
+7240,7241,13366,Harvey Oates,42,Male,White,3/27/2015,Fort Ashby,WV,Shot,Gun,false,true
+7241,7242,13368,Robert Rooker,26,Male,White,3/29/2015,Jasper,OH,Shot,Vehicle,false,true
+7242,7243,13370,Brian Babb,49,Male,White,3/30/2015,Eugene,OR,Shot,Gun,true,false
+7243,7244,13372,Jeremy Anderson,36,Male,White,3/31/2015,Carollwood,FL,Shot,Gun,false,false
+7244,7245,13376,Shawn Clyde,36,Male,White,4/1/2015,Hamilton,NJ,Shot,Knife,false,false
+7245,7246,13380,Aaron Rutledge,27,Male,White,4/2/2015,Pineville,LA,Shot,Gun,true,false
+7246,7247,13381,Christopher Prevatt,38,Male,White,4/3/2015,Winchester,VA,Shot,Knife,false,false
+7247,7248,13387,Richard Hanna,56,Male,White,4/5/2015,Tehachapi,CA,Shot,Gun,false,false
+7248,7249,13390,Tyrell J. Larsen,31,Male,White,4/6/2015,Jefferson County,ID,Shot,Gun,false,true
+7249,7250,13392,Douglas Faith,60,Male,White,4/8/2015,San Antonio,TX,Shot,Gun,false,true
+7250,7251,13397,Gordon Kimbrell,22,Male,White,4/9/2015,Navarre,FL,Shot,Sword,false,false
+7251,7252,13399,Jess Leipold,31,Male,White,4/9/2015,Straban Township,PA,Shot,Gun,true,false
+7252,7253,13400,Phillip Burgess,28,Male,White,4/9/2015,Boiling Springs,SC,Shot,Gun,false,false
+7253,7254,13402,Richard Reed,38,Male,White,4/10/2015,Topeka,KS,Shot,Gun,false,true
+7254,7255,13403,Donald Allen,66,Male,White,4/11/2015,Sand Springs,OK,Shot,Gun,true,false
+7255,7256,13406,Jason Lee Evans,32,Male,White,4/12/2015,Salemburg,NC,Shot,Gun,true,true
+7256,7257,13421,Grover Sapp,45,Male,White,4/18/2015,Panama City,FL,Shot,Gun,false,false
+7257,7258,13423,Dana Hlavinka,44,Male,White,4/19/2015,Sidney,NE,Shot,Knife,false,false
+7258,7259,13427,Kimber Key,59,Male,White,4/21/2015,Irmo,SC,Shot,Knife,true,false
+7259,7260,13434,Andrew Valadez,26,Male,White,4/23/2015,Sylmar,CA,Shot,Gun,true,false
+7260,7261,13437,Karen Janks,46,Female,White,4/24/2015,Windsor,CA,Shot,Vehicle,false,true
+7261,7262,13439,Gary Timmie  Collins,63,Male,White,4/24/2015,Miami,OK,Shot,Gun,false,true
+7262,7263,13443,Daniel Davis,58,Male,White,4/25/2015,Clermont,FL,Shot,Knife,true,false
+7263,7264,13445,Albert Hanson,76,Male,White,4/26/2015,Kings County,CA,Shot,Gun,false,false
+7264,7265,13446,Dean Genova,45,Male,White,4/26/2015,Fountain Valley,CA,Shot,Gun,false,false
+7265,7266,13450,Joshua Green,27,Male,White,4/28/2015,Marion,IL,Shot,Gun,true,false
+7266,7267,13456,John Acree,53,Male,White,4/29/2015,Nashville,TN,Shot,Gun,true,false
+7267,7268,13465,Roark Cook,36,Male,White,5/4/2015,Kennewick,WA,Shot,Toy Weapon,true,false
+7268,7269,13468,Robert A. Frost,46,Male,White,5/5/2015,Pulaski,VA,Shot,Gun,true,false
+7269,7270,13471,Michael Murphy,38,Male,White,5/7/2015,Beacon,NY,Shot,Knife,false,true
+7270,7271,13474,David Schwalm,58,Male,White,5/8/2015,Constantia,NY,Shot,Gun,true,false
+7271,7272,13477,Stephen  Cunningham,47,Male,White,5/10/2015,Tacoma,WA,Shot,Gun,false,false
+7272,7273,13480,Justin Way,28,Male,White,5/11/2015,St. Augustine,FL,Shot,Machete,true,false
+7273,7274,13484,Sean Michael Pelletier,37,Male,White,5/14/2015,Portage,MI,Shot,Gun,true,true
+7274,7275,13485,Cary Martin,53,Male,White,5/14/2015,St. Augustine,FL,Shot,Gun,true,false
+7275,7276,13486,Mark Farrar,41,Male,White,5/15/2015,Rockford,IL,Shot,Gun,true,false
+7276,7277,13487,Matt Coates,42,Male,White,5/15/2015,Sacramento,CA,Shot,Toy Weapon,true,false
+7277,7278,13489,Dennis  Fiel,34,Male,White,5/17/2015,San Diego,CA,Shot,Gun,true,true
+7278,7279,13494,David  Gaines,17,Male,White,5/19/2015,Grand Junction,CO,Shot,Gun,false,true
+7279,7280,13502,James Anthony Cooper,43,Male,White,5/21/2015,North Charleston,SC,Shot,Knife,false,false
+7280,7281,13505,Michael Lowery,40,Male,White,5/22/2015,Somerset,PA,Shot,Toy Weapon,false,false
+7281,7282,13507,James Horn,47,Male,White,5/23/2015,Sedalia,MO,Shot,Gun,false,false
+7282,7283,13509,Cassandra Bolin,31,Female,White,5/25/2015,Austin,TX,Shot,Gun,true,false
+7283,7284,13513,Jessie  Williams,24,Male,White,5/26/2015,Bossier City,LA,Shot,,false,false
+7284,7285,13514,Scott McAllister,39,Male,White,5/27/2015,Ideal Beach,NJ,Shot,Knife,false,false
+7285,7286,13515,Garrett  Sandeno,24,Male,White,5/27/2015,Edmond,OK,Shot,Toy Weapon,true,false
+7286,7287,13525,Robert Box,55,Male,White,5/29/2015,Wilderville,OR,Shot,Gun,false,false
+7287,7288,13529,James Bushey,47,Male,White,5/31/2015,Palestine,TX,Shot,Toy Weapon,false,false
+7288,7289,13532,Kamal Dajani,26,Male,White,6/2/2015,Azle,TX,Shot,Knife,true,false
+7289,7290,13539,Christie Cathers,45,Female,White,6/5/2015,Morgantown,WV,Shot,Vehicle,false,true
+7290,7291,13543,Joe Nevels,42,Male,White,6/6/2015,Midland,TX,Shot,Box Cutter,true,false
+7291,7292,13545,Matthew Wayne McDaniel,36,Male,White,6/7/2015,Melbourne,FL,Shot,Gun,false,false
+7292,7293,13551,Greg  Hartley,45,Male,White,6/9/2015,Tomball,TX,Shot,Gun,false,true
+7293,7294,13553,Ryan Bolinger,28,Male,White,6/9/2015,Des Moines,IA,Shot,Unarmed,false,true
+7294,7295,13560,Shelly Haendiges,17,Female,White,6/12/2015,Kokomo,IN,Shot,Toy Weapon,true,false
+7295,7296,13561,Anthony Hodge,46,Male,White,6/13/2015,Fort Wayne,IN,Shot,Gun,false,false
+7296,7297,13563,James Boulware,35,Male,White,6/13/2015,Hutchins,TX,Shot,Guns And Explosives,true,false
+7297,7298,13569,Wendy Chappell,40,Female,White,6/17/2015,Clanton,AL,Shot,Gun,false,true
+7298,7299,13577,Charles  Marshall,49,Male,White,6/21/2015,Houston,TX,Shot,Cordless Drill,true,false
+7299,7300,13583,Jonathan Wilson,22,Male,White,6/23/2015,Hutchinson,KS,Shot,Knife,false,false
+7300,7301,13584,Randall Waddel,49,Male,White,6/23/2015,Weatherford,TX,Shot,Knife,true,true
+7301,7302,13588,Gilbert Jake Vanderburgh,61,Male,White,6/25/2015,Fresno,CA,Shot,Gun,false,false
+7302,7303,13592,Alan  Bellew,29,Male,White,6/28/2015,Portland,OR,Shot,Toy Weapon,false,false
+7303,7304,13594,Clay Alan  Lickteig,52,Male,White,6/30/2015,Franklin,NC,Shot,Gun,false,false
+7304,7305,13604,Joseph Julian,40,Male,White,7/3/2015,Miami Beach,FL,Shot,Gun,false,false
+7305,7306,13608,Bryan David Bauer,36,Male,White,7/4/2015,Henderson,NV,Shot,Gun,false,false
+7306,7307,13609,John Deming,19,Male,White,7/5/2015,Pleasanton,CA,Shot,Unarmed,false,true
+7307,7308,13610,Michael Holt,35,Male,White,7/5/2015,Austin,TX,Shot,Gun,false,true
+7308,7309,13614,Hagen Esty-Lennon,42,Male,White,7/6/2015,Bath,NH,Shot,Knife,true,false
+7309,7310,13619,Adam Dujanovic,33,Male,White,7/7/2015,Mesa,AZ,Shot,Metal Pole,false,false
+7310,7311,13625,Joshua Blough,28,Male,White,7/7/2015,Elizabethtown,KY,Shot,Knife,false,false
+7311,7312,13628,Rocco Joseph Palmisano,50,Male,White,7/9/2015,Parowan,UT,Shot,Gun,false,false
+7312,7313,13634,James Michael Todora,54,Male,White,7/10/2015,Las Vegas,NV,Shot,Gun,true,false
+7313,7314,13637,Billy Maine,31,Male,White,7/11/2015,Olivehurst,CA,Shot,Gun,false,false
+7314,7315,13640,David Lepine,60,Male,White,7/12/2015,Austin,TX,Shot,Gun,false,true
+7315,7316,13642,Christopher Benton,27,Male,White,7/12/2015,Casper,WY,Shot,Gun,false,false
+7316,7317,13653,Patrick Stephen Pippin,30,Male,White,7/16/2015,Kansas City,KS,Shot,Gun,false,true
+7317,7318,13656,Pierre Gabriel Koellner,29,Male,White,7/16/2015,Opp,AL,Shot,Gun,false,true
+7318,7319,13657,Samuel Smith,27,Male,White,7/17/2015,Seattle,WA,Shot,Knife,false,true
+7319,7320,13659,Jackie Brand,50,Male,White,7/17/2015,Needles,CA,Shot,Gun,true,false
+7320,7321,13662,David  Wheat Jr.,22,Male,White,7/18/2015,Fort Collins,CO,Shot,Knife,true,false
+7321,7322,13664,Charles Edward Dewey,65,Male,White,7/18/2015,Colby,KS,Shot,Gun,false,false
+7322,7323,13666,Joshua LeBoeuf,35,Male,White,7/20/2015,Winnie,TX,Shot,Gun,false,true
+7323,7324,13670,Jerrod Tyre,35,Male,White,7/21/2015,Jesup,GA,Shot,Gun,false,false
+7324,7325,13678,Tamala Satre,44,Female,White,7/23/2015,Meadow Vista,CA,Shot,Gun,true,false
+7325,7326,13682,Roger Braswell,50,Male,White,7/25/2015,Decatur,GA,Shot,Gun,true,false
+7326,7327,13698,Jeremy  Hatch,34,Male,White,7/31/2015,Roswell,NM,Shot,Gun,false,false
+7327,7328,13701,Virgil Reynolds,63,Male,White,8/2/2015,Houston,TX,Shot,Vehicle,true,false
+7328,7329,13703,Joshua Malave,18,Male,White,8/3/2015,Campbelltown,PA,Shot,Gun,false,true
+7329,7330,13704,Franklin Short,71,Male,White,8/3/2015,Powhatan County,VA,Shot,Gun,false,false
+7330,7331,13705,Shawn Ruble,35,Male,White,8/3/2015,Muncie,IN,Shot,Gun,true,false
+7331,7332,13712,Vincente Montano,29,Male,White,8/5/2015,Antioch,TN,Shot,Hatchet,true,false
+7332,7333,13718,Aaron  Marchese,30,Male,White,8/7/2015,Fresno,CA,Shot,Toy Weapon,true,false
+7333,7334,13719,Mark Keckhafer,53,Male,White,8/7/2015,Superior,MT,Shot,Vehicle,false,true
+7334,7335,13724,Jeffrey Clyde Wilkes,59,Male,White,8/8/2015,Gastonia,NC,Shot,Gun,false,false
+7335,7336,13725,Kevin McDaniel,46,Male,White,8/8/2015,Spokane,WA,Shot,Gun,false,false
+7336,7337,13727,Eric Tompkins,41,Male,White,8/9/2015,Ardmore,OK,Shot,Gun,true,false
+7337,7338,13733,Richard Dean Shull Jr.,24,Male,White,8/12/2015,Odessa,TX,Shot,Gun,false,false
+7338,7339,13746,Jonathon  Pope,30,Male,White,8/15/2015,Carson City,NV,Shot,Gun,false,false
+7339,7340,13748,Steven B. Norton,47,Male,White,8/16/2015,Kerrville,TX,Shot,Gun,false,false
+7340,7341,13753,Jason Hale,29,Male,White,8/19/2015,Hunters,WA,Shot,Gun,true,true
+7341,7342,13755,Tyler Gerken,19,Male,White,8/20/2015,Beverly,OH,Shot,Gun,true,false
+7342,7343,13758,Timmy Walling,57,Male,White,8/21/2015,Grapeview,WA,Shot,Gun,true,false
+7343,7344,13759,Charles S. Hall,30,Male,White,8/21/2015,North East,MD,Shot,Vehicle,false,true
+7344,7345,13761,Adam Schneider,31,Male,White,8/22/2015,Cohasset,MN,Shot,Gun,false,false
+7345,7346,13765,Kenneth Henry Morgan,64,Male,White,8/22/2015,King George,VA,Shot,Knife,false,false
+7346,7347,13766,Richard Francis Compo,36,Male,White,8/23/2015,Jacksonville,FL,Shot,Gun,true,false
+7347,7348,13767,Christopher Ray Tompkins,36,Male,White,8/23/2015,Arab,AL,Shot,Gun,false,true
+7348,7349,13770,William Lee Snider,57,Male,White,8/23/2015,Las Vegas,NV,Shot,Gun,false,false
+7349,7350,13774,Shane Rudolph,45,Male,White,8/25/2015,Phoenix,AZ,Shot,Gun,false,false
+7350,7351,13781,Robert Hober,54,Male,White,8/27/2015,San Diego,CA,Shot,Box Cutter,false,false
+7351,7352,13786,Devin Brian Dial,23,Male,White,8/28/2015,Longview,TX,Shot,Gun,false,false
+7352,7353,13790,Shawn Hall,20,Male,White,8/30/2015,Cushing,OK,Shot,Gun,false,false
+7353,7354,13794,Charles Robert Shaw,76,Male,White,9/1/2015,Twinsburg,OH,Shot,Gun,false,false
+7354,7355,13795,Michael Todd Evans,47,Male,White,9/1/2015,Artesia,NM,Shot,Gun,false,false
+7355,7356,13796,Arthur Bates,45,Male,White,9/2/2015,Prescott,AZ,Shot,Gun,true,false
+7356,7357,13798,Curtis James Meyer,37,Male,White,9/4/2015,Mitchell,SD,Shot,Gun,true,false
+7357,7358,13800,Richard Keith Kelley,27,Male,White,9/4/2015,Weitchpec,CA,Shot,Gun,false,true
+7358,7359,13801,Sully Lanier,36,Male,White,9/4/2015,Springtown,TX,Shot,Gun,false,false
+7359,7360,13802,Harrison Lambert,23,Male,White,9/4/2015,Merrimack,NH,Shot,Knife,true,false
+7360,7361,13809,William Verrett,45,Male,White,9/6/2015,Hobbs,NM,Shot,Gun,false,false
+7361,7362,13819, Austin Wilburly  Reid,32,Male,White,9/10/2015,Lodi,CA,Shot,Gun,false,true
+7362,7363,13821,Robert T. Edwards,31,Male,White,9/11/2015,Chester,PA,Shot,Gun,false,false
+7363,7364,13823,Derick Davis,23,Male,White,9/12/2015,Sylacauga,AL,Shot,,false,true
+7364,7365,13829,David Todd Powell,28,Male,White,9/14/2015,Barstow,CA,Shot,Unarmed,true,false
+7365,7366,13835,Rory Lynn Gunderman,31,Male,White,9/16/2015,Lead,SD,Shot,Gun,true,true
+7366,7367,13837,Lawrence Price,,Male,White,9/17/2015,Brodhead,KY,Shot,Gun,false,false
+7367,7368,13838,Nicholas Alan Johnson,32,Male,White,9/18/2015,San Bernardino,CA,Shot,Vehicle,false,true
+7368,7369,13841,Scott Beech,57,Male,White,9/19/2015,Washington County,AL,Shot,Gun,true,false
+7369,7370,13842,Michael Thomas Pierce,23,Male,White,9/20/2015,Harrisonburg,VA,Shot,Gun,false,false
+7370,7371,13848,Timothy Wagner,26,Male,White,9/21/2015,Barberville,FL,Shot,Gun,false,false
+7371,7372,13851,Joel Dixon Smith,33,Male,White,9/22/2015,Niceville,FL,Shot,Gun,true,false
+7372,7373,13857,Kenneth Ray Pinter,45,Male,White,9/23/2015,Grayson County,VA,Shot,Gun,false,false
+7373,7374,13864,Jeffrey Blood,45,Male,White,9/25/2015,Wilhoit,AZ,Shot,Gun,false,false
+7374,7375,13868,Christopher Shell,43,Male,White,9/27/2015,Rossville,GA,Shot,Gun,false,false
+7375,7376,13873,Robert  Christen,37,Male,White,9/29/2015,Mora,MN,Shot,Unarmed,false,false
+7376,7377,13877,Phyllis Ilene Jepsen,55,Female,White,10/2/2015,Aloha,OR,Shot,Knife,true,false
+7377,7378,13878,Matthew Dobbins,29,Male,White,10/2/2015,Amarillo,TX,Shot,Unarmed,false,false
+7378,7379,13880,Eric Edgell,27,Male,White,10/4/2015,Muscle Shoals,AL,Shot,Gun,true,true
+7379,7380,13882,James  Dunaway,51,Male,White,10/5/2015,Hurst,TX,Shot,Gun,false,true
+7380,7381,13890,Christopher Whitmarsh,49,Male,White,10/10/2015,Beverly,MA,Shot,Vehicle,true,false
+7381,7382,13892,William Combs,38,Male,White,10/10/2015,Pinion Hills,CA,Shot,Vehicle,true,true
+7382,7383,13893,Travis Quay,40,Male,White,10/10/2015,Cato Township,MI,Shot,Crossbow,false,false
+7383,7384,13900,Rudolph Smith,31,Male,White,10/12/2015,Brookhaven,MS,Shot,Gun,false,false
+7384,7385,13901,Brent Brannon,27,Male,White,10/14/2015,Cartersville,GA,Shot,Gun,false,false
+7385,7386,13902,Michelle Marie Burg,46,Female,White,10/14/2015,Naples,FL,Shot,Gun,true,true
+7386,7387,13908,Linda Lee Lush,50,Female,White,10/15/2015,Las Vegas,NV,Shot,Gun,true,true
+7387,7388,13909,Michael J. Brennan,31,Male,White,10/15/2015,Parma,OH,Shot,Gun,false,true
+7388,7389,13910,Robert Burgess,35,Male,White,10/15/2015,Kirkland,WA,Shot,Gun,false,true
+7389,7390,13921,Roger D.  Hall,30,Male,White,10/20/2015,Louisville,KY,Shot,Toy Weapon,false,false
+7390,7391,13925,Jonathan Tyler Gossman,21,Male,White,10/20/2015,Cedar Rapids,IA,Shot,Gun,false,true
+7391,7392,13931,Stephen H. Brock,53,Male,White,10/22/2015,Pine Top,KY,Shot,,false,false
+7392,7393,13936,Arthur West,28,Male,White,10/24/2015,Zanesville,OH,Shot,Gun,true,false
+7393,7394,13938,Jon Ployhar,49,Male,White,10/24/2015,Kenai Peninsula,AK,Shot,,false,false
+7394,7395,13939,John Harley Turner,36,Male,White,10/25/2015,Talking Rock,GA,Shot,Gun,false,false
+7395,7396,13945,Ricky Keith Keeton,57,Male,White,10/28/2015,Smithville,MS,Shot,Gun,false,false
+7396,7397,13947,Jasper Levi Adams,35,Male,White,10/28/2015,Salem,OR,Shot,Gun,false,true
+7397,7398,13949,Allen Quintez Swader,18,Male,White,10/29/2015,Hohenwald,TN,Shot,Gun,false,false
+7398,7399,13950,Floyd Ray Cook,62,Male,White,10/30/2015,Burkesville,KY,Shot,Gun,false,true
+7399,7400,13957,Killian O'Quinn,20,Male,White,11/1/2015,Eureka,CA,Shot,Gun,false,false
+7400,7401,13965,David  Romanoski,48,Male,White,11/5/2015,Morgantown,WV,Shot,Gun,false,false
+7401,7402,13969,Michael  Johnson,51,Male,White,11/6/2015,Portland,OR,Shot,Gun,true,false
+7402,7403,13970,James Francis Smyth,55,Male,White,11/6/2015,Las Vegas,NV,Shot,Vehicle,false,true
+7403,7404,13983,Brian Gavin,57,Male,White,11/11/2015,Aiken,SC,Shot,Gun,false,false
+7404,7405,13986,Michael Joseph Bartkiewicz,52,Male,White,11/13/2015,Gibson County,TN,Shot,Unknown Weapon,false,false
+7405,7406,13988,Matthew Coleman,25,Male,White,11/13/2015,Eden,GA,Shot,Gun,false,true
+7406,7407,13995,Brent Noblitt,25,Male,White,11/16/2015,Whitfield County,GA,Shot,Vehicle,false,true
+7407,7408,14000,Derry Touchstone,58,Male,White,11/17/2015,Arlington,GA,Shot,Unarmed,false,false
+7408,7409,14001,Francis Hartnett,47,Male,White,11/17/2015,Little Egg Harbor,NJ,Shot,Gun,true,false
+7409,7410,14009,Chris Nichols,24,Male,White,11/21/2015,Colbert,OK,Shot,Unarmed,false,true
+7410,7411,14010,James Daniel Hall,47,Male,White,11/22/2015,Fontana,CA,Shot,Knife,true,false
+7411,7412,14011,Matthew Grows,45,Male,White,11/22/2015,Reno,NV,Shot,Gun,false,false
+7412,7413,14015,Michael Kirvelay,45,Male,White,11/24/2015,Columbia Heights,MN,Shot,Unknown Weapon,false,false
+7413,7414,14020,Somer Speer,37,Female,White,11/25/2015,Ozark,MO,Shot,Gun,false,false
+7414,7415,14021,Andrew Thomas,26,Male,White,11/26/2015,Chico,CA,Shot,Unarmed,false,true
+7415,7416,14025,Lionel Kerns,53,Male,White,11/29/2015,Maysville,MO,Shot,Gun,false,false
+7416,7417,14032,Joshua  Jozefowicz ,23,Male,White,12/1/2015,Bangor,ME,Shot,Gun,false,true
+7417,7418,14053,Christopher Higdon,66,Male,White,12/9/2015,Leitchfield,KY,Shot,Gun,false,false
+7418,7419,14057,Thomas Arthur Gendreau,54,Male,White,12/10/2015,Marina,CA,Shot,Knife,false,false
+7419,7420,14064,Andrew Jospeh Todd,20,Male,White,12/12/2015,East Stroudsburg,PA,Shot,Gun,true,false
+7420,7421,14067,Shirley  Weis,51,Female,White,12/13/2015,Arlington,TX,Shot,Gun,true,false
+7421,7422,14073,Michael  Thomason,56,Male,White,12/14/2015,Humboldt,TN,Shot,,false,false
+7422,7423,14078,Mark Toney,33,Male,White,12/14/2015,Mount Hope,WV,Shot,Gun,false,false
+7423,7424,14082,Christopher Fletcher,24,Male,White,12/17/2015,Modesto,CA,Shot,Gun,false,true
+7424,7425,14083,Erica Lauro,22,Female,White,12/18/2015,Northwood,OH,Shot,Gun,false,true
+7425,7426,14096,Brandon Barsnick,30,Male,White,12/21/2015,Smartsville,CA,Shot,Gun,false,false
+7426,7427,14099,Michael Hilber,29,Male,White,12/22/2015,Brooksville,FL,Shot,,false,true
+7427,7428,14102,Schuylar Gunning,36,Male,White,12/24/2015,Winnsboro,LA,Shot,Vehicle,false,true
+7428,7429,14112,Michael Parker,36,Male,White,12/27/2015,Lucedale,MS,Shot,,false,true
+7429,7430,14114,Gayneaux Paul Trahan,52,Male,White,12/27/2015,Franklin,LA,Shot,,false,false
+7709,7710,13140,Patrick Wetter,25,Male,White,1/6/2015,Stockton,CA,Shot and Tasered,Knife,false,false
+7710,7711,13173,Carter Castle,67,Male,White,1/18/2015,Gunlock,KY,Shot and Tasered,Gun,true,false
+7711,7712,13181,Kristiana Coignard,17,Female,White,1/22/2015,Longview,TX,Shot and Tasered,Knife,true,false
+7712,7713,13262,Daniel Elrod,39,Male,White,2/23/2015,Omaha,NE,Shot and Tasered,Unarmed,false,false
+7713,7714,13270,Alexander Phillip Long,31,Male,White,2/26/2015,Terre Haute,IN,Shot and Tasered,Unarmed,false,false
+7714,7715,13349,Christopher Ryan Healy,36,Male,White,3/22/2015,Portland,OR,Shot and Tasered,Knife,true,true
+7715,7716,13358,Joseph Tassinari,63,Male,White,3/25/2015,Glendale,AZ,Shot and Tasered,Gun,true,false
+7716,7717,13378,Donald Hicks,63,Male,White,4/2/2015,Metropolis,IL,Shot and Tasered,Gun,true,false
+7717,7718,13496,Jonathan  Colley,52,Male,White,5/20/2015,Green,OH,Shot and Tasered,Knife,false,false
+7718,7719,13518,Simon Hubble,33,Male,White,5/27/2015,Alpine,CA,Shot and Tasered,Screwdriver,true,false
+7719,7720,13611,Richard Munroe,25,Male,White,7/5/2015,Austin,TX,Shot and Tasered,Toy Weapon,true,false
+7720,7721,13632,Neil White,38,Male,White,7/9/2015,Los Angeles,CA,Shot and Tasered,Tasered,false,true
+7721,7722,13646,Jason Davis,41,Male,White,7/13/2015,Los Angeles,CA,Shot and Tasered,Box Cutter,false,false
+7722,7723,13675,Derek Wolfsteller,31,Male,White,7/23/2015,Plymouth,MN,Shot and Tasered,Unarmed,true,false
+7723,7724,13680,Lee Aaron Gerston,30,Male,White,7/24/2015,Pinnacle,NC,Shot and Tasered,Knife,false,false
+7724,7725,13689,Samuel Forgy,22,Male,White,7/27/2015,Boulder,CO,Shot and Tasered,Knife,false,false
+7725,7726,13743,John Unsworth,43,Male,White,8/15/2015,Hanover,IN,Shot and Tasered,Unarmed,false,false
+7726,7727,13847,Steven McKenny,21,Male,White,9/21/2015,Paris,TX,Shot and Tasered,Unarmed,false,false
+7727,7728,14016,Thomas Joseph Mceniry,32,Male,White,11/24/2015,Las Vegas,NV,Shot and Tasered,Gun,true,true
+7728,7729,14041,Ivan Krstic,47,Male,White,12/4/2015,Mesa,AZ,Shot and Tasered,Metal Stick,false,false
+7729,7730,14044,David  Winesett,51,Male,White,12/5/2015,Miami,FL,Shot and Tasered,Straight Edge Razor,false,false
+7837,7838,10140,Chance Dale Thompson,35,Male,White,2/20/2015,Marysville,CA,Tasered,,false,false
+7838,7839,10274,Gregory Thomas Joseph Smith,39,Male,White,3/26/2015,Crown Point,IN,Tasered,,false,false
+7839,7840,10309,David Cody Lynch,33,Male,White,4/3/2015,Warner,OK,Tasered,,false,false
+7840,7841,10329,Michael Earl Lemon,57,Male,White,4/8/2015,Lake Isabella,CA,Tasered,,false,false
+7841,7842,10355,David Kapuscinski,39,Male,White,4/16/2015,Gibraltar,MI,Tasered,,false,false
+7842,7843,10373,Stephen Gene Davenport,40,Male,White,4/21/2015,Meridian,MS,Tasered,Gun,true,false
+7843,7844,10439,Michael Tyrone Gallagher,55,Male,White,5/9/2015,Enfield,NC,Tasered,,false,false
+7844,7845,10506,Randall C. Torrence,34,Male,White,5/27/2015,Kansas City,KS,Tasered,Gun,true,false
+7845,7846,10519,Billy J. Collins,56,Male,White,5/29/2015,Louisa,KY,Tasered,Gun,false,false
+7846,7847,10619,Shane Patrick Gormley,30,Male,White,6/29/2015,Ogden,UT,Tasered,,true,false
+7847,7848,10734,Bob Corky Cox,42,Male,White,7/23/2015,Lake Charles,LA,Tasered,Knife,false,false
+7848,7849,10839,David Scott Coleman,38,Male,White,8/19/2015,New Albany,MS,Tasered,,false,false
+7849,7850,10846,Marc Jeffrey Kaplan,57,Male,White,8/21/2015,Scottsdale,AZ,Tasered,,true,false
+7850,7851,10880,Nicholas Dyksma,18,Male,White,8/31/2015,Hamilton,GA,Tasered,,false,false
+7851,7852,10894,Lucas Markus,33,Male,White,9/4/2015,Girardville,PA,Tasered,,false,false
+7852,7853,10911,Jordn Miller,24,Male,White,9/8/2015,Akron,OH,Tasered,Gun,false,false
+7853,7854,11035,Danny Leroy Hammond,50,Male,White,10/18/2015,St. Cloud,MN,Tasered,Gun,false,false
+7854,7855,11041,Kenneth Darryl Schick,47,Male,White,10/20/2015,Wakarusa,KS,Tasered,,false,false
+7855,7856,11142,Chase Alan Sherman,32,Male,White,11/20/2015,Palmetto,GA,Tasered,,true,false
+7858,7859,11787,James Paul Bertuglia,40,Male,White,12/8/2015,Amherst,VA,Tasered,,false,false
+7861,7862,12081,James Fred Sizer Sr.,62,Male,White,3/6/2015,Austin,TX,Tasered,Unarmed,false,false
+10733,10734,10008,Brian Barbosa,23,Male,,1/11/2015,South Gate,CA,Shot,Gun,false,false
+10734,10735,10020,Nathan Ryan Massey,33,Male,,1/15/2015,Ville Platte,LA,Shot,Gun,false,false
+10735,10736,10031,Zaki Shinwary,48,Male,,1/16/2015,Fremont,CA,Shot,Knife,false,false
+10736,10737,10041,Andrew J. Toto,54,Male,,1/21/2015,Derry,NH,Shot,Gun,true,false
+10737,10738,10052,William Campbell,59,Male,,1/25/2015,Winslow,NJ,Shot,Gun,false,false
+10738,10739,10058,Chris Ingram,29,Male,,1/26/2015,Morenci,AZ,Shot,Gun,false,false
+10739,10740,10095,John Sawyer,36,Male,,2/5/2015,Calimesa,CA,Shot,Gun,false,false
+10740,10741,10098,Brandon Davis,20,Male,,2/8/2015,Mobile,AL,Shot,,false,false
+10741,10742,10105,Larry Hostetter,41,Male,,2/9/2015,Nocona,TX,Shot,,false,false
+10742,10743,10115,Benjamin Alexander Gwyn,33,Male,,2/12/2015,Washington,DC,Shot,Gun,false,false
+10743,10744,10119,Andres D. Lara-Rodriguez,21,Male,,2/13/2015,Kansas City,KS,Shot,Gun,false,false
+10744,10745,10129,Daniel Lawrence Caldwell,56,Male,,2/16/2015,Marana,AZ,Shot,Gun,false,false
+10745,10746,10130,Doug Sparks,30,Male,,2/17/2015,Tewksbury,MA,Shot,Gun,false,false
+10746,10747,10146,Bradford Samuel Leonard,50,Male,,2/22/2015,Palm Bay,FL,Shot,,false,false
+10747,10748,10155,Troy Austin Robertson,21,Male,,2/25/2015,Houston,TX,Shot,Gun,true,false
+10748,10749,10206,William Russell Rusty Smith,53,Male,,3/10/2015,Hoover,AL,Shot,,true,false
+10749,10750,10221,Salome Rodriguez Jr.,23,Male,,3/13/2015,Pomona,CA,Shot,,true,false
+10750,10751,10222,Fred E. Liggett Jr.,59,Male,,3/13/2015,Kansas City,MO,Shot,,false,false
+10751,10752,10242,Garland L. Wingo,64,Male,,3/18/2015,Tallahassee,FL,Shot,,true,false
+10752,10753,10243,Jamison Childress,20,Male,,3/19/2015,Sumas,WA,Shot,,true,false
+10753,10754,10245,Adam Jovicic,29,Male,,3/19/2015,Munroe Falls,OH,Shot,,true,false
+10754,10755,10257,Jason L. Smith,42,Male,,3/21/2015,Columbus,OH,Shot,,false,false
+10755,10756,10262,Devin J. Gates,24,Male,,3/22/2015,Santa Clara,CA,Shot,Gun,false,false
+10756,10757,10298,Joshua Johnson,17,Male,,3/31/2015,Nashville,TN,Shot,,false,false
+10757,10758,10302,Sean or Shawn Clyde,36,Male,,4/1/2015,Hamilton Township,NJ,Shot,Knife,false,false
+10758,10759,10328,Mark Smith,54,Male,,4/8/2015,Kellyville,OK,Shot,,false,false
+10759,10760,10337,Ricky Carl Clark II,22,Male,,4/12/2015,Opelika,AL,Shot,,false,false
+10760,10761,10379,Karen Janks,46,Female,,4/23/2015,Sebastopol,CA,Shot,,false,false
+10761,10762,10408,Fridoon Zalbeg Rawshannehad,42,Male,,4/30/2015,San Diego,CA,Shot,Knife,false,false
+10762,10763,10413,Reginald L. Moore Sr.,44,Male,,5/3/2015,Greenville,MS,Shot,,false,false
+10763,10764,10429,Joseph Roy,72,Male,,5/7/2015,Lawrenceville,GA,Shot,Knife,true,false
+10764,10765,10441,Stephen Cunningham,47,Male,,5/10/2015,Tacoma,WA,Shot,,false,false
+10765,10766,10449,Bruce Zalonka,46,Male,,5/12/2015,Honolulu,HI,Shot,Gun,false,false
+10766,10767,10453,Cary Lloyd Martin,53,Male,,5/14/2015,St Augustine,FL,Shot,,true,false
+10767,10768,10469,Ronell Wade,45,Male,,5/17/2015,Harvey,IL,Shot,,false,false
+10768,10769,10470,Dennis Richard Fiel,34,Male,,5/17/2015,San Diego,CA,Shot,,true,false
+10769,10770,10474,David Gaines,17,Male,,5/19/2015,Grand Junction,CO,Shot,Gun,false,false
+10770,10771,10504,Simon D. Hubble,33,Male,,5/27/2015,Alpine,CA,Shot,Gun,true,false
+10771,10772,10513,James Edward Strong Jr.,32,Male,,5/28/2015,Northglenn,CO,Shot,,false,false
+10772,10773,10527,James Morris,40,Male,,5/31/2015,Medford,OR,Shot,Gun,true,false
+10773,10774,10528,James Douglas Bushey,47,Male,,5/31/2015,Palestine,TX,Shot,Gun,false,false
+10774,10775,10529,Kamal Dajani,26,Male,,6/1/2015,Azle,TX,Shot,Knife,true,false
+10775,10776,10564,Raymond Phillips,86,Male,,6/11/2015,Columbia,TN,Shot,Gun,false,false
+10776,10777,10567,Charles Allen Ziegler,40,Male,,6/11/2015,Pompano Beach,FL,Shot,,false,false
+10777,10778,10573,Anthony W. Hodge,46,Male,,6/13/2015,Fort Wayne,IN,Shot,Gun,false,false
+10778,10779,10606,Jonathan P. Wilson,22,Male,,6/23/2015,Hutchinson,KS,Shot,Knife,false,false
+10779,10780,10625,Michael Todd Yokel,49,Male,,7/2/2015,Adger,AL,Shot,,true,false
+10780,10781,10626,Brian Johnson,59,Male,,7/2/2015,Meadow Bridge,WV,Shot,,true,false
+10781,10782,10687,Frederick Farmer,20,Male,,7/12/2015,Stone Mountain,GA,Shot,Gun,false,false
+10782,10783,10695,Charles D. Crandall,76,Male,,7/14/2015,Southington,OH,Shot,,false,false
+10783,10784,10742,Roger Braswell,50,Male,,7/24/2015,Brinson,GA,Shot,,true,false
+10784,10785,10755,Timothy Johnson,41,Male,,7/28/2015,Manila,AR,Shot,Knife,false,false
+10785,10786,10770,David Lane Cook,52,Male,,8/1/2015,Nitro,WV,Shot,,false,false
+10786,10787,10771,Armando Serrano Jr.,29,Male,,8/1/2015,Tucson,AZ,Shot,Gun,false,false
+10787,10788,10797,Mark Keckhafer/Keckhaser,53,Male,,8/7/2015,Superior,MT,Shot,,false,false
+10788,10789,10801,Roderick Burr,33,Male,,8/8/2015,Brookshire,TX,Shot,,false,false
+10789,10790,10802,Kevin Lee McDaniel,46,Male,,8/8/2015,Spokane,WA,Shot,Gun,false,false
+10790,10791,10807,Robert Patrick Quinn,77,Male,,8/9/2015,Pittston,PA,Shot,Gun,true,false
+10791,10792,10809,Aaron James A.J. Phillips,30,Male,,8/10/2015,San Jose,CA,Shot,Gun,true,false
+10792,10793,10817,Redel Kentel Jones,30,Female,,8/12/2015,Los Angeles,CA,Shot,Knife,false,false
+10793,10794,10852,William Snider,57,Male,,8/23/2015,Las Vegas,NV,Shot,Gun,false,false
+10794,10795,10856,Bobby Norris,53,Male,,8/23/2015,Archdale,NC,Shot,Gun,false,false
+10795,10796,10860,Marvin Orlando Arroliga,22,Male,,8/25/2015,Miami,FL,Shot,,false,false
+10796,10797,10870,Robert Arthur Hober,54,Male,,8/28/2015,San Diego,CA,Shot,,false,false
+10797,10798,10874,Rafael A. Cruz Jr.,29,Male,,8/29/2015,Chicago,IL,Shot,,false,false
+10798,10799,10883,Michael Evans,47,Male,,9/1/2015,Artesia,NM,Shot,,false,false
+10799,10800,10892,Jose Ramon Damiani Jr.,49,Male,,9/4/2015,French Lick,IN,Shot,,false,false
+10800,10801,10895,Curtis Meyer,37,Male,,9/4/2015,Mitchell,SD,Shot,Gun,false,false
+10801,10802,10907,William Verrett,42,Male,,9/7/2015,Hobbs,NM,Shot,Gun,false,false
+10802,10803,10913,Vincent Perdue,33,Male,,9/9/2015,North Pole,AK,Shot,Gun,false,false
+10803,10804,10939,Carlos Joseph Wilhelm,39,Male,,9/16/2015,Los Angeles,CA,Shot,,false,false
+10804,10805,10943,Nicholas Johnson,32,Male,,9/18/2015,San Bernardino,CA,Shot,,false,false
+10805,10806,10957,Timothy Wagner,26,Male,,9/22/2015,Barberville,FL,Shot,,false,false
+10806,10807,10959,Donaven Anderson,26,Male,,9/22/2015,North Las Vegas,NV,Shot,Gun,false,false
+10807,10808,10989,Phyllis Jepsen,55,Female,,10/2/2015,Aloha,OR,Shot,Knife,true,false
+10808,10809,10999,Margaret Wagner,62,Female,,10/9/2015,Aguanga,CA,Shot,Gun,false,false
+10809,10810,11001,Gary Boitano,19,Male,,10/9/2015,Columbia,MD,Shot,Knife,false,false
+10810,10811,11012,Jarek Kozlowski,27,Male,,10/13/2015,Gardnerville,NV,Shot,,false,false
+10811,10812,11014,Michael Clark,59,Male,,10/14/2015,Seaside,CA,Shot,,false,false
+10812,10813,11016,Brent Andrew Brannon,27,Male,,10/14/2015,Catersville,GA,Shot,Gun,false,false
+10813,10814,11025,Robert Burgess Jr.,35,Male,,10/15/2015,Kirkland,WA,Shot,,false,false
+10814,10815,11027,Jason Foreman,45,Male,,10/16/2015,Winder,GA,Shot,Gun,false,false
+10815,10816,11072,Ricky Keeton,57,Male,,10/28/2015,Smithville,MS,Shot,,false,false
+10816,10817,11074,Larry Busby,52,Male,,10/29/2015,Old Town,FL,Shot,Gun,false,false
+10817,10818,11196,Sammy Monroe ÛÏCharlieÛ Echols Jr.,51,Male,,12/9/2015,Sportsmen Acres,OK,Shot,,true,false
+10818,10819,11199,Name withheld by police,,Male,,12/10/2015,Hemet,CA,Shot,Gun,false,false
+10819,10820,11204,Efrain Villanueva,51,Male,,12/12/2015,Aurora,CO,Shot,,false,false
+10820,10821,11253,Gregory Sanders,54,Male,,12/24/2015,Pride,LA,Shot,Gun,true,false
+10821,10822,11266,John Randell Veach,39,Male,,12/30/2015,Rawlins,WY,Shot,,false,false
+11310,11311,13371,John Marcell Allen,54,Male,,3/30/2015,Boulder City,NV,Shot,Gun,false,false
+11311,11312,13457,Fridoon Zalbeg Nehad,42,Male,,4/30/2015,San Diego,CA,Shot,Unarmed,true,false
+11312,11313,13462,Nadir Soofi,34,Male,,5/3/2015,Garland,TX,Shot,Gun,false,false
+11313,11314,13528,James Anthony Morris,40,Male,,5/31/2015,Medford,OR,Shot,Gun,true,false
+11314,11315,13556,Raymond  Phillips,86,Male,,6/11/2015,Columbia,TN,Shot,Gun,true,false
+11315,11316,13648,Charles Crandall,76,Male,,7/14/2015,Southington,OH,Shot,Gun,false,false
+11316,11317,13654,Mohammad Youssef Abdulazeez,24,Male,,7/16/2015,Chattanooga,TN,Shot,Gun,true,false
+11317,11318,13699,David  Cook,52,Male,,8/1/2015,Nitro,WV,Shot,Gun,false,false
+11318,11319,13817,Bruce Santino,35,Male,,9/10/2015,Fontana,CA,Shot,Knife,true,false
+11319,11320,13853,Donaven Kyle Anderson,26,Male,,9/22/2015,North Las Vegas,NV,Shot,Gun,false,false
+11320,11321,13861,Philip Quinn,30,Male,,9/24/2015,Saint Paul,MN,Shot,Screwdriver,true,false
+11321,11322,13879,James Joseph Byrd,45,Male,,10/4/2015,Van Nuys,CA,Shot,Beer Bottle,false,false
+11322,11323,13884,Omar Ali,27,Male,,10/5/2015,Akron,OH,Shot,Unarmed,false,false
+11323,11324,13886,Donald Miller II,39,Male,,10/6/2015,Monterey,CA,Shot,Gun,true,false
+11324,11325,13904,Michael Donald Clark,59,Male,,10/14/2015,Seaside,CA,Shot,Gun,false,false
+11325,11326,14036,Syed Farook,28,Male,,12/2/2015,San Bernardino,CA,Shot,Gun,false,true
+11326,11327,14054,Sammy Monroe Echols,51,Male,,12/9/2015,Pryor,OK,Shot,Gun,true,false
+11327,11328,14058,TK TK,,Male,,12/10/2015,Hemet,CA,Shot,Gun,false,false
+11328,11329,14069,Nephi  Leiataua,30,Male,,12/13/2015,Thurston County,WA,Shot,Knife,false,false
+11431,11432,13396,Mark Smith,54,Male,,4/9/2015,Kellyville,OK,Shot and Tasered,Vehicle,false,true
+11604,11605,10226,David Werblow,41,Male,,3/15/2015,Branford,CT,Tasered,Unarmed,true,false
+11605,11606,10424,John Paul Kaafi,33,Male,,5/6/2015,Sarasota,FL,Tasered,,true,false
+11606,11607,10440,Martin Eugene Bayless,66,Male,,5/9/2015,Carbondale,KS,Tasered,,false,false
+11607,11608,10448,Dajuan Graham,40,Male,,5/12/2015,Silver Spring,MD,Tasered,,true,false
+11608,11609,10796,Matthew Russo,26,Male,,8/7/2015,Hartford,CT,Tasered,,false,false

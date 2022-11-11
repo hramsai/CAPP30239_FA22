@@ -47,8 +47,8 @@
 
       const color = d3.scaleOrdinal(subgroups,['#e41a1c','#377eb8','#4daf4a']);
     
-      const stackedData = d3.stack()
-        .keys(subgroups)(data);
+      const stackedData = d3.stack() // 
+        .keys(subgroups)(data); // primary data source 
 
       svg.append("g")
         .selectAll("g")

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactivity with D3</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Reading Police Killings in 2015</h1>
+        <p>The data used for these charts come from the Washington Post.</p>
+        <h3>At the outset, a Racial Distribution of the Killings:</h3>
+        <div id="bar_chart">
+        </div>
+        <p>As the chart shows, 26% of the deceased are Black. It also shows that over 50% of those killed are 'White'.
+            It is important, however, it note that the population distribution tells a different story.
+        </p>
+    </div>
+    <div class="container">
+        <h3>The Populations Distribution</h3>
+        <div id="another_chart">
+        </div>
+        <p>As the chart shows, only 13% of the population identifies as 'Black'. This shows that the killings are disproportionately of black people. 
+        </p>
+    </div>
+    <div class="container">
+        <h3>Number of Killings Across the Year</h3>
+        <div id="line_chart">
+        </div>
+        <p> This chart shows the distribution of total killings through the months of 2015. As is evident, we see a slight dip in the summer months, and an increase in July and August. 
+        </p>
+    </div>
+    <div class="container">
+        <h3> Distribution of How People were Killed</h3>
+        <p> 
+        As the chart shows, over 1400 of the killings were through shooting, while 58 were through a taser. 
+        </p>
+        <div id="ring_chart" class="ring">
+        </div>
+    </div>
+    <script src = "https://d3js.org/d3.v7.min.js"></script> 
+    <script src = "bar.js"></script>
+    <script src = "bar 2 copy.js"></script>
+    <script src = "line.js"></script>
+    <script src = "ring.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script> 
+    <script src="map.js"></script> -->
+</body>
+</html>
