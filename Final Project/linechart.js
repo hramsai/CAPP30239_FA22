@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 890 - margin.left - margin.right,
+    height = 560 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -13,10 +13,10 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("Final Project/Final Project Data - WBG Money Spent for each Sectors per Year.csv", function(data) {
+d3.csv("data.csv", function(data) {
     console.log(data)
-    // List of groups (here I have one group per column)
-    var allGroup = d3.map(data, function(d){return(d.name)}).keys()
+    
+    var allGroup = d3.map(data, function(d){return(d.primary_sectors)}).keys() // List of groups 
 
     // add the options to the button
     d3.select("#selectButton")
@@ -32,29 +32,33 @@ d3.csv("Final Project/Final Project Data - WBG Money Spent for each Sectors per 
       .domain(allGroup)
       .range(d3.schemeSet2);
 
-    // Add X axis --> it is a date format
-    var x = d3.scaleLinear()
-      .domain(d3.extent(data, function(d) { return d.year; }))
+    var x = d3.scaleTime()
+      .domain(d3.extent(data, function(d) { return d.transaction_year; }))
       .range([ 0, width ]);
     svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).ticks(7));
+      .attr("transform", `translate(0, ${height})`)
+      .call(d3.axisBottom(x).ticks(10).tickFormat(d3.timeFormat("%Y"))); // ?? dates are getting converted to 1969?
 
     // Add Y axis
     var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return +d.n; })])
+      .domain([0, d3.max(data, function(d) { return +d.total_commitments; })])
       .range([ height, 0 ]);
     svg.append("g")
-      .call(d3.axisLeft(y));
+    .attr("class", "y-axis")
+    .call(d3.axisLeft(y)
+      .tickSizeOuter(0)
+      .tickFormat(d => d + ' Billion') // ?? how do I make this into like 1 million or billion? 
+      );
 
     // Initialize line with first group of the list
     var line = svg
       .append('g')
       .append("path")
-        .datum(data.filter(function(d){return d.name==allGroup[0]}))
+        .datum(data.filter(function(d){return d.primary_sectors==allGroup[0]}))
         .attr("d", d3.line()
-          .x(function(d) { return x(d.year) })
-          .y(function(d) { return y(+d.n) })
+          .x(function(d) { return x(d.transaction_year) })
+          .y(function(d) { return y(+d.total_commitments) })
+          // .curve(d3.curveNatural)
         )
         .attr("stroke", function(d){ return myColor("valueA") })
         .style("stroke-width", 4)
@@ -64,7 +68,7 @@ d3.csv("Final Project/Final Project Data - WBG Money Spent for each Sectors per 
     function update(selectedGroup) {
 
       // Create new data with the selection?
-      var dataFilter = data.filter(function(d){return d.name==selectedGroup})
+      var dataFilter = data.filter(function(d){return d.primary_sectors==selectedGroup})
 
       // Give these new data to update line
       line
@@ -72,8 +76,9 @@ d3.csv("Final Project/Final Project Data - WBG Money Spent for each Sectors per 
           .transition()
           .duration(1000)
           .attr("d", d3.line()
-            .x(function(d) { return x(d.year) })
-            .y(function(d) { return y(+d.n) })
+            .x(function(d) { return x(d.transaction_year) })
+            .y(function(d) { return y(+d.total_commitments) })
+            // .curve(d3.curveNatural)
           )
           .attr("stroke", function(d){ return myColor(selectedGroup) })
     }
