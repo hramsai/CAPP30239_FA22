@@ -76,12 +76,12 @@ d3.csv("../degrees.csv").then((data) => {
       d3.select(this)
         .attr("opacity", 0.75);
     })
-    .on("click", function (e, d) {
-      let str = `${d.source.name} earned ${d.source.value.toLocaleString()} ${d.target.name} Degrees`;
+    .on("click", function (e, d) { // first value is the event, second is the data
+      let str = `${d.source.name} earned ${d.source.value.toLocaleString()} ${d.target.name} Degrees`; // objects nested to show what information should be displayed (traversing through the objects)
       d3.select("h2")
         .html(str);
       e.stopPropagation();
-    })
+    }) // you can define that you can click on the data, and have it change
     .append("title")
     .text(d => `${d.source.name} ${d.target.name}`);
 
