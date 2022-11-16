@@ -1,160 +1,160 @@
-0
-66
-45
-4
-22
-64
-14
-94
-34
-17
-2
-2
-144
-14
-123
-71
-43
-8
-21
-74
-25
-77
-25
-10
-7
-3
-68
-4
-21
-126
-44
-45
-3
-15
-48
-26
-92
-27
-17
-10
-87
-12
-132
-81
-44
-3
-10
-72
-15
-127
-27
-5
-8
-1
-98
-12
-173
-67
-60
-14
-55
-37
-1
-105
-48
-11
-15
-2
-89
-2
-21
-173
-68
-57
-2
-15
-61
-57
-37
-39
-16
-14
-117
-4
-68
-166
-76
-40
-7
-36
-91
-47
-65
-34
-13
-6
-106
-10
-62
-180
-62
-39
-2
-39
-48
-34
-41
-29
-15
-9
-91
-4
-49
-119
-28
-14
-13
-26
-14
-1
-18
-16
-21
-4
-1
-31
-3
-19
-78
-36
-17
-2
-17
-28
-17
-3
-19
-19
-5
-4
-1
-59
-3
-24
-39
-40
-29
-4
-16
-31
-28
-4
-25
-24
-12
-5
-50
-4
-24
-68
+transaction_year,Primary Sector,size
+2004.0,"Agriculture, forestry, fishing",66
+2004.0,Banking and financial services,45
+2004.0,Basic education,4
+2004.0,Communications,22
+2004.0,Education,64
+2004.0,Energy generation and supply,14
+2004.0,"Government and civil society, general",94
+2004.0,Health,34
+2004.0,Industry,17
+2004.0,Mineral resources and mining,2
+2004.0,Other,2
+2004.0,Other social infrastructure and services,144
+2004.0,Transport and storage,14
+2004.0,Water supply and sanitation,123
+2005.0,"Agriculture, forestry, fishing",71
+2005.0,Banking and financial services,43
+2005.0,Basic education,8
+2005.0,Communications,21
+2005.0,Education,74
+2005.0,Energy generation and supply,25
+2005.0,"Government and civil society, general",77
+2005.0,Health,25
+2005.0,Industry,10
+2005.0,Mineral resources and mining,7
+2005.0,Other,3
+2005.0,Other social infrastructure and services,68
+2005.0,Trade policy and regulations,4
+2005.0,Transport and storage,21
+2005.0,Water supply and sanitation,126
+2006.0,"Agriculture, forestry, fishing",44
+2006.0,Banking and financial services,45
+2006.0,Basic education,3
+2006.0,Communications,15
+2006.0,Education,48
+2006.0,Energy generation and supply,26
+2006.0,"Government and civil society, general",92
+2006.0,Health,27
+2006.0,Industry,17
+2006.0,Mineral resources and mining,10
+2006.0,Other social infrastructure and services,87
+2006.0,Transport and storage,12
+2006.0,Water supply and sanitation,132
+2007.0,"Agriculture, forestry, fishing",81
+2007.0,Banking and financial services,44
+2007.0,Basic education,3
+2007.0,Communications,10
+2007.0,Education,72
+2007.0,Energy generation and supply,15
+2007.0,"Government and civil society, general",127
+2007.0,Health,27
+2007.0,Industry,5
+2007.0,Mineral resources and mining,8
+2007.0,Other,1
+2007.0,Other social infrastructure and services,98
+2007.0,Transport and storage,12
+2007.0,Water supply and sanitation,173
+2008.0,"Agriculture, forestry, fishing",67
+2008.0,Banking and financial services,60
+2008.0,Communications,14
+2008.0,Education,55
+2008.0,Energy generation and supply,37
+2008.0,General environmental protection,1
+2008.0,"Government and civil society, general",105
+2008.0,Health,48
+2008.0,Industry,11
+2008.0,Mineral resources and mining,15
+2008.0,Other,2
+2008.0,Other social infrastructure and services,89
+2008.0,Trade policy and regulations,2
+2008.0,Transport and storage,21
+2008.0,Water supply and sanitation,173
+2009.0,"Agriculture, forestry, fishing",68
+2009.0,Banking and financial services,57
+2009.0,Basic education,2
+2009.0,Communications,15
+2009.0,Education,61
+2009.0,Energy generation and supply,57
+2009.0,"Government and civil society, general",37
+2009.0,Health,39
+2009.0,Industry,16
+2009.0,Mineral resources and mining,14
+2009.0,Other social infrastructure and services,117
+2009.0,Trade policy and regulations,4
+2009.0,Transport and storage,68
+2009.0,Water supply and sanitation,166
+2010.0,"Agriculture, forestry, fishing",76
+2010.0,Banking and financial services,40
+2010.0,Basic education,7
+2010.0,Communications,36
+2010.0,Education,91
+2010.0,Energy generation and supply,47
+2010.0,"Government and civil society, general",65
+2010.0,Health,34
+2010.0,Industry,13
+2010.0,Mineral resources and mining,6
+2010.0,Other social infrastructure and services,106
+2010.0,Trade policy and regulations,10
+2010.0,Transport and storage,62
+2010.0,Water supply and sanitation,180
+2011.0,"Agriculture, forestry, fishing",62
+2011.0,Banking and financial services,39
+2011.0,Basic education,2
+2011.0,Communications,39
+2011.0,Education,48
+2011.0,Energy generation and supply,34
+2011.0,"Government and civil society, general",41
+2011.0,Health,29
+2011.0,Industry,15
+2011.0,Mineral resources and mining,9
+2011.0,Other social infrastructure and services,91
+2011.0,Trade policy and regulations,4
+2011.0,Transport and storage,49
+2011.0,Water supply and sanitation,119
+2012.0,"Agriculture, forestry, fishing",28
+2012.0,Banking and financial services,14
+2012.0,Communications,13
+2012.0,Education,26
+2012.0,Energy generation and supply,14
+2012.0,General environmental protection,1
+2012.0,"Government and civil society, general",18
+2012.0,Health,16
+2012.0,Industry,21
+2012.0,Mineral resources and mining,4
+2012.0,Other,1
+2012.0,Other social infrastructure and services,31
+2012.0,Trade policy and regulations,3
+2012.0,Transport and storage,19
+2012.0,Water supply and sanitation,78
+2013.0,"Agriculture, forestry, fishing",36
+2013.0,Banking and financial services,17
+2013.0,Basic education,2
+2013.0,Communications,17
+2013.0,Education,28
+2013.0,Energy generation and supply,17
+2013.0,General environmental protection,3
+2013.0,"Government and civil society, general",19
+2013.0,Health,19
+2013.0,Industry,5
+2013.0,Mineral resources and mining,4
+2013.0,Other,1
+2013.0,Other social infrastructure and services,59
+2013.0,Trade policy and regulations,3
+2013.0,Transport and storage,24
+2013.0,Water supply and sanitation,39
+2014.0,"Agriculture, forestry, fishing",40
+2014.0,Banking and financial services,29
+2014.0,Basic education,4
+2014.0,Communications,16
+2014.0,Education,31
+2014.0,Energy generation and supply,28
+2014.0,General environmental protection,4
+2014.0,"Government and civil society, general",25
+2014.0,Health,24
+2014.0,Industry,12
+2014.0,Mineral resources and mining,5
+2014.0,Other social infrastructure and services,50
+2014.0,Trade policy and regulations,4
+2014.0,Transport and storage,24
+2014.0,Water supply and sanitation,68
