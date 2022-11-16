@@ -13,12 +13,10 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered.csv", function(data) {
-
+d3.csv("Final Project/Final Project Data - WBG Money Spent for each Sectors per Year.csv", function(data) {
     console.log(data)
     // List of groups (here I have one group per column)
-    var allGroup = d3.map(data, function(d){return(d.primary_sectors)}).keys()
-    console.log(allGroup)
+    var allGroup = d3.map(data, function(d){return(d.name)}).keys()
 
     // add the options to the button
     d3.select("#selectButton")
@@ -36,15 +34,15 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
     // Add X axis --> it is a date format
     var x = d3.scaleLinear()
-      .domain(d3.extent(data, function(d) { return d.transaction_year; }))
+      .domain(d3.extent(data, function(d) { return d.year; }))
       .range([ 0, width ]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).ticks(10));
+      .call(d3.axisBottom(x).ticks(7));
 
     // Add Y axis
     var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return +d.total_commitments; })])
+      .domain([0, d3.max(data, function(d) { return +d.n; })])
       .range([ height, 0 ]);
     svg.append("g")
       .call(d3.axisLeft(y));
@@ -53,10 +51,10 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     var line = svg
       .append('g')
       .append("path")
-        .datum(data.filter(function(d){return d.primary_sectors==allGroup[0]}))
+        .datum(data.filter(function(d){return d.name==allGroup[0]}))
         .attr("d", d3.line()
-          .x(function(d) { return x(d.transaction_year) })
-          .y(function(d) { return y(+d.total_commitments) })
+          .x(function(d) { return x(d.year) })
+          .y(function(d) { return y(+d.n) })
         )
         .attr("stroke", function(d){ return myColor("valueA") })
         .style("stroke-width", 4)
@@ -74,8 +72,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
           .transition()
           .duration(1000)
           .attr("d", d3.line()
-            .x(function(d) { return x(d.transaction_year) })
-            .y(function(d) { return y(+d.total_commitments) })
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y(+d.n) })
           )
           .attr("stroke", function(d){ return myColor(selectedGroup) })
     }
@@ -89,4 +87,3 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     })
 
 })
-
