@@ -60,6 +60,9 @@ sector = sector.to_frame(name = 'size').reset_index()
 
 projects_year_sector = df.groupby(['transaction_year', 'primary_sectors']).size()
 projects_year_sector = projects_year_sector.to_frame(name = 'size').reset_index()
+projects_year_sector['transaction_year'] = projects_year_sector['transaction_year'].astype('int')
+projects_year_sector = projects_year_sector.pivot(index='transaction_year', columns='primary_sectors', values='size')
+projects_year_sector = projects_year_sector.reset_index()
 
 ids = df['project_id'].unique()
 locations = locations[locations['project_id'].isin(ids)]
