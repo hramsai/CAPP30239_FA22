@@ -1,6 +1,10 @@
 
 // set the dimensions and margins of the graph
 
+// questions for sandy: 
+/// 1. why is the graph looking like that to begin with? Is there a way it can be the first line.
+//  My inkling is that it is in the function I've written below (around 79), but I am not sure. trouble shooting led to no line being present.
+
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 890 - margin.left - margin.right,
     height = 560 - margin.top - margin.bottom;
@@ -15,7 +19,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("data.csv", function(data) {
+d3.csv("Data/data.csv", function(data) {
     console.log(data)
     
     var allGroup = d3.map(data, function(d){return(d.primary_sectors)}).keys() // List of groups 
