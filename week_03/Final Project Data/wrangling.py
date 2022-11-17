@@ -85,3 +85,9 @@ investments_year_sector.to_csv(os.path.join(send_path,'investments_sector_years.
 investment_country.to_csv(os.path.join(send_path,'investment_country.csv'), index=False)
 
 #%%
+
+recs = df.groupby('recipients').size()
+recs = recs.to_frame(name = 'counts').reset_index()
+
+
+#%%
