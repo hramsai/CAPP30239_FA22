@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Line Plots</title>
+    <title>Interactive Bar Charts</title>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
 
-  
-
-  <body>
+<body>
     <div id="container">
-      <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
-      <p>The data used in this interactive line chart comes from 
-        <a href="https://www.weather.gov/wrh/Climate?wfo=lot">NOAA API</a>.
+      <h1> Top 5 Sectors of Interest; Number of Interventions Decline across Time</h1>
+      <p>This graph highlights the number of interventions conducted by the the World Bank across time. </p>
+      <p>The data used in this interactive bar chart comes from 
+        <a href="https://www.weather.gov/wrh/Climate?wfo=lot">The World Bank Data</a>.
       </p>
         <label>
-        <button onclick="update('Agriculture, forestry, fishing')">Agriculture, forestry, fishing</button>
-        <button onclick="update('Basic education')">Basic education</button>
+        <button onclick="update('Agriculture, forestry, fishing')">Agriculture</button>
+        <button onclick="update('Government and civil society, general')">Government and Civil Society</button>
+        <button onclick="update('Water supply and sanitation')">Water and Sanitation</button>
+        <button onclick="update('Education')">Education</button>
+        <button onclick="update('Other social infrastructure and services')">Other Social Infrastructure</button>
         </label>
       <div id="my_dataviz"></div>
     </div>
-  </body>
+</body>
 
 
 <!-- Load d3.js -->

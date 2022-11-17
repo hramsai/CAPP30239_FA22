@@ -2,14 +2,14 @@
 var svg = d3.select("svg"),
   width = +svg.attr("width"),
   height = +svg.attr("height");
-  // height = 610,
-  // width = 975;
+  // height = 300,
+  // width = 600;
 
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoMercator()
   .scale(70)
-  .center([0,20])
+  .center([0,50])
   .translate([width / 2, height / 2]);
 
 // Data and color scale
