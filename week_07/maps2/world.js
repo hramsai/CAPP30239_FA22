@@ -1,5 +1,5 @@
-const height = 610,
-  width = 975;
+const height = 900,
+  width = 700;
 
 const svg = d3.select("#chart")
   .append("svg")
