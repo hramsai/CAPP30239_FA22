@@ -1,9 +1,16 @@
 
 // set the dimensions and margins of the graph
 
-// questions for sandy: 
+// questions for Office Hours: 
+
 /// 1. why is the graph looking like that to begin with? Is there a way it can be the first line.
 //  My inkling is that it is in the function I've written below (around 79), but I am not sure. trouble shooting led to no line being present.
+
+// 2. the X Axis = all 1969
+
+// 3. the Y Axis = I want to show something like X milllion dollars. But I am not sure how to do that? 
+
+// 4. Should I add anything? 
 
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 890 - margin.left - margin.right,
