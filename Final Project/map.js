@@ -1,14 +1,21 @@
+// Office Hours Questions:
+
+// 1. Addtion of a legend
+// 2. My aim is to try and make the map itself bigger, if that is possible. I tried playing around with the scale and the dimensions, but nothing seemed to fit. 
+// 3. I've made a click function. The aim is to display the amount of money invested in each country. (line 94/95). But, it doesn't reach my data in the string. 
+
+
 // The svg
 var svg = d3.select("svg"),
   width = +svg.attr("width"),
   height = +svg.attr("height");
   // height = 300,
-  // width = 600;
+  // width = 600; // https://www.d3indepth.com/geographic/
 
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoMercator()
-  .scale(70)
+  .scale(90)
   .center([0,50])
   .translate([width / 2, height / 2]);
 
