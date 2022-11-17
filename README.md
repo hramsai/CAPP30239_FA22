@@ -42,4 +42,22 @@ This repository contains my assignments and other realted coursework for the cou
 #### Homework:
 - Creating a line chart of monthly interest rates in Canada for the year 2022.
 
+### Week 5:
 
+#### Classwork:
+- Creating histograms, and learning how to join multiple charts across different files.
+- Creating scatterplots
+- Leaning about interactive tools and animation
+- Specifically, learnt how to create a selection menu to alter the variables (in this case, months)
+- Introduction to styles.css files
+
+### Week 6:
+
+#### Classwork:
+- Creating histograms
+- Creating ring charts
+- Leaning stacked bar charts
+- Learning different ways to alter symbols in scatter plots
+
+#### Homework:
+- Three chart exercise: visualising data that explains crime shootings by police officers in 2015
