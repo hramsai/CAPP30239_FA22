@@ -28,6 +28,10 @@ var svg = d3.select("#my_dataviz")
 //Read the data
 d3.csv("Data/data.csv", function(data) {
     console.log(data)
+
+    for (let d of data) {
+      d.transaction_year = new Date(+d.transaction_year, 0);
+    }
     
     var allGroup = d3.map(data, function(d){return(d.primary_sectors)}).keys() // List of groups 
 
@@ -60,9 +64,24 @@ d3.csv("Data/data.csv", function(data) {
     // .attr("class", "y-axis")
     .call(d3.axisLeft(y)
       .tickSizeOuter(0)
-      // .tickFormat(d => d + ' Billion') // ?? how do I make this into like 1 million or billion? 
+      .tickFormat((d) => d3.format("$.2s")(d).replace(/G/, "B")) // ?? how do I make this into like 1 million or billion? 
       );
 
+    svg.append("line")
+      .attr("y1", 50)
+      .attr("y2", 510)
+      .attr("x2", 401)
+      .attr("x1", 400)
+      .style("stroke-width", 2)
+      .style("fill", "none")
+
+    svg.append("text")
+      .attr("y", 200)
+      // .attr("y2", 510)
+      // .attr("x2", 405)
+      .attr("x", 410)
+      .text("Recission in \n the United States of America");
+    
     // Initialize line with group a
     var line = svg
       .append('g')
@@ -104,4 +123,5 @@ d3.csv("Data/data.csv", function(data) {
         update(selectedOption)
     })
 
+    update(allGroup[0])
 });

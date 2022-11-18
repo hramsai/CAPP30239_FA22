@@ -30,7 +30,6 @@ var y = d3.scaleLinear()
 var yAxis = svg.append("g")
   .attr("class", "myYaxis")
 
-
 // A function that create / update the plot for a given variable:
 function update(selectedVars) {
 
@@ -61,6 +60,7 @@ function update(selectedVars) {
         .attr("width", x.bandwidth())
         .attr("height", function(d) { return height - y(d[selectedVars]); })
         .attr("fill", "#69b3a2")
+
   })
 
 }

@@ -29,7 +29,10 @@ var colorScale = d3.scaleThreshold()
 // Load external data and boot
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-  .defer(d3.csv, "Data/investment_country.csv", function(d) { data.set(d.recipients_iso3, +d.total_commitments, d.recipients); })
+  // .defer(d3.csv, "Data/investment_country.csv", function(d) { data.set(d.recipients_iso3, +d.total_commitments); })
+  .defer(d3.csv, "Data/investment_country.csv", function (d) {
+    data.set(d.recipients_iso3, d);
+  })
   .await(ready);
 
 //   names = [...new Set(recipients)]
@@ -61,12 +64,6 @@ function ready(error, topo) {
       .style("stroke", "transparent")
   }
 
-//   let click = function(e, d) {
-//     let str = `${d.recipients.index} received ${d.total_commitments.toLocaleString()} USD`;
-//     d3.select("h2")
-//         .html(str);
-//   }
-
   // Draw the map
   svg.append("g")
     .selectAll("path")
@@ -79,7 +76,7 @@ function ready(error, topo) {
       )
       // set the color of each country
       .attr("fill", function (d) {
-        d.total = data.get(d.id) || 0;
+        d.total = +data.get(d.id)?.total_commitments || 0;
         return colorScale(d.total);
       })
       .style("stroke", "transparent")
@@ -91,13 +88,17 @@ function ready(error, topo) {
     //   .append("title")
     //   .text(d => `${names[d.recipients]} received ${d.total_commitments.toLocaleString()} USD`);
 
-    .on("click", function(e, d) {
-      let str = `${d.recipients_iso3} hello`;
-      d3.select("h2")
-        .html(str);
+    // .on("click", function(e, d) {
+    //   let str = `${d.recipients_iso3} hello`;
+    //   d3.select("h2")
+    //     .html(str);
 
+    // })
+    .on("click", function (d) {
+      let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients}`;
+      d3.select("h2").html(str);
     })
     .append("title")
-    .text(d => `${d.recipients_iso3} hello`);
+    .text(d => `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients}`);
     
     }
