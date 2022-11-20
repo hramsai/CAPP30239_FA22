@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Bar Charts</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Assistant', sans-serif;
+        }
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .container2 {
+            max-width: 1000px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: normal;
+            align-items: normal;
+            align-content: normal;
+            column-gap: 40px;
+            margin: 60px 0px;
+        }
+        .flex-item {
+            display: block;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            align-self: auto;
+            order: 0;
+            width: 50%;
+        }
+        .float-left {
+            float:left;
+            width: 50%;
+        }
+        text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+        hr {
+            margin: 60px 0;
+        }
+        /* .chart p {
+            background: #eee;
+            padding: 5px 0px 5px 10px;
+            margin-right: 10px;
+        }
+        #monthChart .y-axis line {
+            stroke: #ccc;
+            stroke-dasharray: 2;
+        }
+
+        #monthChart .y-axis .domain {
+            display: none;
+        }
+        #divergingChart text {
+            font-size: 14px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+      <h1> Top 5 Sectors of Interest; Number of Interventions Decline across Time</h1>
+      <p>This graph highlights the number of interventions conducted by the the World Bank across time. </p>
+      <p>The data used in this interactive line chart comes from 
+        <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+      </p>
+        <label>
+        <button onclick="update('Agriculture, forestry, fishing')">Agriculture</button>
+        <button onclick="update('Government and civil society, general')">Government and Civil Society</button>
+        <button onclick="update('Water supply and sanitation')">Water and Sanitation</button>
+        <button onclick="update('Education')">Education</button>
+        <button onclick="update('Other social infrastructure and services')">Other Social Infrastructure</button>
+        </label>
+      <div id="my_barviz"></div>
+    </div>
+    <div class="container">
+        <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
+        <p>The data used in this interactive line chart comes from 
+          <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+        </p>
+        <label>
+          Money spent: 
+          <select id="selectButton"></select>
+       </label>
+        <div id="line_chart"></div>
+    </div>
+    <!-- <div id="container">
+        <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
+        <p>This map is an active choropleth based on the amount of money invested by the World Bank across the globe.</p>
+        <p>The data used in this interactive line chart comes from 
+          <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+        </p>
+        <h2>&nbsp;</h2>
+        <svg id="my_dataviz" width="900" height="500"></svg>
+    </div> -->
+</body>
+
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+<script src="barchart.js"></script>
+<script src="linechart.js"></script>
+<!-- <script src="map.js"></script> -->

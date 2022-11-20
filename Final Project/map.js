@@ -15,8 +15,8 @@ var svg = d3.select("svg"),
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoMercator()
-  .scale(90)
-  .center([0,50])
+  .scale(100)
+  .center([-70,0])
   .translate([width / 2, height / 2]);
 
 // Data and color scale
@@ -24,7 +24,7 @@ var data = d3.map();
 var colorScale = d3.scaleThreshold()
   .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
   // .domain([0, 10]).nice()
-  .range(d3.schemeBlues[7]);
+  .range(d3.schemePurples[9]);
 
 // Load external data and boot
 d3.queue()
@@ -45,7 +45,7 @@ function ready(error, topo) {
     d3.selectAll(".Country")
       .transition()
       .duration(200)
-      .style("opacity", .5)
+      .style("opacity", 1)
     d3.select(this)
       .transition()
       .duration(200)
@@ -84,21 +84,13 @@ function ready(error, topo) {
       .style("opacity", .8)
       .on("mouseover", mouseOver )
       .on("mouseleave", mouseLeave )
-    //   .on("click", click)
-    //   .append("title")
-    //   .text(d => `${names[d.recipients]} received ${d.total_commitments.toLocaleString()} USD`);
 
-    // .on("click", function(e, d) {
-    //   let str = `${d.recipients_iso3} hello`;
-    //   d3.select("h2")
-    //     .html(str);
-
-    // })
-    .on("click", function (d) {
-      let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients}`;
+  .on("click", function (d) {
+      // let ((d.id).total_commitments => d3.format("$.2s")((d.id).total_commitments).replace(/G/, "B"));
+      let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`;
       d3.select("h2").html(str);
     })
     .append("title")
-    .text(d => `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients}`);
+    .text(d => `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`);
     
-    }
+}
