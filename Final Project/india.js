@@ -16,6 +16,7 @@ Promise.all([
     d3.json("Libs/IND_adm2_Literacy.json")
 ]).then(([data, ind]) => {
   const dataById = {};
+  console.log()
 
   for (let d of data) {
     d.Literacy = +d.Literacy;
@@ -25,6 +26,10 @@ Promise.all([
   console.log(dataById)
 
   const districts = topojson.feature(ind, ind.objects.IND_adm2);
+  const mesh = topojson.mesh(ind, ind.objects["IND_adm2"]);
+  const projection = d3.geoMercator()
+    .fitSize([width, height], mesh);
+  const path = d3.geoPath().projection(projection);
 
   console.log(districts)
 
@@ -33,7 +38,7 @@ Promise.all([
     .domain([0, 100]).nice()
     .range(d3.schemeBlues[9]);
 
-  const path = d3.geoPath();
+  // const path = d3.geoPath();
 
   d3.select("#legend")
     .node()
