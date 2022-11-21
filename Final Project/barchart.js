@@ -8,7 +8,7 @@ var margin = {top: 30, right: 30, bottom: 70, left: 60},
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_barviz")
+var barsvg = d3.select("#my_barviz")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -20,13 +20,13 @@ var svg = d3.select("#my_barviz")
 var x = d3.scaleBand()
   .range([ 0, width ])
   .padding(0.2);
-var xAxis = svg.append("g")
+var xAxis = barsvg.append("g")
   .attr("transform", "translate(0," + height + ")")
 
 // Initialize the Y axis
 var y = d3.scaleLinear()
   .range([ height, 0]);
-var yAxis = svg.append("g")
+var yAxis = barsvg.append("g")
   .attr("class", "myYaxis")
 
 // A function that create / update the plot for a given variable:
@@ -44,7 +44,7 @@ function update(selectedVars) {
     yAxis.transition().duration(1000).call(d3.axisLeft(y));
 
     // variable u: map data to existing bars
-    var u = svg.selectAll("rect")
+    var u = barsvg.selectAll("rect")
       .data(data)
 
     // update bars
