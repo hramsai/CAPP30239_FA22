@@ -14,6 +14,26 @@
 
 <body>
     <div id="container">
+        <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
+        <p>This map is an active choropleth based on the amount of money invested by the World Bank across the globe.</p>
+        <p>The data used in this chart comes from 
+          <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+        </p>
+        <h2>&nbsp;</h2>
+        <svg id="my_dataviz" width="900" height="500"></svg>
+    </div>
+    <div id="container">
+      <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
+      <p>The data used in this interactive line chart comes from 
+        <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+      </p>
+      <label>
+        Money spent: 
+        <select id="selectButton"></select>
+     </label>
+      <div id="line_chart"></div>
+  </div>
+    <div id="container">
       <h1> Top 5 Sectors of Interest; Number of Interventions Decline across Time</h1>
       <p>This graph highlights the number of interventions conducted by the the World Bank across time. </p>
       <p>The data used in this interactive line chart comes from 
@@ -28,26 +48,6 @@
         </label>
       <div id="my_barviz"></div>
     </div>
-    <div id="container">
-        <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
-        <p>The data used in this interactive line chart comes from 
-          <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
-        </p>
-        <label>
-          Money spent: 
-          <select id="selectButton"></select>
-       </label>
-        <div id="line_chart"></div>
-    </div>
-    <div id="container">
-        <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
-        <p>This map is an active choropleth based on the amount of money invested by the World Bank across the globe.</p>
-        <p>The data used in this chart comes from 
-          <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
-        </p>
-        <h2>&nbsp;</h2>
-        <svg id="my_dataviz" width="900" height="500"></svg>
-    </div>
 </body>
 
 
@@ -58,4 +58,4 @@
 
 <script src="barchart.js"></script>
 <script src="linechart.js"></script>
-<!-- <script src="map.js"></script> -->
+<script src="map.js"></script>
