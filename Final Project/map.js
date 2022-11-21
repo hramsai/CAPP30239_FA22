@@ -3,6 +3,7 @@
 // 1. Addtion of a legend -- I've added the legend tag and code, but it was not helpful. 
 // 2. How to make sue this can be attached to a general index.html without needing a specific order?
 
+(function() {
 var mapsvg = d3.select("svg"),
   width = +mapsvg.attr("width"),
   height = +mapsvg.attr("height");
@@ -79,14 +80,18 @@ function ready(error, topo) {
       .on("mouseover", mouseOver )
       .on("mouseleave", mouseLeave )
 
-  .on("click", function (d) {
-      // let ((d.id).total_commitments => d3.format("$.2s")((d.id).total_commitments).replace(/G/, "B"));
+  .on("click", function (e, d) {
+    console.log(d)
+      let num = (d3.format("$.2s")((d.id).total_commitments).replace(/G/, "B"));
+      console.log(num)
       let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`;
       d3.select("h2").html(str);
     })
     .append("title")
     .text(d => `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`);
   
+    // (d) => d3.format("$.2s")(d).replace(/G/, "B")
+
   d3.select("#legend")
   .node()
   .appendChild(
@@ -99,3 +104,5 @@ function ready(error, topo) {
     ));
   
 }
+
+})();
