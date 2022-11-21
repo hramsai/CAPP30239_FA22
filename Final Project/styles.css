@@ -59,4 +59,14 @@ foreignObject p {
   font-size: 10px;
 }
 
+
+#legend {
+  margin-top: 50px
+}
+
+#legend svg {
+  margin: 0 auto;
+}
+
+
 /* style chart that can be used across all the different js files */
