@@ -1,23 +1,9 @@
-
-// set the dimensions and margins of the graph
-
-// questions for Office Hours: 
-
-/// 1. why is the graph looking like that to begin with? Is there a way it can be the first line.
-//  My inkling is that it is in the function I've written below (around 79), but I am not sure. trouble shooting led to no line being present.
-
-// 2. the X Axis = all 1969
-
-// 3. the Y Axis = I want to show something like X milllion dollars. But I am not sure how to do that? 
-
-// 4. Should I add anything? 
-
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 890 - margin.left - margin.right,
     height = 560 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#line_chart")
+var linesvg = d3.select("#line_chart")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -52,7 +38,7 @@ d3.csv("Data/data.csv", function(data) {
     var x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d.transaction_year; }))
       .range([ 0, width ]);
-    svg.append("g")
+    linesvg.append("g")
       .attr("transform", `translate(0, ${height})`)
       .call(d3.axisBottom(x).ticks(10).tickFormat(d3.timeFormat("%Y"))); // ?? dates are getting converted to 1969?
 
@@ -60,14 +46,13 @@ d3.csv("Data/data.csv", function(data) {
     var y = d3.scaleLinear()
       .domain([0, d3.max(data, function(d) {return +d.total_commitments;})])
       .range([ height, 0 ]);
-    svg.append("g")
-    // .attr("class", "y-axis")
+
+    linesvg.append("g")
     .call(d3.axisLeft(y)
       .tickSizeOuter(0)
-      .tickFormat((d) => d3.format("$.2s")(d).replace(/G/, "B")) // ?? how do I make this into like 1 million or billion? 
-      );
+      .tickFormat((d) => d3.format("$.2s")(d).replace(/G/, "B")));
 
-    svg.append("line")
+    linesvg.append("line")
       .attr("y1", 50)
       .attr("y2", 510)
       .attr("x2", 401)
@@ -75,7 +60,7 @@ d3.csv("Data/data.csv", function(data) {
       .style("stroke-width", 2)
       .style("fill", "none")
 
-    svg.append("text")
+    linesvg.append("text")
       .attr("y", 200)
       // .attr("y2", 510)
       // .attr("x2", 405)
@@ -83,7 +68,7 @@ d3.csv("Data/data.csv", function(data) {
       .text("Recission in \n the United States of America");
     
     // Initialize line with group a
-    var line = svg
+    var line = linesvg
       .append('g')
       .append("path")
         .datum(data)
