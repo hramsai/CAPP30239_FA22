@@ -1,7 +1,8 @@
 // Office Hours Questions:
 
 // 1. Addtion of a legend -- I've added the legend tag and code, but it was not helpful. 
-// 2. How to make sue this can be attached to a general index.html without needing a specific order?
+// 2. Is there a way to make the click function to work in short (ex. 6 billion dollars as opposed to the whole thing?)
+// 3. 
 
 (function() {
 var mapsvg = d3.select("svg"),
@@ -80,10 +81,11 @@ function ready(error, topo) {
       .on("mouseover", mouseOver )
       .on("mouseleave", mouseLeave )
 
-  .on("click", function (e, d) {
+  // .on("click", function (e, d) {
+  .on("click", function (d) {
     console.log(d)
-      let num = (d3.format("$.2s")((d.id).total_commitments).replace(/G/, "B"));
-      console.log(num)
+      // let num = (d3.format("$.2s")((d.id).total_commitments).replace(/G/, "B"));
+      // console.log(num)
       let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`;
       d3.select("h2").html(str);
     })
