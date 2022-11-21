@@ -1,14 +1,11 @@
 // Office Hours Questions:
 
-// 1. Addtion of a legend
-// 2. My aim is to try and make the map itself bigger, if that is possible. I tried playing around with the scale and the dimensions, but nothing seemed to fit. 
-// 3. I've made a click function. The aim is to display the amount of money invested in each country. (line 94/95). But, it doesn't reach my data in the string. 
+// 1. Addtion of a legend -- I've added the legend tag and code, but it was not helpful. 
+// 2. How to make sue this can be attached to a general index.html without needing a specific order?
 
-
-// The svg
-var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+var mapsvg = d3.select("svg"),
+  width = +mapsvg.attr("width"),
+  height = +mapsvg.attr("height");
   // height = 300,
   // width = 600; // https://www.d3indepth.com/geographic/
 
@@ -16,7 +13,7 @@ var svg = d3.select("svg"),
 var path = d3.geoPath();
 var projection = d3.geoMercator()
   .scale(100)
-  .center([-70,0])
+  .center([70,0])
   .translate([width / 2, height / 2]);
 
 // Data and color scale
@@ -34,10 +31,7 @@ d3.queue()
     data.set(d.recipients_iso3, d);
   })
   .await(ready);
-
-//   names = [...new Set(recipients)]
-
-console.log(data)
+// console.log(data)
 
 function ready(error, topo) {
 
@@ -65,7 +59,7 @@ function ready(error, topo) {
   }
 
   // Draw the map
-  svg.append("g")
+  mapsvg.append("g")
     .selectAll("path")
     .data(topo.features)
     .enter()
@@ -92,5 +86,16 @@ function ready(error, topo) {
     })
     .append("title")
     .text(d => `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`);
-    
+  
+  d3.select("#legend")
+  .node()
+  .appendChild(
+    Legend(
+      d3.scaleOrdinal(
+        ["10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%+"],
+        d3.schemePurples[9]
+      ),
+      { title: "Literacy rate (%)" }
+    ));
+  
 }
