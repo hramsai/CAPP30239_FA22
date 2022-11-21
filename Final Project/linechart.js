@@ -38,6 +38,7 @@ d3.csv("Data/data.csv", function(data) {
     var x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d.transaction_year; }))
       .range([ 0, width ]);
+      
     linesvg.append("g")
       .attr("transform", `translate(0, ${height})`)
       .call(d3.axisBottom(x).ticks(10).tickFormat(d3.timeFormat("%Y"))); // ?? dates are getting converted to 1969?
@@ -66,6 +67,21 @@ d3.csv("Data/data.csv", function(data) {
       // .attr("x2", 405)
       .attr("x", 410)
       .text("Recission in \n the United States of America");
+
+    // linesvg.append("line")
+    //   .attr("y1", 50)
+    //   .attr("y2", 490)
+    //   .attr("x2", 451)
+    //   .attr("x1", 451)
+    //   .style("stroke-width", 2)
+    //   .style("fill", "none")
+
+    // linesvg.append("text")
+    //   .attr("y", 200)
+    //   // .attr("y2", 510)
+    //   // .attr("x2", 405)
+    //   .attr("x", 460)
+    //   .text("Recission in \n the United States of America");
     
     // Initialize line with group a
     var line = linesvg
