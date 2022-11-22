@@ -59,31 +59,17 @@ d3.csv("Data/data.csv", function(data) {
       .attr("y1", 50)
       .attr("y2", 510)
       .attr("x2", 401)
-      .attr("x1", 400)
+      .attr("x1", 401)
+      .style("stroke", "black")
       .style("stroke-width", 2)
       .style("fill", "none")
-
+  
     linesvg.append("text")
       .attr("y", 200)
       // .attr("y2", 510)
       // .attr("x2", 405)
       .attr("x", 410)
       .text("Recission in \n the United States of America");
-
-    // linesvg.append("line")
-    //   .attr("y1", 50)
-    //   .attr("y2", 490)
-    //   .attr("x2", 451)
-    //   .attr("x1", 451)
-    //   .style("stroke-width", 2)
-    //   .style("fill", "none")
-
-    // linesvg.append("text")
-    //   .attr("y", 200)
-    //   // .attr("y2", 510)
-    //   // .attr("x2", 405)
-    //   .attr("x", 460)
-    //   .text("Recission in \n the United States of America");
     
     // Initialize line with group a
     var line = linesvg

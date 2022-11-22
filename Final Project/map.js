@@ -86,8 +86,8 @@ function ready(error, topo) {
     console.log(d)
       // let num = (d3.format("$.2s")((d.id).total_commitments).replace(/G/, "B"));
       // console.log(num)
-      let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`;
-      d3.select("h2").html(str);
+    let str = `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`;
+    d3.select("h2").html(str);
     })
     .append("title")
     .text(d => `In total, the World Bank spent ${data.get(d.id).total_commitments} USD in ${data.get(d.id).recipients} from 2004 to 2014`);

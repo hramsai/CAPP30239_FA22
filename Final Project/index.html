@@ -48,12 +48,13 @@
             margin: 60px 0;
         }
         .chart p {
-            background: rgb(255, 255, 255);
+            background: rgb(226, 226, 226);
             padding: 5px 0px 5px 10px;
             margin-right: 10px;
         }
-        /* #my_dataviz .y-axis line {
-            stroke: rgb(255, 255, 255);
+        /* #line_chart {
+            background: rgb(226, 226, 226);
+            stroke: rgb(215, 215, 215);
             stroke-dasharray: 2;
         } */
 /* 
@@ -64,9 +65,9 @@
             font-size: 14px;
         } */
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
         <h1> 
             Locating the White Development Gaze
@@ -75,44 +76,49 @@
             Where is the Global South? Interpreting The World 
             Bank Group Financials to see Investments
         </p>
+        <p>
+            All the data used in this interactive line chart comes from 
+            <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+        </p>
         <hr>
         <div class="flex-container">
+            <h1>From 2004 to 2014, the World Bank spent 
+                upwards for 600 Billion USD. Here is how
+                it was distrubuted across the globe:
+            </h1>
+        </div>
+        <div class="flex-container"></div>
             <div class="flex-item">
-                <h3>From 2004 to 2014, the World Bank spent 
-                    upwards for 600 Billion USD. Here is how
-                    it was distrubuted across the globe:
-                </h3>
                 <h2>&nbsp;</h2>
-                <svg id="#my_dataviz" width="900" height="500" class = "flext-item chart"></svg>
-                <p>The data used in this interactive line chart comes from 
-                <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
-                </p>
-            <div>
-        <div>
+                <svg id="my_dataviz" width="900" height="500"></svg>
+            </div>
+        </div>
         <div class="flex-container">
+            <h1>
+                From 2004 to 2014, the World Bank spent 
+                upwards for 600 Billion USD. Here is how
+                it was distrubuted across the globe:
+            </h1>
             <div class="flex-item">
-                <h2>From 2004 to 2014, the World Bank spent 
-                        upwards for 600 Billion USD. Here is how
-                        it was distrubuted across the globe:
-                </h2>
                 <label>
-                    Money spent: 
+                    Select the Sector: 
                     <select id="selectButton"></select>
                 </label>
-                <div id="line_chart" ><div>
                 <p>The data used in this interactive line chart comes from 
                 <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
                 </p>
-            <div>
-        <div>
+            </div>
+            <div class="flex-item">
+                <div id="line_chart" class = "float-right chart"><div>
+            </div>
+        </div>
         <script src="http://d3js.org/d3.v4.js"></script>
         <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
         <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
         <script src="map.js"></script>
-        <!-- <script src="barchart.js"></script> -->
         <script src="linechart.js"></script>
     </div>
-  </body>
+</body>
 
 <!-- Load d3.js -->
 
