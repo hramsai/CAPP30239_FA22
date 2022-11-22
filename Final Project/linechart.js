@@ -1,3 +1,5 @@
+
+(function() {
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 890 - margin.left - margin.right,
     height = 560 - margin.top - margin.bottom;
@@ -126,3 +128,5 @@ d3.csv("Data/data.csv", function(data) {
 
     update(allGroup[0])
 });
+
+})();

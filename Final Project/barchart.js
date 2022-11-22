@@ -66,3 +66,4 @@ function update(selectedVars) {
 
 // Initialize plot
 update('Agriculture, forestry, fishing')
+
