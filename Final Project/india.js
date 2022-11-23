@@ -1,3 +1,6 @@
+
+
+(function() {
 const tooltip = d3.select("body")
 .append("div")
 .attr("class", "svg-tooltip")
@@ -76,3 +79,4 @@ svg.append("g")
   //   d3.select(this).attr("fill", d => (d.District in dataById) ? color(dataById[d.id].Literacy) : '#ccc');
   });
 });
+})();

@@ -16,10 +16,13 @@ d3.json("Libs/countries-110m.json")
 
 const dataById = {};
 
+
 for (let d of data) {
   d.total_commitments = +d.total_commitments;
   dataById[d.recipients] = d;
 }
+
+console.log("hello", dataById)
 
 let colorScale = d3.scaleThreshold()
   .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
@@ -38,6 +41,7 @@ svg.append("g")
   .selectAll("path")
   .data(countries.features)
   .join("path")
+  .style("stroke", "white")
   .attr("stroke", "#999")
   .attr("fill", d => (d.properties.name in dataById) ? colorScale(dataById[d.properties.name].total_commitments) : '#ccc')
   .attr("d", path)
@@ -47,8 +51,9 @@ svg.append("g")
   })
   .append("title")
   .text(d => (d.properties.name in dataById) ? `In total, the World Bank spent ${f(dataById[d.properties.name].total_commitments).replace(/G/, "B")} USD in ${d.properties.name} from 2004 to 2014` : "");
+  
 
-d3.select("#legend")
+d3.select("#world_legend")
 .node()
 .appendChild(
   Legend(

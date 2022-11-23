@@ -35,7 +35,8 @@
           <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
         </p>
         <h2>&nbsp;</h2>
-        <svg id="my_dataviz" width="900" height="500"></svg>
+        <div id="world_legend"></div>
+        <div id="my_dataviz" width="900" height="500"></div>
     </div>
     <div id="container">
       <h1> Disbursements from the World Bank Group from 2004 to 2014.</h1>
@@ -47,7 +48,7 @@
         <select id="selectButton"></select>
      </label>
       <div id="line_chart"></div>
-  </div>
+    </div>
     <div id="container">
       <h1> Top 5 Sectors of Interest; Number of Interventions Decline across Time</h1>
       <p>This graph highlights the number of interventions conducted by the the World Bank across time. </p>
@@ -63,14 +64,29 @@
         </label>
       <div id="my_barviz"></div>
     </div>
+    <div id="container">
+      <h1>Unemployment Rates Reached an All-time High During the Height of the Pandemic</h1>
+      <p>
+          Unemployment Rate in the US averaged 5.74 
+          percent from 1948 until 2022. In April of 2020, unemployment rate hit a high of 14.70 percent.
+          The following data comes from the <a href="https://www.bls.gov/lau/">Bureau of Labor Statistics</a>.
+      </p>
+      <div id="legend"></div>
+      <div id="chart"></div>
+    </div>
 </body>
 
 
 <!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="Libs/d3-color-legend.js"></script>
 
+<!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+
+<script src="world.js"></script>
 <script src="barchart.js"></script>
 <script src="linechart.js"></script>
-<script src="map.js"></script>
+<script src="india.js"></script>

@@ -1,14 +1,10 @@
-// Office Hours Questions
-
-// 1. Should I add any elements to this? Potentially numbers on the bars? 
-
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 70, left: 60},
+const margin = {top: 30, right: 30, bottom: 70, left: 60},
     width = 850 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var barsvg = d3.select("#my_barviz")
+const barsvg = d3.select("#my_barviz")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -17,23 +13,23 @@ var barsvg = d3.select("#my_barviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Initialize the X axis
-var x = d3.scaleBand()
+let x = d3.scaleBand()
   .range([ 0, width ])
   .padding(0.2);
-var xAxis = barsvg.append("g")
+let xAxis = barsvg.append("g")
   .attr("transform", "translate(0," + height + ")")
 
 // Initialize the Y axis
-var y = d3.scaleLinear()
+let y = d3.scaleLinear()
   .range([ height, 0]);
-var yAxis = barsvg.append("g")
+let yAxis = barsvg.append("g")
   .attr("class", "myYaxis")
 
 // A function that create / update the plot for a given variable:
 function update(selectedVars) {
 
   // Parse the Data
-  d3.csv("Data/sector_year_counts.csv", function(data) {
+  d3.csv("Data/sector_year_counts.csv").then(data => {
 
     // X axis
     x.domain(data.map(function(d) { return d.transaction_year; }))
@@ -44,7 +40,7 @@ function update(selectedVars) {
     yAxis.transition().duration(1000).call(d3.axisLeft(y));
 
     // variable u: map data to existing bars
-    var u = barsvg.selectAll("rect")
+    let u = barsvg.selectAll("rect")
       .data(data)
 
     // update bars
@@ -66,4 +62,3 @@ function update(selectedVars) {
 
 // Initialize plot
 update('Agriculture, forestry, fishing')
-

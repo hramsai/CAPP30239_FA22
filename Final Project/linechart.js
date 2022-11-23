@@ -22,7 +22,7 @@ d3.csv("Data/data.csv", function(data) {
     }
     
     var allGroup = d3.map(data, function(d){return(d.primary_sectors)}).keys() // List of groups 
-
+    console.log(allGroup)
     // add the options to the button
     d3.select("#selectButton")
       .selectAll('myOptions')
