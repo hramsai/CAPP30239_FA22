@@ -1,9 +1,14 @@
-// After updating the entire document to the latest d3js, i am not getting the right categories. 
+// Harish Ram Sai
+// Amount Spent by Sector - Line Chart
+// Viz # 1
+
+// Things to do:
+// The sectors are repeating themselves (look to line: 28)
 
 
 (function() {
-    const margin = {top: 10, right: 30, bottom: 30, left: 60},
-        width = 890 - margin.left - margin.right,
+    const margin = {top: 10, right: 50, bottom: 30, left: 30},
+        width = 830 - margin.left - margin.right,
         height = 560 - margin.top - margin.bottom;
     
     // append the svg object to the body of the page
@@ -20,15 +25,14 @@
         console.log(data)
     
         for (let d of data) {
-          d.transaction_year = new Date(+d.transaction_year, 0);
+          d.transaction_year = new Date(+d.transaction_year, 0); // this is the problem area (the .keys function doesn't work for d3 v7)
           // allGroup = d3.map(data, d.primary_sectors);
         }
         
-        var allGroup = d3.map(data, function(d){return(d.primary_sectors)}).values()// List of groups 
+        var allGroup = new Set(d3.map(data, function(d){return(d.primary_sectors)}))// List of groups 
     
-        // let allGroup_new = allGroup.keys()
 
-        // console.log('allgroup', allGroup_new)
+        // let allGroup_new = allGroup.keys()
 
         // add the options to the button
         d3.select("#selectButton")
@@ -38,7 +42,9 @@
             .append('option')
           .text(function (d) { return d; }) // text showed in the menu
           .attr("value", function (d) { return d; }) // corresponding value returned by the button
+        
         console.log(allGroup)
+        console.log('allgroup', allGroup)
 
         // A color scale: one color for each group
         let myColor = d3.scaleOrdinal()
@@ -62,22 +68,38 @@
         .call(d3.axisLeft(y)
           .tickSizeOuter(0)
           .tickFormat((d) => d3.format("$.2s")(d).replace(/G/, "B")));
-    
-        linesvg.append("line")
-          .attr("y1", 50)
-          .attr("y2", 510)
-          .attr("x2", 401)
-          .attr("x1", 401)
-          .style("stroke", "black")
-          .style("stroke-width", 2)
-          .style("fill", "none")
+
+        linesvg.append("rect")
+          .attr('x', 225)
+          .attr('y', 40)
+          .attr('width', 150)
+          .attr('height', 480)
+          .attr('stroke', 'white')
+          .attr('fill', '#69a3b2')
+          .attr('opacity', 0.2);
       
         linesvg.append("text")
-          .attr("y", 200)
+          .attr("y", 70)
           // .attr("y2", 510)
           // .attr("x2", 405)
-          .attr("x", 410)
-          .text("Recission in \n the United States of America");
+          .attr("x", 270)
+          .text("Great Recission");
+
+        linesvg.append("text")
+          .attr("class", "x label")
+          .attr("text-anchor", "end")
+          .attr("x", width + 15)
+          .attr("y", height - 10)
+          .text("Years");
+
+        linesvg.append("text")
+          .attr("class", "y label")
+          .attr("text-anchor", "end")
+          .attr("y", 6)
+          .attr("x", -30)
+          .attr("dy", ".75em")
+          .attr("transform", "rotate(-90)")
+          .text("Money Disbursed (USD)");
         
         // Initialize line with group a
         let line = linesvg
@@ -119,8 +141,9 @@
             // run the updateChart function with this selected option
             update(selectedOption)
         })
-    
-        update(allGroup[0])
+
+        update("Agriculture, forestry, fishing")
+
     });
     
 })();

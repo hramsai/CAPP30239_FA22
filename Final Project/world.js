@@ -1,3 +1,11 @@
+// Harish Ram Sai
+// World Choropleth
+// Viz # 3
+
+// Things to do:
+// 1. Add Mouseover!
+// 2. The title updates for all h2 in the document
+
 (function() {
 
 const height = 610,
@@ -15,7 +23,6 @@ d3.json("Libs/countries-110m.json")
 ]).then(([data, world]) => {
 
 const dataById = {};
-
 
 for (let d of data) {
   d.total_commitments = +d.total_commitments;
@@ -47,7 +54,7 @@ svg.append("g")
   .attr("d", path)
   .on("click", function (e, d) {
     let str = (d.properties.name in dataById) ? `In total, the World Bank spent ${f(dataById[d.properties.name].total_commitments).replace(/G/, "B")} USD in ${d.properties.name} from 2004 to 2014` : "";
-    d3.select("h2").html(str);
+    d3.select("h3").html(str); // assign an id and then add in HTML
   })
   .append("title")
   .text(d => (d.properties.name in dataById) ? `In total, the World Bank spent ${f(dataById[d.properties.name].total_commitments).replace(/G/, "B")} USD in ${d.properties.name} from 2004 to 2014` : "");

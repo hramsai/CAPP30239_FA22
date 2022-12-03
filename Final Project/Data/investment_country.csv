@@ -78,10 +78,10 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2004,Colombia,COL,234247047.126
 2004,Colombia,COL,292808808.907
 2004,Comoros,COM,15577428.6339
-2004,"Congo, Democratic Republic of",COD,70274114.1377
-2004,"Congo, Democratic Republic of",COD,117123523.563
-2004,"Congo, Democratic Republic of",COD,119465994.034
-2004,"Congo, Democratic Republic of",COD,234247047.126
+2004,Dem. Rep. Congo,COD,70274114.1377
+2004,Dem. Rep. Congo,COD,117123523.563
+2004,Dem. Rep. Congo,COD,119465994.034
+2004,Dem. Rep. Congo,COD,234247047.126
 2004,"Congo, Republic of",COG,22253469.4769
 2004,"Congo, Republic of",COG,23424704.7126
 2004,"Congo, Republic of",COG,35137057.0688
@@ -93,7 +93,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2004,Dominican Republic,DOM,117123523.563
 2004,Ecuador,ECU,23424704.7126
 2004,Ecuador,ECU,39821998.0114
-2004,"Egypt, Arab Republic of",EGY,392363803.935
+2004,Egypt,EGY,392363803.935
 2004,Eritrea,ERI,58561761.7814
 2004,Ethiopia,ETH,28109645.6551
 2004,Ethiopia,ETH,29280880.8907
@@ -144,9 +144,9 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2004,Indonesia,IDN,76833031.4572
 2004,Indonesia,IDN,234247047.126
 2004,Indonesia,IDN,351370570.688
-2004,"Iran, Islamic Republic of",IRN,93698818.8503
-2004,"Iran, Islamic Republic of",IRN,257671751.838
-2004,"Iran, Islamic Republic of",IRN,326774630.74
+2004,Iran,IRN,93698818.8503
+2004,Iran,IRN,257671751.838
+2004,Iran,IRN,326774630.74
 2004,Jordan,JOR,44506938.9539
 2004,Kazakhstan,KAZ,40993233.247
 2004,Kenya,KEN,17568528.5344
@@ -155,17 +155,17 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2004,Kenya,KEN,46849409.4251
 2004,Kenya,KEN,93698818.8503
 2004,Kenya,KEN,242445693.775
-2004,Kyrgyz Republic,KGZ,8081523.12583
-2004,Kyrgyz Republic,KGZ,9487005.40859
-2004,Kyrgyz Republic,KGZ,10541117.1207
-2004,Kyrgyz Republic,KGZ,17568528.5344
-2004,Lao People's Democratic Republic,LAO,15226058.0632
-2004,Lao People's Democratic Republic,LAO,26528478.087
+2004,Kyrgyzstan,KGZ,8081523.12583
+2004,Kyrgyzstan,KGZ,9487005.40859
+2004,Kyrgyzstan,KGZ,10541117.1207
+2004,Kyrgyzstan,KGZ,17568528.5344
+2004,Laos,LAO,15226058.0632
+2004,Laos,LAO,26528478.087
 2004,Lesotho,LSO,5856176.17814
 2004,Lesotho,LSO,16514416.8224
-2004,"Macedonia, former Yugoslav Republic of",MKD,11478105.3092
-2004,"Macedonia, former Yugoslav Republic of",MKD,11712352.3563
-2004,"Macedonia, former Yugoslav Republic of",MKD,35137057.0688
+2004,Macedonia,MKD,11478105.3092
+2004,Macedonia,MKD,11712352.3563
+2004,Macedonia,MKD,35137057.0688
 2004,Madagascar,MDG,46849409.4251
 2004,Madagascar,MDG,58561761.7814
 2004,Madagascar,MDG,137438887.799
@@ -233,7 +233,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2004,Romania,ROU,140548228.275
 2004,Romania,ROU,175685285.344
 2004,Romania,ROU,263527928.016
-2004,Russian Federation,RUS,117123523.563
+2004,Russia,RUS,117123523.563
 2004,Rwanda,RWA,23424704.7126
 2004,Rwanda,RWA,76130290.3158
 2004,Samoa,WSM,5270558.56033
@@ -289,10 +289,10 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2004,Vietnam,VNM,184820920.182
 2004,Vietnam,VNM,257671751.838
 2004,Vietnam,VNM,260564702.87
-2004,"Yemen, Republic of",YEM,46849409.4251
-2004,"Yemen, Republic of",YEM,52705585.6033
-2004,"Yemen, Republic of",YEM,70274114.1377
-2004,"Yemen, Republic of",YEM,76130290.3158
+2004,Yemen,YEM,46849409.4251
+2004,Yemen,YEM,52705585.6033
+2004,Yemen,YEM,70274114.1377
+2004,Yemen,YEM,76130290.3158
 2004,Zambia,ZMB,32970271.8829
 2004,Zambia,ZMB,46849409.4251
 2004,Zambia,ZMB,58561761.7814
@@ -371,11 +371,11 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2005,Colombia,COL,170037915.848
 2005,Colombia,COL,283396526.413
 2005,Colombia,COL,294732387.47
-2005,"Congo, Democratic Republic of",COD,92954060.6636
-2005,"Congo, Democratic Republic of",COD,102022749.509
-2005,"Congo, Democratic Republic of",COD,141698263.207
-2005,"Congo, Democratic Republic of",COD,170037915.848
-2005,"Congo, Democratic Republic of",COD,558209633.341
+2005,Dem. Rep. Congo,COD,92954060.6636
+2005,Dem. Rep. Congo,COD,102022749.509
+2005,Dem. Rep. Congo,COD,141698263.207
+2005,Dem. Rep. Congo,COD,170037915.848
+2005,Dem. Rep. Congo,COD,558209633.341
 2005,Costa Rica,CRI,34007583.1696
 2005,Croatia,HRV,45343444.2261
 2005,Croatia,HRV,51782213.3062
@@ -385,8 +385,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2005,Djibouti,DJI,11335861.0565
 2005,Dominican Republic,DOM,170037915.848
 2005,Ecuador,ECU,113358610.565
-2005,"Egypt, Arab Republic of",EGY,22671722.1131
-2005,"Egypt, Arab Republic of",EGY,136030332.678
+2005,Egypt,EGY,22671722.1131
+2005,Egypt,EGY,136030332.678
 2005,El Salvador,SLV,5667930.52827
 2005,El Salvador,SLV,23805308.2187
 2005,El Salvador,SLV,45570161.4473
@@ -428,8 +428,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2005,Indonesia,IDN,157228392.854
 2005,Indonesia,IDN,181373776.905
 2005,Indonesia,IDN,453434442.261
-2005,"Iran, Islamic Republic of",IRN,136030332.678
-2005,"Iran, Islamic Republic of",IRN,253923287.666
+2005,Iran,IRN,136030332.678
+2005,Iran,IRN,253923287.666
 2005,Iraq,IRQ,113358610.565
 2005,Jordan,JOR,17003791.5848
 2005,Kazakhstan,KAZ,27206066.5357
@@ -438,16 +438,16 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2005,Kosovo,XKX,2833965.26413
 2005,Kosovo,XKX,6234723.58109
 2005,Kosovo,XKX,7935102.73957
-2005,Kyrgyz Republic,KGZ,17003791.5848
-2005,Lao People's Democratic Republic,LAO,4534344.42261
-2005,Lao People's Democratic Republic,LAO,11335861.0565
-2005,Lao People's Democratic Republic,LAO,17003791.5848
-2005,Lao People's Democratic Republic,LAO,22671722.1131
+2005,Kyrgyzstan,KGZ,17003791.5848
+2005,Laos,LAO,4534344.42261
+2005,Laos,LAO,11335861.0565
+2005,Laos,LAO,17003791.5848
+2005,Laos,LAO,22671722.1131
 2005,Lesotho,LSO,7368309.68675
-2005,"Macedonia, former Yugoslav Republic of",MKD,12809522.9939
-2005,"Macedonia, former Yugoslav Republic of",MKD,15870205.4791
-2005,"Macedonia, former Yugoslav Republic of",MKD,21968898.7276
-2005,"Macedonia, former Yugoslav Republic of",MKD,34007583.1696
+2005,Macedonia,MKD,12809522.9939
+2005,Macedonia,MKD,15870205.4791
+2005,Macedonia,MKD,21968898.7276
+2005,Macedonia,MKD,34007583.1696
 2005,Madagascar,MDG,20404549.9018
 2005,Madagascar,MDG,34007583.1696
 2005,Madagascar,MDG,52213314.5727
@@ -524,9 +524,9 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2005,Romania,ROU,68015166.3392
 2005,Romania,ROU,95561308.7066
 2005,Romania,ROU,147366193.735
-2005,Russian Federation,RUS,90686888.4523
-2005,Russian Federation,RUS,113358610.565
-2005,Russian Federation,RUS,141698263.207
+2005,Russia,RUS,90686888.4523
+2005,Russia,RUS,113358610.565
+2005,Russia,RUS,141698263.207
 2005,Rwanda,RWA,22671722.1131
 2005,Rwanda,RWA,28339652.6413
 2005,Rwanda,RWA,62347235.8109
@@ -579,8 +579,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2005,Vietnam,VNM,113358610.565
 2005,Vietnam,VNM,119026541.094
 2005,Vietnam,VNM,226717221.131
-2005,"Yemen, Republic of",YEM,28339652.6413
-2005,"Yemen, Republic of",YEM,45343444.2261
+2005,Yemen,YEM,28339652.6413
+2005,Yemen,YEM,45343444.2261
 2005,Zambia,ZMB,22671722.1131
 2006,Afghanistan,AFG,21962065.6926
 2006,Afghanistan,AFG,32943098.5389
@@ -676,10 +676,10 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2006,Ecuador,ECU,52708957.6622
 2006,Ecuador,ECU,65886197.0778
 2006,Ecuador,ECU,98829295.6167
-2006,"Egypt, Arab Republic of",EGY,21962065.6926
-2006,"Egypt, Arab Republic of",EGY,40739631.8598
-2006,"Egypt, Arab Republic of",EGY,285067612.69
-2006,"Egypt, Arab Republic of",EGY,549051642.315
+2006,Egypt,EGY,21962065.6926
+2006,Egypt,EGY,40739631.8598
+2006,Egypt,EGY,285067612.69
+2006,Egypt,EGY,549051642.315
 2006,Ethiopia,ETH,16471549.2695
 2006,Ethiopia,ETH,59297577.37
 2006,Ethiopia,ETH,95864416.7482
@@ -734,18 +734,18 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2006,Kenya,KEN,87848262.7704
 2006,Kosovo,XKX,6039568.06547
 2006,Kosovo,XKX,9333877.91936
-2006,Kyrgyz Republic,KGZ,4392413.13852
-2006,Kyrgyz Republic,KGZ,5490516.42315
-2006,Kyrgyz Republic,KGZ,16471549.2695
-2006,Kyrgyz Republic,KGZ,20863962.408
-2006,Lao People's Democratic Republic,LAO,4392413.13852
-2006,Lao People's Democratic Republic,LAO,8784826.27704
-2006,Lao People's Democratic Republic,LAO,10981032.8463
+2006,Kyrgyzstan,KGZ,4392413.13852
+2006,Kyrgyzstan,KGZ,5490516.42315
+2006,Kyrgyzstan,KGZ,16471549.2695
+2006,Kyrgyzstan,KGZ,20863962.408
+2006,Laos,LAO,4392413.13852
+2006,Laos,LAO,8784826.27704
+2006,Laos,LAO,10981032.8463
 2006,Lesotho,LSO,25805427.1888
 2006,Liberia,LBR,18118704.1964
 2006,Liberia,LBR,32943098.5389
-2006,"Macedonia, former Yugoslav Republic of",MKD,13627461.7623
-2006,"Macedonia, former Yugoslav Republic of",MKD,27452582.1158
+2006,Macedonia,MKD,13627461.7623
+2006,Macedonia,MKD,27452582.1158
 2006,Madagascar,MDG,10981032.8463
 2006,Madagascar,MDG,19765859.1233
 2006,Madagascar,MDG,32943098.5389
@@ -817,7 +817,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2006,Romania,ROU,64239042.1509
 2006,Romania,ROU,144620202.586
 2006,Romania,ROU,197658591.233
-2006,Russian Federation,RUS,54905164.2315
+2006,Russia,RUS,54905164.2315
 2006,Rwanda,RWA,10981032.8463
 2006,Rwanda,RWA,54905164.2315
 2006,Senegal,SEN,16471549.2695
@@ -861,8 +861,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2006,Vietnam,VNM,116673473.992
 2006,Vietnam,VNM,136933479.593
 2006,Western Africa,Unspecified,65886197.0778
-2006,"Yemen, Republic of",YEM,21962065.6926
-2006,"Yemen, Republic of",YEM,54905164.2315
+2006,Yemen,YEM,21962065.6926
+2006,Yemen,YEM,54905164.2315
 2006,Zambia,ZMB,25256375.5465
 2006,Zambia,ZMB,32943098.5389
 2006,Zambia,ZMB,40849442.1882
@@ -975,10 +975,10 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2007,Colombia,COL,213428043.023
 2007,Colombia,COL,220898024.529
 2007,Colombia,COL,292808808.907
-2007,"Congo, Democratic Republic of",COD,12805682.5814
-2007,"Congo, Democratic Republic of",COD,160071032.268
-2007,"Congo, Democratic Republic of",COD,192085238.721
-2007,"Congo, Democratic Republic of",COD,558209633.341
+2007,Dem. Rep. Congo,COD,12805682.5814
+2007,Dem. Rep. Congo,COD,160071032.268
+2007,Dem. Rep. Congo,COD,192085238.721
+2007,Dem. Rep. Congo,COD,558209633.341
 2007,"Congo, Republic of",COG,8606756.4612
 2007,"Congo, Republic of",COG,16007103.2268
 2007,"Congo, Republic of",COG,21342804.3023
@@ -994,8 +994,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2007,Dominican Republic,DOM,20702520.1733
 2007,Eastern Africa,Unspecified,175544565.387
 2007,Ecuador,ECU,16327245.2913
-2007,"Egypt, Arab Republic of",EGY,106714021.512
-2007,"Egypt, Arab Republic of",EGY,154735331.192
+2007,Egypt,EGY,106714021.512
+2007,Egypt,EGY,154735331.192
 2007,Ethiopia,ETH,32014206.4535
 2007,Ethiopia,ETH,43806105.8306
 2007,Ethiopia,ETH,106714021.512
@@ -1067,19 +1067,19 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2007,Kosovo,XKX,6039568.06547
 2007,Kosovo,XKX,9333877.91936
 2007,Kosovo,XKX,10671402.1512
-2007,Kyrgyz Republic,KGZ,17074243.4419
-2007,Lao People's Democratic Republic,LAO,3201420.64535
-2007,Lao People's Democratic Republic,LAO,10451061.4172
-2007,Lao People's Democratic Republic,LAO,10671402.1512
-2007,Lao People's Democratic Republic,LAO,16007103.2268
+2007,Kyrgyzstan,KGZ,17074243.4419
+2007,Laos,LAO,3201420.64535
+2007,Laos,LAO,10451061.4172
+2007,Laos,LAO,10671402.1512
+2007,Laos,LAO,16007103.2268
 2007,Lebanon,LBN,106714021.512
 2007,Lesotho,LSO,8643835.74245
 2007,Liberia,LBR,5335701.07559
 2007,Liberia,LBR,9070691.8285
 2007,Liberia,LBR,39484187.9593
 2007,Liberia,LBR,458870292.5
-2007,"Macedonia, former Yugoslav Republic of",MKD,21342804.3023
-2007,"Macedonia, former Yugoslav Republic of",MKD,32014206.4535
+2007,Macedonia,MKD,21342804.3023
+2007,Macedonia,MKD,32014206.4535
 2007,Madagascar,MDG,5335701.07559
 2007,Madagascar,MDG,8537121.72094
 2007,Madagascar,MDG,10671402.1512
@@ -1161,8 +1161,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2007,Poland,POL,196353799.582
 2007,Romania,ROU,69364113.9826
 2007,Romania,ROU,72672248.6495
-2007,Russian Federation,RUS,10671402.1512
-2007,Russian Federation,RUS,53357010.7559
+2007,Russia,RUS,10671402.1512
+2007,Russia,RUS,53357010.7559
 2007,Rwanda,RWA,10671402.1512
 2007,Rwanda,RWA,11738542.3663
 2007,Rwanda,RWA,36728482.107
@@ -1234,9 +1234,9 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2007,Vietnam,VNM,221645022.68
 2007,Western Africa,Unspecified,198488080.012
 2007,Western Africa,Unspecified,214495183.239
-2007,"Yemen, Republic of",YEM,16007103.2268
-2007,"Yemen, Republic of",YEM,54349451.1559
-2007,"Yemen, Republic of",YEM,70274114.1377
+2007,Yemen,YEM,16007103.2268
+2007,Yemen,YEM,54349451.1559
+2007,Yemen,YEM,70274114.1377
 2007,Zambia,ZMB,26678505.3779
 2007,Zambia,ZMB,58561761.7814
 2008,Afghanistan,AFG,20879716.1002
@@ -1370,11 +1370,11 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2008,Colombia,COL,469793612.254
 2008,Colombia,COL,574192192.755
 2008,Colombia,COL,664496964.888
-2008,"Congo, Democratic Republic of",COD,52199290.2504
-2008,"Congo, Democratic Republic of",COD,62639148.3005
-2008,"Congo, Democratic Republic of",COD,117123523.563
-2008,"Congo, Democratic Republic of",COD,144505503.372
-2008,"Congo, Democratic Republic of",COD,198357302.952
+2008,Dem. Rep. Congo,COD,52199290.2504
+2008,Dem. Rep. Congo,COD,62639148.3005
+2008,Dem. Rep. Congo,COD,117123523.563
+2008,Dem. Rep. Congo,COD,144505503.372
+2008,Dem. Rep. Congo,COD,198357302.952
 2008,"Congo, Republic of",COG,41759432.2003
 2008,Costa Rica,CRI,67859077.3256
 2008,Costa Rica,CRI,75688970.8631
@@ -1388,11 +1388,11 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2008,Djibouti,DJI,3131957.41503
 2008,Dominican Republic,DOM,43847403.8104
 2008,Dominican Republic,DOM,83518864.4007
-2008,"Egypt, Arab Republic of",EGY,41759432.2003
-2008,"Egypt, Arab Republic of",EGY,78298935.3756
-2008,"Egypt, Arab Republic of",EGY,125278296.601
-2008,"Egypt, Arab Republic of",EGY,392363803.935
-2008,"Egypt, Arab Republic of",EGY,521992902.504
+2008,Egypt,EGY,41759432.2003
+2008,Egypt,EGY,78298935.3756
+2008,Egypt,EGY,125278296.601
+2008,Egypt,EGY,392363803.935
+2008,Egypt,EGY,521992902.504
 2008,Eritrea,ERI,12527829.6601
 2008,Eritrea,ERI,18269751.5876
 2008,Ethiopia,ETH,20879716.1002
@@ -1455,24 +1455,24 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2008,Jordan,JOR,44506938.9539
 2008,Kazakhstan,KAZ,13989409.7871
 2008,Kazakhstan,KAZ,122877129.25
-2008,Kyrgyz Republic,KGZ,3131957.41503
-2008,Kyrgyz Republic,KGZ,4175943.22003
-2008,Kyrgyz Republic,KGZ,6107316.9593
-2008,Kyrgyz Republic,KGZ,6263914.83005
-2008,Kyrgyz Republic,KGZ,9395872.24508
-2008,Kyrgyz Republic,KGZ,11483843.8551
-2008,Kyrgyz Republic,KGZ,12527829.6601
-2008,Kyrgyz Republic,KGZ,17003791.5848
-2008,Lao People's Democratic Republic,LAO,6263914.83005
-2008,Lao People's Democratic Republic,LAO,9395872.24508
-2008,Lao People's Democratic Republic,LAO,10439858.0501
-2008,Lao People's Democratic Republic,LAO,11921704.0282
-2008,Lao People's Democratic Republic,LAO,15659787.0751
-2008,Lao People's Democratic Republic,LAO,23779238.5657
+2008,Kyrgyzstan,KGZ,3131957.41503
+2008,Kyrgyzstan,KGZ,4175943.22003
+2008,Kyrgyzstan,KGZ,6107316.9593
+2008,Kyrgyzstan,KGZ,6263914.83005
+2008,Kyrgyzstan,KGZ,9395872.24508
+2008,Kyrgyzstan,KGZ,11483843.8551
+2008,Kyrgyzstan,KGZ,12527829.6601
+2008,Kyrgyzstan,KGZ,17003791.5848
+2008,Laos,LAO,6263914.83005
+2008,Laos,LAO,9395872.24508
+2008,Laos,LAO,10439858.0501
+2008,Laos,LAO,11921704.0282
+2008,Laos,LAO,15659787.0751
+2008,Laos,LAO,23779238.5657
 2008,Lesotho,LSO,16599374.2996
 2008,Liberia,LBR,11483843.8551
-2008,"Macedonia, former Yugoslav Republic of",MKD,26099645.1252
-2008,"Macedonia, former Yugoslav Republic of",MKD,109827306.687
+2008,Macedonia,MKD,26099645.1252
+2008,Macedonia,MKD,109827306.687
 2008,Madagascar,MDG,31319574.1503
 2008,Madagascar,MDG,41759432.2003
 2008,Madagascar,MDG,52199290.2504
@@ -1549,7 +1549,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2008,Philippines,PHL,208797161.002
 2008,Philippines,PHL,242204706.762
 2008,Poland,POL,1304982256.26
-2008,Russian Federation,RUS,208797161.002
+2008,Russia,RUS,208797161.002
 2008,Rwanda,RWA,6263914.83005
 2008,Rwanda,RWA,36539503.1753
 2008,Rwanda,RWA,50977332.9289
@@ -1607,14 +1607,14 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2008,Vietnam,VNM,177477586.851
 2008,Vietnam,VNM,208797161.002
 2008,Western Africa,Unspecified,198357302.952
-2008,"Yemen, Republic of",YEM,14615801.2701
-2008,"Yemen, Republic of",YEM,15659787.0751
-2008,"Yemen, Republic of",YEM,20879716.1002
-2008,"Yemen, Republic of",YEM,25553565.9407
-2008,"Yemen, Republic of",YEM,31152536.4215
-2008,"Yemen, Republic of",YEM,46849409.4251
-2008,"Yemen, Republic of",YEM,52705585.6033
-2008,"Yemen, Republic of",YEM,56474888.4409
+2008,Yemen,YEM,14615801.2701
+2008,Yemen,YEM,15659787.0751
+2008,Yemen,YEM,20879716.1002
+2008,Yemen,YEM,25553565.9407
+2008,Yemen,YEM,31152536.4215
+2008,Yemen,YEM,46849409.4251
+2008,Yemen,YEM,52705585.6033
+2008,Yemen,YEM,56474888.4409
 2008,Zambia,ZMB,10439858.0501
 2008,Zambia,ZMB,34451531.5653
 2009,Afghanistan,AFG,7048109.81804
@@ -1718,8 +1718,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2009,Colombia,COL,35137057.0688
 2009,Colombia,COL,292808808.907
 2009,Colombia,COL,310489419.297
-2009,"Congo, Democratic Republic of",COD,66237742.7833
-2009,"Congo, Democratic Republic of",COD,103496473.099
+2009,Dem. Rep. Congo,COD,66237742.7833
+2009,Dem. Rep. Congo,COD,103496473.099
 2009,"Congo, Republic of",COG,5174823.65495
 2009,"Congo, Republic of",COG,15524470.9648
 2009,"Congo, Republic of",COG,22253469.4769
@@ -1739,10 +1739,10 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2009,Eastern Africa,Unspecified,93146825.789
 2009,Eastern Africa,Unspecified,156279674.379
 2009,Eastern Africa,Unspecified,215072357.518
-2009,"Egypt, Arab Republic of",EGY,77622354.8242
-2009,"Egypt, Arab Republic of",EGY,279440477.367
-2009,"Egypt, Arab Republic of",EGY,310489419.297
-2009,"Egypt, Arab Republic of",EGY,620978838.594
+2009,Egypt,EGY,77622354.8242
+2009,Egypt,EGY,279440477.367
+2009,Egypt,EGY,310489419.297
+2009,Egypt,EGY,620978838.594
 2009,El Salvador,SLV,20699294.6198
 2009,El Salvador,SLV,51748236.5495
 2009,El Salvador,SLV,103496473.099
@@ -1841,14 +1841,14 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2009,Kenya,KEN,93698818.8503
 2009,Kenya,KEN,242445693.775
 2009,Kenya,KEN,261846076.94
-2009,Kyrgyz Republic,KGZ,4139858.92396
-2009,Kyrgyz Republic,KGZ,8279717.84792
-2009,Kyrgyz Republic,KGZ,10349647.3099
-2009,Kyrgyz Republic,KGZ,11483843.8551
-2009,Kyrgyz Republic,KGZ,16471549.2695
-2009,Kyrgyz Republic,KGZ,17568528.5344
-2009,Kyrgyz Republic,KGZ,25874118.2747
-2009,Lao People's Democratic Republic,LAO,20699294.6198
+2009,Kyrgyzstan,KGZ,4139858.92396
+2009,Kyrgyzstan,KGZ,8279717.84792
+2009,Kyrgyzstan,KGZ,10349647.3099
+2009,Kyrgyzstan,KGZ,11483843.8551
+2009,Kyrgyzstan,KGZ,16471549.2695
+2009,Kyrgyzstan,KGZ,17568528.5344
+2009,Kyrgyzstan,KGZ,25874118.2747
+2009,Laos,LAO,20699294.6198
 2009,Latvia,LVA,292532781.214
 2009,Lebanon,LBN,72137041.75
 2009,Lebanon,LBN,79919881.4255
@@ -1861,8 +1861,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2009,Liberia,LBR,32943098.5389
 2009,Liberia,LBR,39484187.9593
 2009,Liberia,LBR,45538448.1635
-2009,"Macedonia, former Yugoslav Republic of",MKD,25874118.2747
-2009,"Macedonia, former Yugoslav Republic of",MKD,31048941.9297
+2009,Macedonia,MKD,25874118.2747
+2009,Macedonia,MKD,31048941.9297
 2009,Malawi,MWI,10349647.3099
 2009,Malawi,MWI,31048941.9297
 2009,Malawi,MWI,31623351.362
@@ -2016,12 +2016,12 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2009,Western Africa,Unspecified,27116075.9519
 2009,Western Africa,Unspecified,46573412.8945
 2009,Western Africa,Unspecified,214495183.239
-2009,"Yemen, Republic of",YEM,25874118.2747
-2009,"Yemen, Republic of",YEM,36223765.5846
-2009,"Yemen, Republic of",YEM,41398589.2396
-2009,"Yemen, Republic of",YEM,45343444.2261
-2009,"Yemen, Republic of",YEM,56474888.4409
-2009,"Yemen, Republic of",YEM,93146825.789
+2009,Yemen,YEM,25874118.2747
+2009,Yemen,YEM,36223765.5846
+2009,Yemen,YEM,41398589.2396
+2009,Yemen,YEM,45343444.2261
+2009,Yemen,YEM,56474888.4409
+2009,Yemen,YEM,93146825.789
 2009,Zambia,ZMB,10349647.3099
 2009,Zambia,ZMB,77622354.8242
 2010,Afghanistan,AFG,20426351.6809
@@ -2135,16 +2135,16 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2010,Colombia,COL,510658792.022
 2010,Comoros,COM,3063952.75213
 2010,Comoros,COM,5423196.37127
-2010,"Congo, Democratic Republic of",COD,10213175.8404
-2010,"Congo, Democratic Republic of",COD,35746115.4415
-2010,"Congo, Democratic Republic of",COD,40852703.3618
-2010,"Congo, Democratic Republic of",COD,51065879.2022
-2010,"Congo, Democratic Republic of",COD,70274114.1377
-2010,"Congo, Democratic Republic of",COD,81705406.7235
-2010,"Congo, Democratic Republic of",COD,122558110.085
-2010,"Congo, Democratic Republic of",COD,170037915.848
-2010,"Congo, Democratic Republic of",COD,192085238.721
-2010,"Congo, Democratic Republic of",COD,260435983.931
+2010,Dem. Rep. Congo,COD,10213175.8404
+2010,Dem. Rep. Congo,COD,35746115.4415
+2010,Dem. Rep. Congo,COD,40852703.3618
+2010,Dem. Rep. Congo,COD,51065879.2022
+2010,Dem. Rep. Congo,COD,70274114.1377
+2010,Dem. Rep. Congo,COD,81705406.7235
+2010,Dem. Rep. Congo,COD,122558110.085
+2010,Dem. Rep. Congo,COD,170037915.848
+2010,Dem. Rep. Congo,COD,192085238.721
+2010,Dem. Rep. Congo,COD,260435983.931
 2010,"Congo, Republic of",COG,10213175.8404
 2010,"Congo, Republic of",COG,26043598.3931
 2010,Cote d'Ivoire,CIV,51065879.2022
@@ -2159,15 +2159,15 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2010,Dominican Republic,DOM,20426351.6809
 2010,Dominican Republic,DOM,153197637.607
 2010,Eastern Africa,Unspecified,65017077.4003
-2010,"Egypt, Arab Republic of",EGY,30639527.5213
-2010,"Egypt, Arab Republic of",EGY,63883914.8518
-2010,"Egypt, Arab Republic of",EGY,71492230.8831
-2010,"Egypt, Arab Republic of",EGY,102131758.404
-2010,"Egypt, Arab Republic of",EGY,285968923.532
-2010,"Egypt, Arab Republic of",EGY,306395275.213
-2010,"Egypt, Arab Republic of",EGY,337034802.735
-2010,"Egypt, Arab Republic of",EGY,510658792.022
-2010,"Egypt, Arab Republic of",EGY,612790550.427
+2010,Egypt,EGY,30639527.5213
+2010,Egypt,EGY,63883914.8518
+2010,Egypt,EGY,71492230.8831
+2010,Egypt,EGY,102131758.404
+2010,Egypt,EGY,285968923.532
+2010,Egypt,EGY,306395275.213
+2010,Egypt,EGY,337034802.735
+2010,Egypt,EGY,510658792.022
+2010,Egypt,EGY,612790550.427
 2010,El Salvador,SLV,81705406.7235
 2010,Ethiopia,ETH,51065879.2022
 2010,Ethiopia,ETH,81705406.7235
@@ -2260,17 +2260,17 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2010,Kosovo,XKX,6434300.77948
 2010,Kosovo,XKX,8170540.67235
 2010,Kosovo,XKX,12511140.4045
-2010,Kyrgyz Republic,KGZ,10213175.8404
-2010,Kyrgyz Republic,KGZ,25874118.2747
-2010,Kyrgyz Republic,KGZ,71492230.8831
-2010,Lao People's Democratic Republic,LAO,3063952.75213
-2010,Lao People's Democratic Republic,LAO,4534344.42261
-2010,Lao People's Democratic Republic,LAO,8170540.67235
-2010,Lao People's Democratic Republic,LAO,10213175.8404
-2010,Lao People's Democratic Republic,LAO,15226058.0632
-2010,Lao People's Democratic Republic,LAO,15830422.5527
-2010,Lao People's Democratic Republic,LAO,20426351.6809
-2010,Lao People's Democratic Republic,LAO,28392628.8364
+2010,Kyrgyzstan,KGZ,10213175.8404
+2010,Kyrgyzstan,KGZ,25874118.2747
+2010,Kyrgyzstan,KGZ,71492230.8831
+2010,Laos,LAO,3063952.75213
+2010,Laos,LAO,4534344.42261
+2010,Laos,LAO,8170540.67235
+2010,Laos,LAO,10213175.8404
+2010,Laos,LAO,15226058.0632
+2010,Laos,LAO,15830422.5527
+2010,Laos,LAO,20426351.6809
+2010,Laos,LAO,28392628.8364
 2010,Latvia,LVA,146967600.344
 2010,Lebanon,LBN,40852703.3618
 2010,Lebanon,LBN,204263516.809
@@ -2282,8 +2282,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2010,Liberia,LBR,11234493.4245
 2010,Liberia,LBR,20426351.6809
 2010,Liberia,LBR,45538448.1635
-2010,"Macedonia, former Yugoslav Republic of",MKD,12357942.7669
-2010,"Macedonia, former Yugoslav Republic of",MKD,15870205.4791
+2010,Macedonia,MKD,12357942.7669
+2010,Macedonia,MKD,15870205.4791
 2010,Malawi,MWI,12970733.3174
 2010,Malawi,MWI,14298446.1766
 2010,Malawi,MWI,51065879.2022
@@ -2374,8 +2374,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2010,Philippines,PHL,208797161.002
 2010,Philippines,PHL,255329396.011
 2010,Poland,POL,1359680099.64
-2010,Russian Federation,RUS,25532939.6011
-2010,Russian Federation,RUS,102131758.404
+2010,Russia,RUS,25532939.6011
+2010,Russia,RUS,102131758.404
 2010,Rwanda,RWA,6127905.50427
 2010,Rwanda,RWA,118268576.232
 2010,Samoa,WSM,3063952.75213
@@ -2464,13 +2464,13 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2010,Vietnam,VNM,318446822.705
 2010,Western Africa,Unspecified,91918582.564
 2010,Western Africa,Unspecified,232860409.162
-2010,"Yemen, Republic of",YEM,10213175.8404
-2010,"Yemen, Republic of",YEM,12255811.0085
-2010,"Yemen, Republic of",YEM,13277128.5926
-2010,"Yemen, Republic of",YEM,22468986.849
-2010,"Yemen, Republic of",YEM,35746115.4415
-2010,"Yemen, Republic of",YEM,61279055.0427
-2010,"Yemen, Republic of",YEM,71492230.8831
+2010,Yemen,YEM,10213175.8404
+2010,Yemen,YEM,12255811.0085
+2010,Yemen,YEM,13277128.5926
+2010,Yemen,YEM,22468986.849
+2010,Yemen,YEM,35746115.4415
+2010,Yemen,YEM,61279055.0427
+2010,Yemen,YEM,71492230.8831
 2010,Zambia,ZMB,15319763.7607
 2010,Zambia,ZMB,20426351.6809
 2010,Zambia,ZMB,22671722.1131
@@ -2563,12 +2563,12 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2011,Colombia,COL,300000000.0
 2011,Colombia,COL,350000000.0
 2011,Comoros,COM,1800000.0
-2011,"Congo, Democratic Republic of",COD,6800000.0
-2011,"Congo, Democratic Republic of",COD,29900000.0
-2011,"Congo, Democratic Republic of",COD,30000000.0
-2011,"Congo, Democratic Republic of",COD,63300000.0
-2011,"Congo, Democratic Republic of",COD,70274114.1377
-2011,"Congo, Democratic Republic of",COD,170037915.848
+2011,Dem. Rep. Congo,COD,6800000.0
+2011,Dem. Rep. Congo,COD,29900000.0
+2011,Dem. Rep. Congo,COD,30000000.0
+2011,Dem. Rep. Congo,COD,63300000.0
+2011,Dem. Rep. Congo,COD,70274114.1377
+2011,Dem. Rep. Congo,COD,170037915.848
 2011,Cote d'Ivoire,CIV,50000000.0
 2011,Cote d'Ivoire,CIV,150000000.0
 2011,Croatia,HRV,23800000.0
@@ -2582,7 +2582,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2011,Eastern Africa,Unspecified,15000000.0
 2011,Eastern Africa,Unspecified,25000000.0
 2011,Eastern Africa,Unspecified,30000000.0
-2011,"Egypt, Arab Republic of",EGY,200000000.0
+2011,Egypt,EGY,200000000.0
 2011,El Salvador,SLV,50000000.0
 2011,El Salvador,SLV,60000000.0
 2011,El Salvador,SLV,80000000.0
@@ -2648,15 +2648,15 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2011,Kiribati,KIR,22910000.0
 2011,Kosovo,XKX,6850000.0
 2011,Kosovo,XKX,20150000.0
-2011,Kyrgyz Republic,KGZ,1000000.0
-2011,Kyrgyz Republic,KGZ,15000000.0
-2011,Kyrgyz Republic,KGZ,16000000.0
-2011,Kyrgyz Republic,KGZ,17074243.4419
-2011,Kyrgyz Republic,KGZ,24000000.0
-2011,Kyrgyz Republic,KGZ,30000000.0
-2011,Lao People's Democratic Republic,LAO,10000000.0
-2011,Lao People's Democratic Republic,LAO,17003791.5848
-2011,Lao People's Democratic Republic,LAO,25000000.0
+2011,Kyrgyzstan,KGZ,1000000.0
+2011,Kyrgyzstan,KGZ,15000000.0
+2011,Kyrgyzstan,KGZ,16000000.0
+2011,Kyrgyzstan,KGZ,17074243.4419
+2011,Kyrgyzstan,KGZ,24000000.0
+2011,Kyrgyzstan,KGZ,30000000.0
+2011,Laos,LAO,10000000.0
+2011,Laos,LAO,17003791.5848
+2011,Laos,LAO,25000000.0
 2011,Latvia,LVA,142080000.0
 2011,Lesotho,LSO,10000000.0
 2011,Lesotho,LSO,13000000.0
@@ -2667,8 +2667,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2011,Liberia,LBR,7000000.0
 2011,Liberia,LBR,11483843.8551
 2011,Liberia,LBR,67700000.0
-2011,"Macedonia, former Yugoslav Republic of",MKD,19100000.0
-2011,"Macedonia, former Yugoslav Republic of",MKD,27452582.1158
+2011,Macedonia,MKD,19100000.0
+2011,Macedonia,MKD,27452582.1158
 2011,Madagascar,MDG,42000000.0
 2011,Malawi,MWI,25000000.0
 2011,Malawi,MWI,28200000.0
@@ -2837,7 +2837,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2011,Western Africa,Unspecified,41900000.0
 2011,Western Africa,Unspecified,83800000.0
 2011,Western Africa,Unspecified,92000000.0
-2011,"Yemen, Republic of",YEM,35000000.0
+2011,Yemen,YEM,35000000.0
 2011,Zambia,ZMB,30000000.0
 2011,Zambia,ZMB,115000000.0
 2012,Afghanistan,AFG,122730464.567
@@ -2904,7 +2904,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2012,Colombia,COL,196368743.308
 2012,Colombia,COL,245460929.135
 2012,Comoros,COM,4909218.58269
-2012,"Congo, Democratic Republic of",COD,73638278.7404
+2012,Dem. Rep. Congo,COD,73638278.7404
 2012,"Congo, Republic of",COG,4909218.58269
 2012,"Congo, Republic of",COG,9818437.16538
 2012,Costa Rica,CRI,196368743.308
@@ -2915,8 +2915,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2012,Djibouti,DJI,5105587.326
 2012,Djibouti,DJI,5891062.29923
 2012,Eastern Africa,Unspecified,671581102.112
-2012,"Egypt, Arab Republic of",EGY,196368743.308
-2012,"Egypt, Arab Republic of",EGY,235642491.969
+2012,Egypt,EGY,196368743.308
+2012,Egypt,EGY,235642491.969
 2012,Ethiopia,ETH,49092185.8269
 2012,Ethiopia,ETH,147276557.481
 2012,Ethiopia,ETH,196368743.308
@@ -2967,20 +2967,20 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2012,Kenya,KEN,117821245.985
 2012,Kenya,KEN,294553114.962
 2012,Kiribati,KIR,981843.716538
-2012,Kyrgyz Republic,KGZ,4123743.60946
-2012,Kyrgyz Republic,KGZ,12763968.315
-2012,Kyrgyz Republic,KGZ,15513130.7213
-2012,Lao People's Democratic Republic,LAO,3927374.86615
-2012,Lao People's Democratic Republic,LAO,8443855.96223
-2012,Lao People's Democratic Republic,LAO,19636874.3308
-2012,Lao People's Democratic Republic,LAO,20618718.0473
-2012,Lao People's Democratic Republic,LAO,25527936.63
+2012,Kyrgyzstan,KGZ,4123743.60946
+2012,Kyrgyzstan,KGZ,12763968.315
+2012,Kyrgyzstan,KGZ,15513130.7213
+2012,Laos,LAO,3927374.86615
+2012,Laos,LAO,8443855.96223
+2012,Laos,LAO,19636874.3308
+2012,Laos,LAO,20618718.0473
+2012,Laos,LAO,25527936.63
 2012,Lebanon,LBN,26509780.3465
 2012,Lebanon,LBN,29455311.4962
 2012,Liberia,LBR,14727655.7481
 2012,Liberia,LBR,21600561.7638
 2012,Liberia,LBR,49092185.8269
-2012,"Macedonia, former Yugoslav Republic of",MKD,49092185.8269
+2012,Macedonia,MKD,49092185.8269
 2012,Madagascar,MDG,5891062.29923
 2012,Madagascar,MDG,63819841.575
 2012,Madagascar,MDG,100148059.087
@@ -3036,7 +3036,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2012,Philippines,PHL,270007022.048
 2012,Poland,POL,973399860.576
 2012,Romania,ROU,1308797674.15
-2012,Russian Federation,RUS,39273748.6615
+2012,Russia,RUS,39273748.6615
 2012,Rwanda,RWA,4909218.58269
 2012,Rwanda,RWA,39273748.6615
 2012,Rwanda,RWA,78547497.3231
@@ -3085,7 +3085,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2012,Vietnam,VNM,286698365.229
 2012,Vietnam,VNM,440749644.354
 2012,Western Africa,Unspecified,117821245.985
-2012,"Yemen, Republic of",YEM,59892466.7088
+2012,Yemen,YEM,59892466.7088
 2012,Zambia,ZMB,29455311.4962
 2012,Zambia,ZMB,49092185.8269
 2013,Afghanistan,AFG,6920522.73373
@@ -3149,12 +3149,12 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2013,Comoros,COM,3098741.52257
 2013,Comoros,COM,3615198.44299
 2013,Comoros,COM,5164569.20428
-2013,"Congo, Democratic Republic of",COD,3098741.52257
-2013,"Congo, Democratic Republic of",COD,69153581.6453
-2013,"Congo, Democratic Republic of",COD,79534365.7459
-2013,"Congo, Democratic Republic of",COD,103291384.086
-2013,"Congo, Democratic Republic of",COD,113620522.494
-2013,"Congo, Democratic Republic of",COD,185924491.354
+2013,Dem. Rep. Congo,COD,3098741.52257
+2013,Dem. Rep. Congo,COD,69153581.6453
+2013,Dem. Rep. Congo,COD,79534365.7459
+2013,Dem. Rep. Congo,COD,103291384.086
+2013,Dem. Rep. Congo,COD,113620522.494
+2013,Dem. Rep. Congo,COD,185924491.354
 2013,"Congo, Republic of",COG,10329138.4086
 2013,Cote d'Ivoire,CIV,30987415.2257
 2013,Cote d'Ivoire,CIV,51645692.0428
@@ -3165,7 +3165,7 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2013,Eastern Africa,Unspecified,351087414.507
 2013,Ecuador,ECU,103291384.086
 2013,Ecuador,ECU,211747337.375
-2013,"Egypt, Arab Republic of",EGY,604667762.437
+2013,Egypt,EGY,604667762.437
 2013,Ethiopia,ETH,51645692.0428
 2013,Ethiopia,ETH,103291384.086
 2013,Ethiopia,ETH,113620522.494
@@ -3208,11 +3208,11 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2013,Kenya,KEN,258228460.214
 2013,Kiribati,KIR,5371151.97245
 2013,Kosovo,XKX,4338238.13159
-2013,Kyrgyz Republic,KGZ,17043078.3741
-2013,Kyrgyz Republic,KGZ,25822846.0214
-2013,Lao People's Democratic Republic,LAO,6713939.96556
-2013,Lao People's Democratic Republic,LAO,19625362.9763
-2013,Lao People's Democratic Republic,LAO,20658276.8171
+2013,Kyrgyzstan,KGZ,17043078.3741
+2013,Kyrgyzstan,KGZ,25822846.0214
+2013,Laos,LAO,6713939.96556
+2013,Laos,LAO,19625362.9763
+2013,Laos,LAO,20658276.8171
 2013,Lebanon,LBN,6610648.58147
 2013,Lebanon,LBN,30987415.2257
 2013,Lesotho,LSO,12394966.0903
@@ -3287,9 +3287,9 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2013,Philippines,PHL,516456920.428
 2013,Poland,POL,1350844721.07
 2013,Romania,ROU,94821490.5905
-2013,Russian Federation,RUS,20658276.8171
-2013,Russian Federation,RUS,51645692.0428
-2013,Russian Federation,RUS,61974830.4513
+2013,Russia,RUS,20658276.8171
+2013,Russia,RUS,51645692.0428
+2013,Russia,RUS,61974830.4513
 2013,Rwanda,RWA,36151984.4299
 2013,Rwanda,RWA,51645692.0428
 2013,Rwanda,RWA,61974830.4513
@@ -3311,8 +3311,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2013,Solomon Islands,SLB,2065827.68171
 2013,Solomon Islands,SLB,3098741.52257
 2013,South Asia,Unspecified,102258470.245
-2013,South Sudan,SSD,21691190.658
-2013,South Sudan,SSD,51645692.0428
+2013,Sudan,SSD,21691190.658
+2013,Sudan,SSD,51645692.0428
 2013,Sri Lanka,LKA,206582768.171
 2013,Tajikistan,TJK,15493707.6128
 2013,Tanzania,TZA,22166331.0248
@@ -3342,12 +3342,12 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2013,Vietnam,VNM,258228460.214
 2013,Western Africa,Unspecified,61974830.4513
 2013,Western Africa,Unspecified,219494191.182
-2013,"Yemen, Republic of",YEM,5164569.20428
-2013,"Yemen, Republic of",YEM,20658276.8171
-2013,"Yemen, Republic of",YEM,25822846.0214
-2013,"Yemen, Republic of",YEM,41316553.6342
-2013,"Yemen, Republic of",YEM,68172313.4965
-2013,"Yemen, Republic of",YEM,103291384.086
+2013,Yemen,YEM,5164569.20428
+2013,Yemen,YEM,20658276.8171
+2013,Yemen,YEM,25822846.0214
+2013,Yemen,YEM,41316553.6342
+2013,Yemen,YEM,68172313.4965
+2013,Yemen,YEM,103291384.086
 2013,Zambia,ZMB,51645692.0428
 2013,Zambia,ZMB,108455953.29
 2014,Africa,Unspecified,25000000.0
@@ -3421,12 +3421,12 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2014,Colombia,COL,200000000.0
 2014,Colombia,COL,700000000.0
 2014,Comoros,COM,3800000.0
-2014,"Congo, Democratic Republic of",COD,5000000.0
-2014,"Congo, Democratic Republic of",COD,15000000.0
-2014,"Congo, Democratic Republic of",COD,30000000.0
-2014,"Congo, Democratic Republic of",COD,73100000.0
-2014,"Congo, Democratic Republic of",COD,79100000.0
-2014,"Congo, Democratic Republic of",COD,220000000.0
+2014,Dem. Rep. Congo,COD,5000000.0
+2014,Dem. Rep. Congo,COD,15000000.0
+2014,Dem. Rep. Congo,COD,30000000.0
+2014,Dem. Rep. Congo,COD,73100000.0
+2014,Dem. Rep. Congo,COD,79100000.0
+2014,Dem. Rep. Congo,COD,220000000.0
 2014,"Congo, Republic of",COG,2000000.0
 2014,"Congo, Republic of",COG,2500000.0
 2014,"Congo, Republic of",COG,4800000.0
@@ -3446,8 +3446,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2014,Eastern Africa,Unspecified,92100000.0
 2014,Eastern Africa,Unspecified,106960000.0
 2014,Eastern Africa,Unspecified,122000000.0
-2014,"Egypt, Arab Republic of",EGY,300000000.0
-2014,"Egypt, Arab Republic of",EGY,500000000.0
+2014,Egypt,EGY,300000000.0
+2014,Egypt,EGY,500000000.0
 2014,Ethiopia,ETH,178500000.0
 2014,Ethiopia,ETH,205000000.0
 2014,Ethiopia,ETH,250000000.0
@@ -3513,12 +3513,12 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2014,Kiribati,KIR,3000000.0
 2014,Kosovo,XKX,25500000.0
 2014,Kosovo,XKX,31000000.0
-2014,Kyrgyz Republic,KGZ,15000000.0
-2014,Kyrgyz Republic,KGZ,25000000.0
-2014,Lao People's Democratic Republic,LAO,17000000.0
-2014,Lao People's Democratic Republic,LAO,17800000.0
-2014,Lao People's Democratic Republic,LAO,20000000.0
-2014,Lao People's Democratic Republic,LAO,28000000.0
+2014,Kyrgyzstan,KGZ,15000000.0
+2014,Kyrgyzstan,KGZ,25000000.0
+2014,Laos,LAO,17000000.0
+2014,Laos,LAO,17800000.0
+2014,Laos,LAO,20000000.0
+2014,Laos,LAO,28000000.0
 2014,Lebanon,LBN,5200000.0
 2014,Lebanon,LBN,15000000.0
 2014,Lebanon,LBN,474000000.0
@@ -3527,9 +3527,9 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2014,Liberia,LBR,2000000.0
 2014,Liberia,LBR,19600000.0
 2014,Liberia,LBR,30000000.0
-2014,"Macedonia, former Yugoslav Republic of",MKD,24000000.0
-2014,"Macedonia, former Yugoslav Republic of",MKD,50000000.0
-2014,"Macedonia, former Yugoslav Republic of",MKD,70980000.0
+2014,Macedonia,MKD,24000000.0
+2014,Macedonia,MKD,50000000.0
+2014,Macedonia,MKD,70980000.0
 2014,Madagascar,MDG,10000000.0
 2014,Madagascar,MDG,45000000.0
 2014,Madagascar,MDG,50000000.0
@@ -3625,8 +3625,8 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2014,Solomon Islands,SLB,9750000.0
 2014,Solomon Islands,SLB,13000000.0
 2014,South Asia,Unspecified,526500000.0
-2014,South Sudan,SSD,9000000.0
-2014,South Sudan,SSD,35000000.0
+2014,Sudan,SSD,9000000.0
+2014,Sudan,SSD,35000000.0
 2014,Sri Lanka,LKA,83000000.0
 2014,Sri Lanka,LKA,101500000.0
 2014,Sri Lanka,LKA,102000000.0
@@ -3678,11 +3678,11 @@ transaction_year,recipients,recipients_iso3,total_commitments
 2014,Western Africa,Unspecified,150000000.0
 2014,Western Africa,Unspecified,170200000.0
 2014,Western Africa,Unspecified,285000000.0
-2014,"Yemen, Republic of",YEM,3000000.0
-2014,"Yemen, Republic of",YEM,8000000.0
-2014,"Yemen, Republic of",YEM,10000000.0
-2014,"Yemen, Republic of",YEM,20000000.0
-2014,"Yemen, Republic of",YEM,50000000.0
-2014,"Yemen, Republic of",YEM,90000000.0
-2014,"Yemen, Republic of",YEM,133540000.0
+2014,Yemen,YEM,3000000.0
+2014,Yemen,YEM,8000000.0
+2014,Yemen,YEM,10000000.0
+2014,Yemen,YEM,20000000.0
+2014,Yemen,YEM,50000000.0
+2014,Yemen,YEM,90000000.0
+2014,Yemen,YEM,133540000.0
 2014,Zambia,ZMB,52000000.0

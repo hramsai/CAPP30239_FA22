@@ -50,6 +50,7 @@ investments_year_sector = df.groupby(['transaction_year', 'primary_sectors']).su
 investments_year_sector = investments_year_sector.drop(['is_geocoded', 'transactions_start_year', 'transactions_end_year'], axis = 1)
 investments_year_sector = investments_year_sector.reset_index()
 investments_year_sector['transaction_year'] = investments_year_sector['transaction_year'].astype(int)
+
 # projects_year
 # investments_year_sector = investments_year_sector.pivot(index = 'transaction_year', columns='primary_sectors', values='total_commitments')
 # investments_year_sector = investments_year_sector.reset_index()
@@ -71,6 +72,19 @@ investment_country = df.groupby(['transaction_year', 'recipients', 'recipients_i
 investment_country = investment_country.drop(['is_geocoded', 'transactions_start_year', 'transactions_end_year', 'total_disbursements',	'transaction_value'], axis = 1)
 investment_country = investment_country.reset_index()
 investment_country['transaction_year'] = investment_country['transaction_year'].astype(int)
+investment_country = investment_country.replace('Russian Federation', 'Russia')
+investment_country = investment_country.replace('South Sudan', 'Sudan')
+investment_country = investment_country.replace('Macedonia, former Yugoslav Republic of', 'Macedonia')
+investment_country = investment_country.replace('Egypt, Arab Republic of', 'Egypt')
+investment_country = investment_country.replace('Congo, Democratic Republic of', 'Dem. Rep. Congo')
+investment_country = investment_country.replace('Yemen, Republic of', 'Yemen')
+investment_country = investment_country.replace('Iran, Islamic Republic of', 'Iran')
+investment_country = investment_country.replace('Kyrgyz Republic', 'Kyrgyzstan')
+investment_country = investment_country.replace("Lao People's Democratic Republic", 'Laos')
+# investment_country = investment_country.replace('Egypt, Arab Republic of', 'Egypt')
+# investment_country = investment_country.replace('Congo, Democratic Republic of', 'Dem. Rep. Congo')
+# investment_country = investment_country.replace('Yemen, Republic of', 'Yemen')
+
 
 
 

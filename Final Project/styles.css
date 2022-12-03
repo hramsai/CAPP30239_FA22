@@ -48,17 +48,16 @@ svg text {
 }
 
 .x-axis text {
-  transform: translateY(5px);
+  transform: translateY(10px);
 }
 
 .y-axis text {
-  transform: translateX(-5px);
+  transform: translateX(-10px);
 }
 
 foreignObject p {
   font-size: 10px;
 }
-
 
 #legend {
   margin-top: 50px
@@ -66,6 +65,17 @@ foreignObject p {
 
 #legend svg {
   margin: 0 auto;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.label {
+  font-size: 8px;
 }
 
 /* style chart that can be used across all the different js files */

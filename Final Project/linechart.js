@@ -70,6 +70,13 @@ d3.csv("Data/data.csv", function(data) {
       // .attr("x2", 405)
       .attr("x", 410)
       .text("Recission in \n the United States of America");
+
+    linesvg.append("text")
+      .attr("class", "x label")
+      .attr("text-anchor", "end")
+      .attr("x", width)
+      .attr("y", height - 6)
+      .text("Years");
     
     // Initialize line with group a
     var line = linesvg
@@ -112,7 +119,10 @@ d3.csv("Data/data.csv", function(data) {
         update(selectedOption)
     })
 
+
     update(allGroup[0])
+
+
 });
 
 })();

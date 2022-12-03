@@ -1,8 +1,8 @@
-// Office Hours Questions:
+// Harish Ram Sai
+// 
+//
 
-// 1. Addtion of a legend -- I've added the legend tag and code, but it was not helpful. 
-// 2. Is there a way to make the click function to work in short (ex. 6 billion dollars as opposed to the whole thing?)
-
+// things to do:
 
 (function() {
 var mapsvg = d3.select("svg"),
