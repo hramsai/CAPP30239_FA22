@@ -32,6 +32,22 @@ let y = d3.scaleLinear()
 let yAxis = barsvg.append("g")
   .attr("class", "myYaxis")
 
+barsvg.append("text")
+  .attr("class", "x label")
+  .attr("text-anchor", "end")
+  .attr("x", width/2)
+  .attr("y", height + 30)
+  .text("Years");
+
+barsvg.append("text")
+  .attr("class", "y label")
+  .attr("text-anchor", "end")
+  .attr("y", -35)
+  .attr("x", 0)
+  .attr("dy", ".75em")
+  .attr("transform", "rotate(-90)")
+  .text("Number of Interventions");
+
 // A function that create / update the plot for a given variable:
 function update(selectedVars) {
 
