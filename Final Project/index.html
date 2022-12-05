@@ -1,124 +1,405 @@
+<!-- Harish Ram Sai
+    Final Project
+    CAPP 30239 -->
+
 <!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
-    <style>
-        * {
-            font-family: 'Assistant', sans-serif;
-        }
-        .container {
-            max-width: 1000px;
-            padding: 20px;
-            margin: 0 auto;
-        }
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: normal;
-            align-items: normal;
-            align-content: normal;
-            column-gap: 40px;
-            margin: 60px 0px;
-        }
-        .flex-item {
-            display: block;
-            flex-grow: 0;
-            flex-shrink: 1;
-            flex-basis: auto;
-            align-self: auto;
-            order: 0;
-            width: 50%;
-        }
-        .float-left {
-            float:left;
-            width: 50%;
-        }
-        text {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10px;
-        }
-        hr {
-            margin: 60px 0;
-        }
-        .chart p {
-            background: rgb(226, 226, 226);
-            padding: 5px 0px 5px 10px;
-            margin-right: 10px;
-        }
-        /* #line_chart {
-            background: rgb(226, 226, 226);
-            stroke: rgb(215, 215, 215);
-            stroke-dasharray: 2;
-        } */
-/* 
-        #monthChart .y-axis .domain {
-            display: none;
-        }
-        #divergingChart text {
-            font-size: 14px;
-        } */
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Final Project</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1> 
-            Locating the White Development Gaze
-        </h1>
-        <p>
-            Where is the Global South? Interpreting The World 
-            Bank Group Financials to see Investments
-        </p>
-        <p>
-            All the data used in this interactive line chart comes from 
-            <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
-        </p>
-        <hr>
-        <div class="flex-container">
-            <h1>From 2004 to 2014, the World Bank spent 
-                upwards for 600 Billion USD. Here is how
-                it was distrubuted across the globe:
-            </h1>
-        </div>
-        <div class="flex-container"></div>
-            <div class="flex-item">
-                <h2>&nbsp;</h2>
-                <svg id="my_dataviz" width="900" height="500"></svg>
-            </div>
-        </div>
-        <div class="flex-container">
-            <h1>
-                From 2004 to 2014, the World Bank spent 
-                upwards for 600 Billion USD. Here is how
-                it was distrubuted across the globe:
-            </h1>
-            <div class="flex-item">
-                <label>
-                    Select the Sector: 
-                    <select id="selectButton"></select>
-                </label>
-                <p>The data used in this interactive line chart comes from 
-                <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
-                </p>
-            </div>
-            <div class="flex-item">
-                <div id="line_chart" class = "float-right chart"><div>
-            </div>
-        </div>
-        <script src="http://d3js.org/d3.v4.js"></script>
-        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-        <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
-        <script src="map.js"></script>
-        <script src="linechart.js"></script>
+
+    <div id="container">
+      <h1>
+        The Global South isn't the South: <i>Where and How does the World Bank Invest?</i>
+      </h1>
+      <p align="left">
+        <b>Harish Ram Sai</b> <br>
+        <a href="https://github.com/hramsai/CAPP30239_FA22/tree/main/Final%20Project">Github Repository and Code</a>
+      </p>
+      <h2>
+        CAPP 30239 - Final Project
+      </h2>
+      <p>
+        Quick Links:
+        <a href="#viz1">First Chart</a>,
+        <a href="#viz2">Second Chart</a>,
+        <a href="#viz3">Third Chart</a>,
+        <a href="#viz4">Fourth Chart</a>,
+        <a href="#process">Process</a>;
+        <a href="#references">References</a>;
+        <a href="#citations">Citations</a>
+      </p>
+      <hr>
+      <p>
+        The World Bank Group is an international development bank that fosters global partnerships to fight poverty worldwide through sustainable solutions <a href="#footnote-1">[1]</a>. 
+        Over the last three decades, the organization has committed over $630 billion across 5,684 projects and 61,243 locations towards different causes to drive their mission forward <a href="#footnote-2">[2]</a>. 
+      </p>
+      <p>
+        Looking at these modes of development with a keen eye, Robtel Neajai Pailey, a critical race theorist, in her article "De-centering the 'White Gaze' of Development", questions the role of these international development banks.
+        She argues that “in its constant negotiation of poverty, power, politics and privilege, development continues to be structured in hierarchies of race and place” <a href="#footnote-3">[3]</a>.
+        She questions the ontology of international development as a field, and expresses concern about the “internalized whiteness” with which banks aid only certain parts of the world in a region popularly known as the Global South <a href="#footnote-4">[4]</a>. 
+        The field, inevitably, faces ethical and moral dilemmas, as they work on national policy for underserved areas from Western, "developed" areas of the world.
+      </p>
+      <p>
+        Furthering this strand of speculation, Jean Dreze, a reknown political economist, in his article "Policy Beyond Evidence" states that "policy is a political decision" <a href="#footnote-5">[5]</a>. 
+        He alludes that, beyond interventions, implementing policy involves working in tandem with multiple political and administrative stakeholders <a href="#footnote-6">[6]</a>. 
+        Decisions made by international banks might be conseuqences of ulterior motives that promote specific political agendas.
+      </p>
+      <p>
+        At the intersection of Pailey's concern with field of development, Dreze's insight into the motivations behind the functioning of international banks, and the Bank's large lending lines is the central question of this project.
+        <em><b>Over the years, where, on what and how much has the World Bank invested to accelerate development?</b></em>
+      </p>
+      <p>
+        In this project, I inspect the interventios the Bank has funded from 2004 to 2014, most of which were completed before 2022, through the International Bank for Reconstruction and Development (IBRD). 
+        The aim is to understand the amount of money the Bank has cumulatively spent over the years on global development.
+        Next, I will dissect these spending channels by specific sectors, such as Sanitation or Education, and understand the rational behind promoting some areas more than others. 
+        Parallely, I will look at how many interventions have been completed in the most heavily funded sectors. 
+        Finally, I will end with a world map that highlight the geographic distribution of the money invested, and dive into one indicator in one country to understand the potential impact the Bank has had in that region through their interventions. 
+      </p>
+      <hr>
     </div>
+
+    <div id="container">
+      <p>
+        To begin with, let's take a look at the total amount the World Bank has lent across the globe from 2004 to 2014.
+      </p>
+      <table id="containter">
+        <colgroup>
+          <col span="100" style="background-color:rgb(234, 234, 234)">
+          <col span="5" style="background-color:rgb(234, 234, 234)">
+        <tr>
+          <th>Year</th>
+          <th>2004</th>
+          <th>2005</th>
+          <th>2006</th>
+          <th>2007</th>
+          <th>2008</th>
+          <th>2009</th>
+          <th>2010</th>
+          <th>2011</th>
+          <th>2012</th>
+          <th>2013</th>
+          <th>2014</th>
+        </tr>
+        <tr>
+          <th>Investments
+            (USD Billions)
+          </th>
+          <td>58.8</td>
+          <td>51.2</td>
+          <td>49.9</td>
+          <td>59.2</td>
+          <td>76.8</td>
+          <td>115.2</td>
+          <td>109.6</td>
+          <td>70.1</td>
+          <td>37.5</td>
+          <td>32.5</td>
+          <td>46.3</td>
+        </tr>
+        <caption align="right">
+          Total Disbursements from IBRD, the World Bank Group, 2004-2014:
+        </caption>
+        <caption align="bottom">
+          <b> Fig 1.</b> Summary Statistics; Source: <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>
+        </caption>
+      </table>
+      <p>
+        According to <em>The World Bank Group's Response to the Global Economic Crisis : Phase 1</em>, in response to the global financial crisis in 2008, "the World Bank Group increased lending to unprecedented levels" <a href="#footnote-7">[7]</a>.
+        The Bank claims to have "posted a large increase in middle income countries (MICs), and a much smaller one in low income countries (LICs)" <a href="#footnote-8">[8]</a>. 
+        However, this does not seem to be the case for the IBRD. 
+      </p>
+      <p>
+        As is evident, the IBRD's lending lines to MICs and LICs grow steadily from 2004 to 2010. 
+        Post that, we see a slight decline in the amount of money disbursed. 
+        From over USD 100 billion in the 2010, there is a drop close to USD 40 billion in 2012.
+        Evidently, then, the increased lending is only happening at other verticals of the Bank, such as the Internaitonal Financial Corporation (IFC) or Multilateral Investment Guarantee Agency (MIGA), not at the IBRD <a href="#footnote-9">[9]</a>. 
+      </p>
+      <p>
+        Important to note: the Bank, with an aim of holisitic development, diversifies the sectors that it invests their money.
+        For instnace, it funds interventions that hope to drive education and empoyment as well as improves access to clean water and basic sanitation <a href="#footnote-10">[10]</a>.
+        While most interventions are multi-pronged, and aim to target a collection of problems as opposed to just one, they all have a "primary sector". 
+        Some of their primary sectors where the Bank has invested its money include Agriculture, Education, Energy, with Water and Sanitation being the most funded sector (upwards of $140 billion). 
+        Since the Bank claims to have increased lending, perhaps this claim is evident when the data is dissected by each primary sector. 
+      </p> 
+    </div>
+
+    <div id="container">
+      <h2> Recessions Hit; Education is Key! The World Bank's Spending, Across Sectors</h2>
+      <p>
+        The interactive line chart below demonstrates the variation in funds in each of the primary sectors across time. 
+        It also outlines the time frame of the Great Recession in the United States, where the World Bank operates out of, to see its potential impact on lending lines. 
+      </p >
+      <figcaption align="center" style="background-color:rgb(234, 234, 234)";>
+        The World Bank Group Spending Patterns based on their Primary Sector (2010 - 2014)
+      </figcaption>
+      <p id="viz1">
+      </p>
+      <label>
+        Primary Sector:
+        <select id="selectButton"></select>
+      </label>
+      <div id="line_chart"></div>
+      <p style="background-color:rgb(234, 234, 234)";>
+        <b>Fig 2.</b> Interactive Line Chart; Data Source:
+        <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+        
+      </p>
+      <p>
+        As the chart shows, the World Bank Group invests just under $ 8 billion in the sector "Agriculture, Forestry and Fishing" every year, with no clear pattern across time.
+        There also in no alteration in the money spent towards interventions focussed on this sector as a result of the recession. 
+        The reason we don't see a change is, perhaps, due to agriculture's global importance as a profession, especially during adverse economic conditions. 
+      </p>
+      <p>
+        The story is different for some other sectors, specifically "Banking" and "Water and Sanitation".
+        "Banking and Financial Services", specifically, sees immense growth across until 2009, and then witnesses a steep fall, fortifying the effect of the recession.
+        A similar patten is evident with the interventions geared towards "Water and Sanitation". 
+        These sectors also happen to two of the most funded interests for the bank. 
+        In fact, the World Bank is the single largest investor in water project globally.
+        However, lot of monetary investment may not translate to a lot of interventions, or, more importantly, successful outcomes. 
+      </p>
+      <p>
+        Fascinatingly, the one focus area that sees an inverted trend is "Education", with a sharp increase post 2009 (from $ 7 billion to $ 15 billion).
+        However, high levels of monetary investment may not translate to more interventions and greater impact.
+      </p>
+    </div>
+
+    <div id="container">
+      <h2> Barring Education, the Number of Successful Interventions Decline over Time for Heavily Funded Sectors</h2>
+      <p>
+        The interactive bar chart below reveals the number of interventions conducted by the the World Bank across time in the highest funded sectors.
+        Clicking on the botton of a specific sector alters the chart and scales accordingly. 
+        It provides insight into a broad correlation between amount of money lent, and number of interventions. 
+      </p>
+      <p id="viz2"></p>
+      <figcaption align="center" style="background-color:rgb(234, 234, 234)";>
+        Total Number of Interventions in the Highest Focus Area across Time (2010 - 2014)
+      </figcaption>
+      </p>
+      <label align="center">
+        <button onclick="update('Agriculture, forestry, fishing')">Agriculture</button>
+        <button onclick="update('Government and civil society, general')">Government and Civil Society</button>
+        <button onclick="update('Water supply and sanitation')">Water and Sanitation</button>
+        <button onclick="update('Education')">Education</button>
+        <button onclick="update('Banking and financial services')">Banking and Financial Services</button>
+      </label>
+      <div id="my_barviz"></div>
+      <figcaption align="left" style="background-color:rgb(234, 234, 234)";>
+        <b>Fig 3.</b> Interactive Bar Chart; Data Source:
+        <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+      </figcaption>
+      <p>
+        As anticipated, with a reduction the amount of money in sectors that were affected by the recession, we see a steady decline in the number of interventions. 
+        For instance, "Water and Sanitation" related interventions peaked at nearly 180 in the year 2010. 
+        Three years hence, though, this number was just shy of 40 -- nearly a 75% drop.
+        "Education", on the other hand, sees a steap decline from 2010 to 2011, and then continous to grow. 
+        As the bar graph outlines, in 2014, the bank sponsored over 30 education interventions.
+      </p>
+      <p>
+        With a decline in interventions across most sectors, it important to see where the bulk of these funds are cumulatively being channeled. 
+        The IBRD currently has 189 member countries, but these sources are diversified based on need, fit and oppurtunity. 
+      </p>
+    </div>
+    
+    <div id="container">
+        <h2>Fragmented South: Ukraine, Hungary, Romania, India Reciepients of Highest Total Disbursements</h2>
+        <p> 
+          The active world choropleth shows that many countries in the traditional Northern parts of the hemisphere receive a lot of funds from the World Bank.
+          Clicking on a particular country on the map reveals the total amount that they received from the Bank between 2004 and 2014. 
+        </p>
+        <p id="viz3">
+        </p>
+        <figcaption align="center" style="background-color:rgb(234, 234, 234)";>
+          Geographic Display of Cumulative Money Invested
+        </figcaption>
+        <h3>&nbsp;</h3>
+        <div id="world_legend" align="center"></div>
+        <div id="my_dataviz" width="900" height="500"></div>
+        
+        <figcaption align="left" style="background-color:rgb(234, 234, 234)";>
+          <b>Fig 4.</b> Interactive World Choropleth; Data Source:
+          <a href="https://www.aiddata.org/data/world-bank-geocoded-research-release-level-1-v1-4-2 ">AID Data</a>.
+        </figcaption>
+        <p>
+          Many countries that aren't traditionally categorized in the Global South are reciepients of large aid from the bank. 
+          One such country is Russia, which has received, in total, $ 62 Million from 2004 to 2014. 
+          Other countries that have received more sizeable portions, but do not account for the Global South, include Ukraine, Hungary, Romania. 
+          The latter has receieved one of the highest amounts, at $ 1 Billion. Ukraine, too, is not far behind, with $ 750 Million. 
+        </p>
+        <p>
+          The World Bank's increased interest in Romania and Ukraine is not because they need the most aid. Instead, it is the result of long-lasting, strategic partnership. 
+          Romania became a memebr for the IBRD in 1972, under the adminsitration of communist leader Nicolae Ceausescu.
+          As a country, they were actively mainiting good relations with the World Bank and the USA, as well as repeatedly paying back any loans they were taking from the organization <a href="#footnote-11">[11]</a>. 
+          These relations have sustained themselved over the years <a href="#footnote-12">[12]</a>. 
+        </p>
+          The chart reveals, quite patently, that viewing deveopment as a field circumscribed to the Southern parts of the World might be a short-sited. 
+          Instead, the field should employ a term that is more capacious and inclusive, as well as guage where relations are stronger between the Bank and countries.
+        </p>
+        <p>
+          Another country that has recived a large sum of money from the World Bank is India. Cumulatively, the country has gotten over $ 1.1 Billion. 
+          Segregating this money among sectors shows that one of the primary sectors for the Bank in India is "Education". 
+          A reason for this monetary push might be the closeness between the then administration of India, led by Prime Minister Manmohan Singh, and World Bank President Robert Zoellick <a href="#footnote-13">[13]</a>.
+          In fact, in 2009, the two met in New Delhi to discuss the future of their relation, increasing investments in India, and "even their expanded efforts is modest in front of the challenges facing the country" <a href="#footnote-14">[14]</a>. 
+    </div>
+
+    <div id="container">
+      <h2>Average Literacy Rate Grown in India, But in Pockets of the Country</h2>
+      <p>
+          To guage the impact of the World Bank's education interventions, lets examine a common indicator: literacy rates. 
+          According to the 2001 CENSUS, the literay rate in India averaged at 65% <a href="#footnote-15">[15]. 
+          In 2011, 10 years later, this rate is touted to be 74% -- a 9 percent point increae <a href="#footnote-16">[16].
+          While this growth cannot be entirely attributed to the Bank's effort, there definetly could be some correlation.
+          Further inspection of data could prove this link, or even a causal effect. 
+          The active choropleth below shows this variation across each district in the sub-continent.
+      </p>
+      <p id="viz4">
+      </p>
+      <figcaption align="center" style="background-color:rgb(234, 234, 234)";>
+        India Choropleth based on Literacy Rates (2011)
+      </figcaption>
+      <div id="legend"></div>
+      <div id="chart"></div>
+      <figcaption align="left" style="background-color:rgb(234, 234, 234)";>
+        <b>Fig 5.</b> Interactive India Literact Choropleth; Data Source:
+        <a href="https://censusindia.gov.in/census.website/data/census-tables">Indian Census - 2011</a>.
+      </figcaption>
+      <p>
+        Evident in the visualization above: although literacy rates grew in 2011, there seems to be some amount of concentration in the South-Western half of the sub-continent.
+        In Nothern and Central India, the literacy rates still seem to be fairly low, ranging between 50% to 65%.
+      </p>
+      <p>
+        While the IBRD and World Bank at large are aiming to propel development, a lot of it is strategic and monitered. 
+        The primary reason for this is that the Bank, like any other organization, receives their money from other non-profit and government agencies.
+        As a result, there are various stakeholders involved - the lender, the bank, the reciepient country - that need to be taken into consideration when making any decisions.
+        Ultimately, while development is desired, it may not be conviniently acheivable. 
+      </p>
+    <hr>
+  </div>
+
+  <div id="container">
+    <p id="process">
+    </p>
+    <h2>Process</h2>
+    <p>
+      This past summer, I worked at IBRD as a Strategy Consultant with the Global Health, Nutrition and Population verticle. 
+      My work primarily entailed implementing programs (primarily surveys and RCTs) in different developing countries to improve health outcomes. 
+      This work inevitably drove me to think about the ethics and costs of such undertakings stemming from the traditional West:
+    </p>
+    <p style="margin-left: 40px">
+        1. Some programs gave treatments only to specific people, depriving others of potential benefits. </br>
+        2. Often, the outcome from such heavy investments weren't tangible.</br>
+        3. People in these nations, even though they needed help, are reduced to mere data points. </br> 
+    </p>
+    <p>
+      In many ways, my interest in this topic is self-reflexive, with an attempt to unearth biases that exist in the development sector.
+    </br>
+
+      To get to these answers, I needed a data set that comprehensively documented the lending lines and locations of all World Bank Projects. 
+      At first, I thought of scrapping these data points from the World Bank. 
+      However, due it security and API issues, I was unable to do that. 
+      Fortunately, I found this data:</br>
+    </p>
+    <p style="margin-left: 40px">
+      Title: World Bank Geocoded Research</br>
+      Agency: AidData, William and Mary's Global Research Institute</br>
+      Location: United States of America</br>
+    </p>
+    <p>
+      AidData'sdata is an extentive collection of all the projects approved from 1995-2014 in the World Bank (specifially International Bank for Reconstruction and Development and International Development Association). 
+      It tracks more than $630 billion in commitments for 5,684 projects across 61,243 locations. 
+    </p>
+    <p>
+      Using this data, I defined the scope of the project to answer some preliminary questions:
+    </p>
+    <p style="margin-left: 40px">
+      1. How much money is invested in internaitonal develpoment on a yearly basis?</br>
+      2. What are the costs and benefits of these investments? </br>
+      3. Which areas are targetted more than others?</br>
+    </p>
+    <p>
+      However, I wasn't able to measure the outcomes of these interventions without make any causal claims.
+      Therefore, I pivoted slightly away from making definitive statements, and ensured the analysis is more exploratory.
+      As a result, I was able to build the story on correlation and theories of different scholars that have done similar research on the qualitative end. 
+    </p>
+    <p>
+      Additionally, when I was first thinking about how to visualize this data, I thought of measuring the impact of interventions by looking at the growth of some indicators.
+       However, it was hard to retrieve such data as there isn't one composite measure that includes and captures the various nuances of the Bank's interventions.
+      For instance, the World Bank does many multi-latereral project at the same time in the same places, making it hard to track which one led to tangible changes. 
+      After consultation with Prof France, my peers, I decided it might be best to look into investments into across the globe, and focus on one country.
+      As a result, I decide to focus on Education in India (since the Bank has invested over a billion USD in India and done many education related interventions). 
+    </p>
+    <p>
+      In order to show education advancement, I decided to map the literacy rates for the 2001 CENSUS and the 2011 CENSUS.
+      Unfortunately, I could not procure a dataset for the former.
+      Additionally, over the 10 years, the political and geographic landscape has alter drastically.
+      Therefore, inluding the 2001 data wouldn't be was precise.
+      To circumvent this issue, I decided to show the literacy rates of 2011, and outline the average rates for 2001.
+      While I understand, from an ethical point of view, this is not as nuanced.
+      However, it effectively the growth in literacy rates in India, and outlines how it varies across the country according to the latest CENSUS (2011). 
+    </p>
+    <p>
+      To ouline this entire story, I chose the choropleth plots because they efficiently communicate geographic variation.
+      Addtionally, to set the stage, I also chose interactive line and bar charts, which are simple ways of communicating data that varies across time. 
+    </p>
+    <p>
+      The most challenging part of this project, for me, was the layout.
+      While I wanted it to be aesthetically pleasing, it was hard to do that with limited coding skills.
+      Moreover, aligning the charts in a systematic fashion also required some amount of trial and error.
+      My biggest take-away, though, from these coding challegnes was the importance of wrapping charts in functions.
+      They make appending all the visualizations in one HTML a lot more convenient, and circumvent any overlaying of charts.  
+    </p>
+    <hr>
+  </div>
+  <div id="container">
+    <p id="references"></p>
+    <h2>
+    References
+    </h2>
+      <p id="footnote-1">[1] World Bank. (2022). The World Bank Annual Report 2022.</p>
+      <p id="footnote-2">[2] Ibid.</p>
+      <p id="footnote-3">[3] Pailey, R. N. (2020). De-centring the 'white gaze' of development. <i>Development and Change, 51(3)</i>, 729-745.</p>
+      <p id="footnote-4">[4] Ibid.</p>  
+      <p id="footnote-5">[5] Drèze, J. (2020). Policy beyond evidence. <i>World Development, 127</i>, 104797. </p>
+      <p id="footnote-6">[6] Ibid.</p>  
+      <p id="footnote-7">[7] Independent Evaluation Group. (2011). The World Bank Group's Response to the Global Economic Crisis : Phase 1. Washington, DC: World Bank.</p>
+      <p id="footnote-8">[8] Ibid.</p>  
+      <p id="footnote-9">[9] Ibid.</p>
+      <p id="footnote-10">[10] World Bank. (2022). The World Bank Annual Report 2022.</p>  
+      <p id="footnote-11">[11] World Bank. (2022). Anna Bjerde's Remarks at Celebration of Romania's 30 Years of Partnership with the World Bank. <i>Speeches and Transcripts.</i></p>
+      <p id="footnote-12">[12] Ibid.</p>  
+      <p id="footnote-13">[13] The Hindu. (2009). World Bank Chief Meets Manmohan.</p>
+      <p id="footnote-14">[14] Ibid.</p> 
+      <p id="footnote-14">[15] Census of India. (2001).</p> 
+      <p id="footnote-14">[16] Census of India. (2011).</p> 
+  </div>
+  <div id="container">
+    <p id="citations">
+    </p>
+    <h2>
+    Coding Citations
+    </h2>
+      <p>[1] <a href="https://d3-graph-gallery.com/graph/line_filter.html">D3 Graph Gallery - Interactive Line Plot</a> </p>
+      <p>[2] <a href="https://d3-graph-gallery.com/graph/barplot_button_data_simple.html">D3 Graph Gallery - Interactive Bar Plot</a> </p>
+      <p>[3] <a href="https://github.com/tiffanyfrance/CAPP30239_FA22/blob/main/week_07/maps2/world.js">Prof Tiffany France - Interactive World Map</a> </p>
+      <p>[4] <a href="https://github.com/tiffanyfrance/CAPP30239_FA22/blob/main/week_07/maps2/states.js">Prof Tiffany France - Interactive US Map</a> </p>
+  </div>
+
 </body>
 
-<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="Libs/d3-color-legend.js"></script>
 
+<script src="world.js"></script>
+<script src="barchart.js"></script>
+<script src="line_chart_updates.js"></script>
+<script src="india.js"></script>

@@ -2,10 +2,6 @@
 // Amount Spent by Sector - Line Chart
 // Viz # 1
 
-// Things to do:
-// The sectors are repeating themselves (look to line: 28)
-
-
 (function() {
     const margin = {top: 10, right: 50, bottom: 30, left: 30},
         width = 830 - margin.left - margin.right,
@@ -20,21 +16,15 @@
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
     
-    //Read the data
     d3.csv("Data/data.csv").then(data => {
         console.log(data)
     
         for (let d of data) {
-          d.transaction_year = new Date(+d.transaction_year, 0); // this is the problem area (the .keys function doesn't work for d3 v7)
-          // allGroup = d3.map(data, d.primary_sectors);
+          d.transaction_year = new Date(+d.transaction_year, 0); 
         }
-        
+
         var allGroup = new Set(d3.map(data, function(d){return(d.primary_sectors)}))// List of groups 
-    
 
-        // let allGroup_new = allGroup.keys()
-
-        // add the options to the button
         d3.select("#selectButton")
           .selectAll('myOptions')
             .data(allGroup)
@@ -57,7 +47,7 @@
           
         linesvg.append("g")
           .attr("transform", `translate(0, ${height})`)
-          .call(d3.axisBottom(x).ticks(10).tickFormat(d3.timeFormat("%Y"))); // ?? dates are getting converted to 1969?
+          .call(d3.axisBottom(x).ticks(10).tickFormat(d3.timeFormat("%Y")));
     
         // Add Y axis
         let y = d3.scaleLinear()
@@ -76,14 +66,12 @@
           .attr('height', 480)
           .attr('stroke', 'white')
           .attr('fill', '#69a3b2')
-          .attr('opacity', 0.2);
+          .attr('opacity', 0.2); // adding a box for the great depression period
       
         linesvg.append("text")
           .attr("y", 70)
-          // .attr("y2", 510)
-          // .attr("x2", 405)
           .attr("x", 270)
-          .text("Great Recission");
+          .text("Great Recission"); // adding text
 
         linesvg.append("text")
           .attr("class", "x label")
@@ -142,7 +130,7 @@
             update(selectedOption)
         })
 
-        update("Agriculture, forestry, fishing")
+        update("Agriculture, forestry, fishing") // initialising the chart for the first group
 
     });
     

@@ -1,4 +1,6 @@
-
+// Harish Ram Sai
+// Literacy Rates - Choropleth
+// Viz # 4
 
 (function() {
 const tooltip = d3.select("body")
@@ -60,14 +62,12 @@ svg.append("g")
   .data(districts.features)
   .join("path")
   .attr("fill", d => (d.properties.Literacy) ? color(d.properties.Literacy) : "#ccc")
-  // .attr("fill", d => (d.District in dataById) ? color(dataById[d.District].Literacy) : '#ccc')
   .attr("d", path)
   .on("mousemove", function (event, d) {
   //   let info = dataById[d.District];
     console.log(d)
     tooltip
       .style("visibility", "visible")
-      // .html(`${d}`)
       .html(`${d.id}<br>${d.properties.Literacy}%`)
       .style("top", (event.pageY - 10) + "px")
       .style("left", (event.pageX + 10) + "px");
@@ -76,7 +76,6 @@ svg.append("g")
   .on("mouseout", function () {
     tooltip.style("visibility", "hidden");
     d3.select(this).attr("fill", d => color(d.properties.Literacy))
-  //   d3.select(this).attr("fill", d => (d.District in dataById) ? color(dataById[d.id].Literacy) : '#ccc');
   });
 });
 })();

@@ -2,10 +2,6 @@
 // World Choropleth
 // Viz # 3
 
-// Things to do:
-// 1. Add Mouseover!
-// 2. The title updates for all h2 in the document
-
 (function() {
 
 const height = 610,
@@ -68,7 +64,7 @@ d3.select("#world_legend")
       ["1", "2", "3", "4", "5", "6", "7", "8", "9+"],
       d3.schemePurples[9]
     ),
-    { title: "Amount of Money Spent" }
+    { title: "Amount of Money Invested (1: Lowest; 9+: Highest)" }
   ));
 
 });

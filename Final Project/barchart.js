@@ -1,9 +1,6 @@
 // Harish Ram Sai
-// Amount Spent by Sector - Line Chart
+// Total Interventions - Bar Chart
 // Viz # 2
-
-// Things to do:
-// Adding numbers on the charts
 
 // set the dimensions and margins of the graph
 const margin = {top: 30, right: 30, bottom: 70, left: 60},
