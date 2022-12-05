@@ -39,12 +39,9 @@ const path = d3.geoPath().projection(projection);
 
 console.log(districts)
 
-// Quantize evenly breakups domain into range buckets
 const color = d3.scaleQuantize()
   .domain([0, 100]).nice()
   .range(d3.schemeBlues[9]);
-
-// const path = d3.geoPath();
 
 d3.select("#legend")
   .node()
@@ -64,7 +61,6 @@ svg.append("g")
   .attr("fill", d => (d.properties.Literacy) ? color(d.properties.Literacy) : "#ccc")
   .attr("d", path)
   .on("mousemove", function (event, d) {
-  //   let info = dataById[d.District];
     console.log(d)
     tooltip
       .style("visibility", "visible")
